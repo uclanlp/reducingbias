@@ -4,8 +4,9 @@ The code will be released soon.
 - Paper
 
 Language is increasingly being used to define rich visual recognition problems with supporting image collections sourced from the web. Structured prediction models are used in these tasks to take advantage of correlations between co-occurring labels and visual input but risk inadvertently encoding social biases found in web corpora. For example, in the following image, it is possible to predict  the *place* is the *kitchen*, given the *activity* is *cooking*. However, the model also brings some stereotype, such as in subfigure 4, the model predicts the agent as a woman even though it is a man.
+
 | ![bias](bias_teaser.png) |
-|:--:|
+|---|
 | *Structure prediction can help the model to build the correlations between different parts. However it will also cause some bias problem.* |
 
 
