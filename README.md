@@ -6,7 +6,6 @@ The code will be released soon.
 We improve the method about the performance in MLC tasks. The new performance should be:
 
 <table>
-
     <tr>
         <th colspan="4">Performance (%)</th>
     </tr>
