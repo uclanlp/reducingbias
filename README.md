@@ -33,7 +33,7 @@ We improve the method about the performance in MLC tasks. The new performance sh
 
 Language is increasingly being used to define rich visual recognition problems with supporting image collections sourced from the web. Structured prediction models are used in these tasks to take advantage of correlations between co-occurring labels and visual input but risk inadvertently encoding social biases found in web corpora. For example, in the following image, it is possible to predict  the *place* is the **kitchen**, because it is the common place for the *activity* **cooking**. However, in subfigure 4, the model predicts the agent as a woman even though it is a man, which is caused by the inappropriate correlations between the activity **cooking** and the **female** gender.
 
-| ![bias](bias_teaser.png)                 |
+| ![bias](img/bias_teaser.png)                 |
 | ---------------------------------------- |
 | *Structure prediction can help the model to build the correlations between different parts. However it will also cause some bias problem.* |
 
