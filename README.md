@@ -23,7 +23,7 @@ We provide our calibration function in file "fairCRF_gender_ratio.ipynb". It is 
 
 - ### Data
 
-We have provided all the potential scores for MS-COCO dataset in data/COCO folder.  Also there is sampled potentials for imSitu dataset in data/imSitu folder. For complete imSitu potentials, download at [here](https://s3.amazonaws.com/MY89_Transfer/webly_crf_output.tar).
+We provide all the potential scores for MS-COCO dataset in data/COCO folder.  Also there is sampled potentials for imSitu dataset in data/imSitu folder. For complete imSitu potentials, download at [here](https://s3.amazonaws.com/MY89_Transfer/webly_crf_output.tar).
 
 
 
