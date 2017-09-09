@@ -1,0 +1,5464 @@
+layer{
+  name: "label"
+  top: "label"
+  type: "Parameter"
+  parameter_param2{
+    d: 21
+    n: 1
+  }
+}
+
+layer {
+  name: "arg-inner"
+  top: "arg-inner"
+  type: "Parameter"
+  parameter_param2{
+    d: 121381
+    n: 1
+  }
+}
+
+layer{
+  name: "value-frame"
+  top: "value-frame"
+  type: "Parameter"
+  parameter_param2{
+    d: 504
+    n: 1
+  }
+}
+layer {
+  name: "slicer"
+  type: "Slice"
+  bottom:"arg-inner"
+  top : "value-adjusting-Tool"
+  top : "value-adjusting-Item"
+  top : "value-adjusting-Feature"
+  top : "value-adjusting-Place"
+  top : "value-adjusting-Agent"
+  top : "value-admiring-Place"
+  top : "value-admiring-Admired"
+  top : "value-admiring-Agent"
+  top : "value-ailing-Cause"
+  top : "value-ailing-Place"
+  top : "value-ailing-Victim"
+  top : "value-ailing-VictimPart"
+  top : "value-aiming-Place"
+  top : "value-aiming-Item"
+  top : "value-aiming-Agent"
+  top : "value-aiming-Target"
+  top : "value-applauding-Place"
+  top : "value-applauding-Addressee"
+  top : "value-applauding-Agent"
+  top : "value-applying-Tool"
+  top : "value-applying-Destination"
+  top : "value-applying-Place"
+  top : "value-applying-Substance"
+  top : "value-applying-Agent"
+  top : "value-apprehending-Victim"
+  top : "value-apprehending-Place"
+  top : "value-apprehending-Agent"
+  top : "value-arching-Place"
+  top : "value-arching-BODYPART"
+  top : "value-arching-Agent"
+  top : "value-arranging-Tool"
+  top : "value-arranging-Item"
+  top : "value-arranging-Agent"
+  top : "value-arranging-Place"
+  top : "value-arresting-Suspect"
+  top : "value-arresting-Place"
+  top : "value-arresting-Agent"
+  top : "value-ascending-Agent"
+  top : "value-ascending-Place"
+  top : "value-asking-Place"
+  top : "value-asking-Addressee"
+  top : "value-asking-Agent"
+  top : "value-assembling-Tool"
+  top : "value-assembling-Component"
+  top : "value-assembling-Place"
+  top : "value-assembling-GoalItem"
+  top : "value-assembling-Agent"
+  top : "value-attaching-Destination"
+  top : "value-attaching-Tool"
+  top : "value-attaching-Item"
+  top : "value-attaching-Agent"
+  top : "value-attaching-Glue"
+  top : "value-attaching-Place"
+  top : "value-attacking-Place"
+  top : "value-attacking-Weapon"
+  top : "value-attacking-Agent"
+  top : "value-attacking-Victim"
+  top : "value-autographing-Place"
+  top : "value-autographing-Item"
+  top : "value-autographing-Receiver"
+  top : "value-autographing-Agent"
+  top : "value-baking-Place"
+  top : "value-baking-Food"
+  top : "value-baking-Agent"
+  top : "value-baking-FoodContainer"
+  top : "value-baking-HeatSource"
+  top : "value-ballooning-Agent"
+  top : "value-ballooning-Place"
+  top : "value-bandaging-VICTIM"
+  top : "value-bandaging-Place"
+  top : "value-bandaging-Agent"
+  top : "value-baptizing-BAPTIZED"
+  top : "value-baptizing-Place"
+  top : "value-baptizing-Agent"
+  top : "value-barbecuing-Place"
+  top : "value-barbecuing-Food"
+  top : "value-barbecuing-Agent"
+  top : "value-bathing-Substance"
+  top : "value-bathing-CoAgent"
+  top : "value-bathing-Tool"
+  top : "value-bathing-Place"
+  top : "value-bathing-Agent"
+  top : "value-begging-Place"
+  top : "value-begging-ITEM"
+  top : "value-begging-Agent"
+  top : "value-begging-GIVER"
+  top : "value-betting-Agent"
+  top : "value-betting-Place"
+  top : "value-biking-Agent"
+  top : "value-biking-Place"
+  top : "value-biting-Place"
+  top : "value-biting-Item"
+  top : "value-biting-Agent"
+  top : "value-blocking-Tool"
+  top : "value-blocking-Blocker"
+  top : "value-blocking-Blocked"
+  top : "value-blocking-Place"
+  top : "value-blossoming-Agent"
+  top : "value-blossoming-Place"
+  top : "value-boarding-Agent"
+  top : "value-boarding-Place"
+  top : "value-boarding-Vehicle"
+  top : "value-boating-Boaters"
+  top : "value-boating-Place"
+  top : "value-boating-Vehicle"
+  top : "value-bothering-Victim"
+  top : "value-bothering-Action"
+  top : "value-bothering-Agent"
+  top : "value-bouncing-Place"
+  top : "value-bouncing-Item"
+  top : "value-bouncing-Agent"
+  top : "value-bouncing-Surface"
+  top : "value-bowing-Agent"
+  top : "value-bowing-Place"
+  top : "value-braiding-Place"
+  top : "value-braiding-Item"
+  top : "value-braiding-Agent"
+  top : "value-branching-Brancher"
+  top : "value-branching-Place"
+  top : "value-brawling-Agent"
+  top : "value-brawling-Place"
+  top : "value-breaking-Tool"
+  top : "value-breaking-Item"
+  top : "value-breaking-Agent"
+  top : "value-breaking-Against"
+  top : "value-brewing-Target"
+  top : "value-brewing-Place"
+  top : "value-brewing-Agent"
+  top : "value-browsing-GoalItem"
+  top : "value-browsing-Place"
+  top : "value-browsing-Agent"
+  top : "value-brushing-Substance"
+  top : "value-brushing-TOOL"
+  top : "value-brushing-Target"
+  top : "value-brushing-Place"
+  top : "value-brushing-Agent"
+  top : "value-bubbling-Agent"
+  top : "value-bubbling-Place"
+  top : "value-buckling-Fastener"
+  top : "value-buckling-Item"
+  top : "value-buckling-Place"
+  top : "value-buckling-Container"
+  top : "value-buckling-Agent"
+  top : "value-building-Tool"
+  top : "value-building-Place"
+  top : "value-building-Components"
+  top : "value-building-GoalItem"
+  top : "value-building-Agent"
+  top : "value-bulldozing-Place"
+  top : "value-bulldozing-Object"
+  top : "value-bulldozing-Agent"
+  top : "value-burning-Target"
+  top : "value-burning-Place"
+  top : "value-burning-Agent"
+  top : "value-burying-Tool"
+  top : "value-burying-Item"
+  top : "value-burying-Place"
+  top : "value-burying-Destination"
+  top : "value-burying-Agent"
+  top : "value-buttering-Tool"
+  top : "value-buttering-Item"
+  top : "value-buttering-Agent"
+  top : "value-buttering-Place"
+  top : "value-butting-Target"
+  top : "value-butting-Place"
+  top : "value-butting-Agent"
+  top : "value-buttoning-Place"
+  top : "value-buttoning-Item"
+  top : "value-buttoning-Agent"
+  top : "value-buying-Place"
+  top : "value-buying-Goods"
+  top : "value-buying-Agent"
+  top : "value-buying-Payment"
+  top : "value-buying-Seller"
+  top : "value-calling-Place"
+  top : "value-calling-Tool"
+  top : "value-calling-Agent"
+  top : "value-calming-Experiencer"
+  top : "value-calming-Place"
+  top : "value-calming-Agent"
+  top : "value-camouflaging-HidingItem"
+  top : "value-camouflaging-Place"
+  top : "value-camouflaging-Agent"
+  top : "value-camping-Place"
+  top : "value-camping-Shelter"
+  top : "value-camping-Agent"
+  top : "value-caressing-RecipientPart"
+  top : "value-caressing-Place"
+  top : "value-caressing-Agent"
+  top : "value-caressing-Recipient"
+  top : "value-carrying-Place"
+  top : "value-carrying-Item"
+  top : "value-carrying-AgentPart"
+  top : "value-carrying-Agent"
+  top : "value-carting-Tool"
+  top : "value-carting-Item"
+  top : "value-carting-Agent"
+  top : "value-carting-Place"
+  top : "value-carving-SUBSTANCE"
+  top : "value-carving-Tool"
+  top : "value-carving-Agent"
+  top : "value-carving-Place"
+  top : "value-catching-CaughtItem"
+  top : "value-catching-Tool"
+  top : "value-catching-Agent"
+  top : "value-catching-Place"
+  top : "value-celebrating-Place"
+  top : "value-celebrating-Occasion"
+  top : "value-celebrating-Agent"
+  top : "value-chasing-Chasee"
+  top : "value-chasing-Place"
+  top : "value-chasing-Agent"
+  top : "value-checking-Tool"
+  top : "value-checking-Place"
+  top : "value-checking-Aspect"
+  top : "value-checking-Patient"
+  top : "value-checking-Agent"
+  top : "value-cheering-Agent"
+  top : "value-cheering-Place"
+  top : "value-cheerleading-Place"
+  top : "value-cheerleading-Supported"
+  top : "value-cheerleading-Agent"
+  top : "value-chewing-Place"
+  top : "value-chewing-Item"
+  top : "value-chewing-Agent"
+  top : "value-chiseling-Place"
+  top : "value-chiseling-Item"
+  top : "value-chiseling-Agent"
+  top : "value-chopping-Tool"
+  top : "value-chopping-Item"
+  top : "value-chopping-Agent"
+  top : "value-chopping-Place"
+  top : "value-circling-Center"
+  top : "value-circling-Place"
+  top : "value-circling-Agent"
+  top : "value-clapping-Place"
+  top : "value-clapping-AgentPart"
+  top : "value-clapping-Agent"
+  top : "value-clawing-Victim"
+  top : "value-clawing-Place"
+  top : "value-clawing-Agent"
+  top : "value-cleaning-Tool"
+  top : "value-cleaning-Source"
+  top : "value-cleaning-Agent"
+  top : "value-cleaning-Place"
+  top : "value-clearing-Tool"
+  top : "value-clearing-Item"
+  top : "value-clearing-Agent"
+  top : "value-clearing-Place"
+  top : "value-clearing-Source"
+  top : "value-clenching-Place"
+  top : "value-clenching-Item"
+  top : "value-clenching-AgentPart"
+  top : "value-clenching-Agent"
+  top : "value-climbing-Obstacle"
+  top : "value-climbing-Tool"
+  top : "value-climbing-Agent"
+  top : "value-climbing-Place"
+  top : "value-clinging-Place"
+  top : "value-clinging-ClungTo"
+  top : "value-clinging-Agent"
+  top : "value-clipping-Tool"
+  top : "value-clipping-Item"
+  top : "value-clipping-Agent"
+  top : "value-clipping-Place"
+  top : "value-clipping-Source"
+  top : "value-coaching-Place"
+  top : "value-coaching-Skill"
+  top : "value-coaching-Agent"
+  top : "value-coaching-Student"
+  top : "value-colliding-Place"
+  top : "value-colliding-Item"
+  top : "value-colliding-Agent"
+  top : "value-coloring-Tool"
+  top : "value-coloring-Item"
+  top : "value-coloring-Agent"
+  top : "value-coloring-Place"
+  top : "value-combing-Place"
+  top : "value-combing-Tool"
+  top : "value-combing-Agent"
+  top : "value-combing-Target"
+  top : "value-communicating-Adressee"
+  top : "value-communicating-Place"
+  top : "value-communicating-Agent"
+  top : "value-commuting-Place"
+  top : "value-commuting-Traveler"
+  top : "value-commuting-Vehicle"
+  top : "value-competing-Competition"
+  top : "value-competing-Place"
+  top : "value-competing-Agent"
+  top : "value-complaining-Place"
+  top : "value-complaining-Listener"
+  top : "value-complaining-Agent"
+  top : "value-confronting-Confronted"
+  top : "value-confronting-Place"
+  top : "value-confronting-Agent"
+  top : "value-congregating-Place"
+  top : "value-congregating-Individuals"
+  top : "value-constructing-Tool"
+  top : "value-constructing-Place"
+  top : "value-constructing-CreatedItem"
+  top : "value-constructing-Components"
+  top : "value-constructing-Agent"
+  top : "value-cooking-Food"
+  top : "value-cooking-Container"
+  top : "value-cooking-Agent"
+  top : "value-cooking-Tool"
+  top : "value-cooking-HeatSource"
+  top : "value-cooking-Place"
+  top : "value-coughing-Agent"
+  top : "value-coughing-Place"
+  top : "value-counting-ItemType"
+  top : "value-counting-Place"
+  top : "value-counting-Agent"
+  top : "value-covering-Place"
+  top : "value-covering-Item"
+  top : "value-covering-Agent"
+  top : "value-covering-Cover"
+  top : "value-crafting-Place"
+  top : "value-crafting-Instrument"
+  top : "value-crafting-Created"
+  top : "value-crafting-Agent"
+  top : "value-cramming-Theme"
+  top : "value-cramming-Place"
+  top : "value-cramming-Agent"
+  top : "value-cramming-Container"
+  top : "value-crashing-Place"
+  top : "value-crashing-Item"
+  top : "value-crashing-Agent"
+  top : "value-crashing-Against"
+  top : "value-crawling-Agent"
+  top : "value-crawling-Place"
+  top : "value-cresting-Agent"
+  top : "value-cresting-Place"
+  top : "value-crouching-Agent"
+  top : "value-crouching-Place"
+  top : "value-crowning-Crown"
+  top : "value-crowning-Place"
+  top : "value-crowning-Agent"
+  top : "value-crowning-CrownedEntity"
+  top : "value-crushing-Tool"
+  top : "value-crushing-Place"
+  top : "value-crushing-Agent"
+  top : "value-crushing-CrushedItem"
+  top : "value-crying-Agent"
+  top : "value-crying-Place"
+  top : "value-curling-Place"
+  top : "value-curling-Tool"
+  top : "value-curling-Agent"
+  top : "value-curling-Target"
+  top : "value-curtsying-Agent"
+  top : "value-curtsying-Place"
+  top : "value-dancing-Agent"
+  top : "value-dancing-Place"
+  top : "value-decomposing-Decomposer"
+  top : "value-decomposing-Place"
+  top : "value-decorating-Decorated"
+  top : "value-decorating-Item"
+  top : "value-decorating-Agent"
+  top : "value-decorating-Place"
+  top : "value-deflecting-Place"
+  top : "value-deflecting-Destination"
+  top : "value-deflecting-Agent"
+  top : "value-deflecting-DeflectedItem"
+  top : "value-descending-tool"
+  top : "value-descending-source"
+  top : "value-descending-Agent"
+  top : "value-descending-Place"
+  top : "value-destroying-Tool"
+  top : "value-destroying-DestroyedItem"
+  top : "value-destroying-Agent"
+  top : "value-destroying-Place"
+  top : "value-detaining-Victim"
+  top : "value-detaining-Place"
+  top : "value-detaining-Agent"
+  top : "value-dialing-Place"
+  top : "value-dialing-Item"
+  top : "value-dialing-Agent"
+  top : "value-dining-Place"
+  top : "value-dining-Food"
+  top : "value-dining-Agent"
+  top : "value-dipping-Substance"
+  top : "value-dipping-Item"
+  top : "value-dipping-Agent"
+  top : "value-dipping-Place"
+  top : "value-disciplining-Place"
+  top : "value-disciplining-Tool"
+  top : "value-disciplining-Agent"
+  top : "value-disciplining-Victim"
+  top : "value-discussing-Agents"
+  top : "value-discussing-Place"
+  top : "value-disembarking-Agent"
+  top : "value-disembarking-Place"
+  top : "value-disembarking-Vehicle"
+  top : "value-displaying-Place"
+  top : "value-displaying-Item"
+  top : "value-displaying-Agent"
+  top : "value-displaying-Target"
+  top : "value-dissecting-Tool"
+  top : "value-dissecting-Item"
+  top : "value-dissecting-Agent"
+  top : "value-dissecting-Place"
+  top : "value-distracting-Victim"
+  top : "value-distracting-Place"
+  top : "value-distracting-Agent"
+  top : "value-distributing-Tool"
+  top : "value-distributing-Place"
+  top : "value-distributing-Recipients"
+  top : "value-distributing-Distributed"
+  top : "value-distributing-Agent"
+  top : "value-diving-Agent"
+  top : "value-diving-Place"
+  top : "value-docking-Place"
+  top : "value-docking-Connector"
+  top : "value-docking-Vehicle"
+  top : "value-docking-Agent"
+  top : "value-dousing-Place"
+  top : "value-dousing-Undergoer"
+  top : "value-dousing-Agent"
+  top : "value-dousing-Liquid"
+  top : "value-dragging-Tool"
+  top : "value-dragging-Item"
+  top : "value-dragging-Place"
+  top : "value-dragging-Contact"
+  top : "value-dragging-Agent"
+  top : "value-drawing-Place"
+  top : "value-drawing-Tool"
+  top : "value-drawing-Agent"
+  top : "value-drawing-Reference"
+  top : "value-drenching-Tool"
+  top : "value-drenching-DrenchedItem"
+  top : "value-drenching-Liquid"
+  top : "value-drenching-Place"
+  top : "value-drenching-Agent"
+  top : "value-drinking-Container"
+  top : "value-drinking-Place"
+  top : "value-drinking-Agent"
+  top : "value-drinking-Liquid"
+  top : "value-dripping-Destination"
+  top : "value-dripping-Source"
+  top : "value-dripping-Fluid"
+  top : "value-dripping-Place"
+  top : "value-dripping-Agent"
+  top : "value-driving-Place"
+  top : "value-driving-Item"
+  top : "value-driving-Agent"
+  top : "value-drooling-End"
+  top : "value-drooling-Place"
+  top : "value-drooling-Agent"
+  top : "value-dropping-Place"
+  top : "value-dropping-Item"
+  top : "value-dropping-Agent"
+  top : "value-dropping-End"
+  top : "value-dropping-Start"
+  top : "value-drumming-Tool"
+  top : "value-drumming-ITEM"
+  top : "value-drumming-Agent"
+  top : "value-drumming-Place"
+  top : "value-drying-Tool"
+  top : "value-drying-Item"
+  top : "value-drying-Agent"
+  top : "value-drying-Place"
+  top : "value-ducking-Place"
+  top : "value-ducking-Blow"
+  top : "value-ducking-Agent"
+  top : "value-dusting-Tool"
+  top : "value-dusting-Source"
+  top : "value-dusting-Agent"
+  top : "value-dusting-Place"
+  top : "value-dyeing-Material"
+  top : "value-dyeing-Dye"
+  top : "value-dyeing-Agent"
+  top : "value-dyeing-Place"
+  top : "value-eating-Place"
+  top : "value-eating-Food"
+  top : "value-eating-Container"
+  top : "value-eating-Tool"
+  top : "value-eating-Agent"
+  top : "value-educating-Teacher"
+  top : "value-educating-Place"
+  top : "value-educating-Subject"
+  top : "value-educating-Student"
+  top : "value-ejecting-Destination"
+  top : "value-ejecting-Item"
+  top : "value-ejecting-Agent"
+  top : "value-ejecting-Place"
+  top : "value-ejecting-Source"
+  top : "value-embracing-Place"
+  top : "value-embracing-Coagent"
+  top : "value-embracing-Agent"
+  top : "value-emerging-Destination"
+  top : "value-emerging-Source"
+  top : "value-emerging-Agent"
+  top : "value-emerging-Place"
+  top : "value-emptying-Tool"
+  top : "value-emptying-Container"
+  top : "value-emptying-Agent"
+  top : "value-emptying-Destination"
+  top : "value-emptying-Place"
+  top : "value-emptying-Item"
+  top : "value-encouraging-Agent"
+  top : "value-encouraging-Place"
+  top : "value-encouraging-Reciever"
+  top : "value-erasing-Source"
+  top : "value-erasing-Erased"
+  top : "value-erasing-Agent"
+  top : "value-erasing-Place"
+  top : "value-erupting-Place"
+  top : "value-erupting-Substance"
+  top : "value-erupting-Agent"
+  top : "value-examining-Tool"
+  top : "value-examining-Item"
+  top : "value-examining-Agent"
+  top : "value-examining-Place"
+  top : "value-exercising-Place"
+  top : "value-exercising-AgentPart"
+  top : "value-exercising-Agent"
+  top : "value-exterminating-Place"
+  top : "value-exterminating-Instrument"
+  top : "value-exterminating-Agent"
+  top : "value-extinguishing-Tool"
+  top : "value-extinguishing-Item"
+  top : "value-extinguishing-Agent"
+  top : "value-extinguishing-Place"
+  top : "value-falling-Place"
+  top : "value-falling-Source"
+  top : "value-falling-Agent"
+  top : "value-falling-Goal"
+  top : "value-farming-Tool"
+  top : "value-farming-Item"
+  top : "value-farming-Place"
+  top : "value-farming-Ground"
+  top : "value-farming-Farmer"
+  top : "value-fastening-Destination"
+  top : "value-fastening-Tool"
+  top : "value-fastening-Connector"
+  top : "value-fastening-Agent"
+  top : "value-fastening-Place"
+  top : "value-fastening-Item"
+  top : "value-feeding-Source"
+  top : "value-feeding-Food"
+  top : "value-feeding-Place"
+  top : "value-feeding-Eater"
+  top : "value-feeding-Agent"
+  top : "value-fetching-Destination"
+  top : "value-fetching-Item"
+  top : "value-fetching-Agent"
+  top : "value-fetching-Place"
+  top : "value-fetching-Source"
+  top : "value-filling-Destination"
+  top : "value-filling-Item"
+  top : "value-filling-Agent"
+  top : "value-filling-Place"
+  top : "value-filling-Source"
+  top : "value-filming-Performer"
+  top : "value-filming-Tool"
+  top : "value-filming-Agent"
+  top : "value-filming-Place"
+  top : "value-fishing-Tool"
+  top : "value-fishing-SOURCE"
+  top : "value-fishing-Agent"
+  top : "value-fishing-Place"
+  top : "value-fixing-Tool"
+  top : "value-fixing-Place"
+  top : "value-fixing-ObjectPart"
+  top : "value-fixing-Object"
+  top : "value-fixing-Agent"
+  top : "value-flaming-Agent"
+  top : "value-flaming-Place"
+  top : "value-flapping-Place"
+  top : "value-flapping-BodyPart"
+  top : "value-flapping-Agent"
+  top : "value-flexing-Addressee"
+  top : "value-flexing-AgentPart"
+  top : "value-flexing-Agent"
+  top : "value-flexing-Place"
+  top : "value-flicking-Place"
+  top : "value-flicking-AgentPart"
+  top : "value-flicking-ObjectPart"
+  top : "value-flicking-Object"
+  top : "value-flicking-Agent"
+  top : "value-flinging-Tool"
+  top : "value-flinging-Item"
+  top : "value-flinging-Goal"
+  top : "value-flinging-Place"
+  top : "value-flinging-Agent"
+  top : "value-flipping-Place"
+  top : "value-flipping-Tool"
+  top : "value-flipping-Flipped"
+  top : "value-flipping-Agent"
+  top : "value-floating-Medium"
+  top : "value-floating-Tool"
+  top : "value-floating-Agent"
+  top : "value-floating-Place"
+  top : "value-flossing-Place"
+  top : "value-flossing-CoAgent"
+  top : "value-flossing-Agent"
+  top : "value-folding-Shape"
+  top : "value-folding-Cloth"
+  top : "value-folding-Agent"
+  top : "value-folding-Place"
+  top : "value-foraging-Place"
+  top : "value-foraging-Item"
+  top : "value-foraging-Agent"
+  top : "value-fording-Place"
+  top : "value-fording-Tool"
+  top : "value-fording-Agent"
+  top : "value-frisking-Victim"
+  top : "value-frisking-Place"
+  top : "value-frisking-Agent"
+  top : "value-frowning-Agent"
+  top : "value-frowning-Place"
+  top : "value-frying-Place"
+  top : "value-frying-Food"
+  top : "value-frying-Agent"
+  top : "value-frying-Container"
+  top : "value-fueling-Tool"
+  top : "value-fueling-Place"
+  top : "value-fueling-Agent"
+  top : "value-fueling-Recipient"
+  top : "value-gambling-Place"
+  top : "value-gambling-Stake"
+  top : "value-gambling-Agent"
+  top : "value-gardening-Place"
+  top : "value-gardening-Tool"
+  top : "value-gardening-Agent"
+  top : "value-gasping-Agent"
+  top : "value-gasping-Place"
+  top : "value-gathering-Gatherers"
+  top : "value-gathering-Place"
+  top : "value-giggling-Target"
+  top : "value-giggling-Place"
+  top : "value-giggling-Agent"
+  top : "value-giving-Place"
+  top : "value-giving-Item"
+  top : "value-giving-Agent"
+  top : "value-giving-Recipient"
+  top : "value-glaring-Perceiver"
+  top : "value-glaring-Place"
+  top : "value-glaring-Agent"
+  top : "value-glowing-Agent"
+  top : "value-glowing-Place"
+  top : "value-gluing-Item"
+  top : "value-gluing-Connector"
+  top : "value-gluing-Goal"
+  top : "value-gluing-Place"
+  top : "value-gluing-Agent"
+  top : "value-gnawing-Place"
+  top : "value-gnawing-Item"
+  top : "value-gnawing-Agent"
+  top : "value-grieving-Agent"
+  top : "value-grieving-Place"
+  top : "value-grilling-Place"
+  top : "value-grilling-Food"
+  top : "value-grilling-Agent"
+  top : "value-grimacing-Cause"
+  top : "value-grimacing-Place"
+  top : "value-grimacing-Agent"
+  top : "value-grinding-Tool"
+  top : "value-grinding-Item"
+  top : "value-grinding-Surface"
+  top : "value-grinding-Place"
+  top : "value-grinding-Agent"
+  top : "value-grinning-Agent"
+  top : "value-grinning-Place"
+  top : "value-guarding-Weapon"
+  top : "value-guarding-Item"
+  top : "value-guarding-Agent"
+  top : "value-guarding-Place"
+  top : "value-handcuffing-Victim"
+  top : "value-handcuffing-Place"
+  top : "value-handcuffing-Agent"
+  top : "value-hanging-Scaffold"
+  top : "value-hanging-Item"
+  top : "value-hanging-Agent"
+  top : "value-hanging-Place"
+  top : "value-harvesting-Tool"
+  top : "value-harvesting-HarvestedItem"
+  top : "value-harvesting-Agent"
+  top : "value-harvesting-Place"
+  top : "value-harvesting-Ground"
+  top : "value-hauling-Tool"
+  top : "value-hauling-Item"
+  top : "value-hauling-Place"
+  top : "value-hauling-Carrier"
+  top : "value-heaving-Tool"
+  top : "value-heaving-HeavedItem"
+  top : "value-heaving-Agent"
+  top : "value-heaving-Place"
+  top : "value-helping-Place"
+  top : "value-helping-Tool"
+  top : "value-helping-EntityHelped"
+  top : "value-helping-Agent"
+  top : "value-hiking-Agent"
+  top : "value-hiking-Place"
+  top : "value-hitchhiking-Agent"
+  top : "value-hitchhiking-Place"
+  top : "value-hitting-Place"
+  top : "value-hitting-Tool"
+  top : "value-hitting-Agent"
+  top : "value-hitting-Victim"
+  top : "value-hitting-VictimPart"
+  top : "value-hoeing-Agent"
+  top : "value-hoeing-Place"
+  top : "value-hoeing-Ground"
+  top : "value-hoisting-Tool"
+  top : "value-hoisting-Item"
+  top : "value-hoisting-Agent"
+  top : "value-hoisting-Place"
+  top : "value-hoisting-Source"
+  top : "value-hugging-Hugged"
+  top : "value-hugging-AgentPart"
+  top : "value-hugging-Agent"
+  top : "value-hugging-Place"
+  top : "value-hunching-Surface"
+  top : "value-hunching-Place"
+  top : "value-hunching-Agent"
+  top : "value-hunting-Place"
+  top : "value-hunting-Hunted"
+  top : "value-hunting-Agent"
+  top : "value-hurling-Place"
+  top : "value-hurling-Start"
+  top : "value-hurling-End"
+  top : "value-hurling-Object"
+  top : "value-hurling-Agent"
+  top : "value-igniting-Tool"
+  top : "value-igniting-Item"
+  top : "value-igniting-Agent"
+  top : "value-igniting-Place"
+  top : "value-ignoring-BoringThing"
+  top : "value-ignoring-Place"
+  top : "value-ignoring-Agent"
+  top : "value-imitating-Place"
+  top : "value-imitating-Model"
+  top : "value-imitating-Agent"
+  top : "value-immersing-Place"
+  top : "value-immersing-Item"
+  top : "value-immersing-Agent"
+  top : "value-immersing-Liquid"
+  top : "value-inflating-Object"
+  top : "value-inflating-Tool"
+  top : "value-inflating-Agent"
+  top : "value-inflating-Place"
+  top : "value-injecting-Source"
+  top : "value-injecting-Destination"
+  top : "value-injecting-Place"
+  top : "value-injecting-Substance"
+  top : "value-injecting-Agent"
+  top : "value-inserting-Object"
+  top : "value-inserting-Place"
+  top : "value-inserting-Agent"
+  top : "value-inserting-Container"
+  top : "value-installing-Tool"
+  top : "value-installing-Place"
+  top : "value-installing-Component"
+  top : "value-installing-Destination"
+  top : "value-installing-Agent"
+  top : "value-instructing-Student"
+  top : "value-instructing-Place"
+  top : "value-instructing-Agent"
+  top : "value-intermingling-Agents"
+  top : "value-intermingling-Place"
+  top : "value-interrogating-Addressee"
+  top : "value-interrogating-Tool"
+  top : "value-interrogating-Agent"
+  top : "value-interrogating-Place"
+  top : "value-interviewing-Interviewee"
+  top : "value-interviewing-Place"
+  top : "value-interviewing-Agent"
+  top : "value-jogging-Agent"
+  top : "value-jogging-Place"
+  top : "value-juggling-Place"
+  top : "value-juggling-Items"
+  top : "value-juggling-Agent"
+  top : "value-jumping-Source"
+  top : "value-jumping-Destination"
+  top : "value-jumping-Place"
+  top : "value-jumping-Obstacle"
+  top : "value-jumping-Agent"
+  top : "value-kicking-Victim"
+  top : "value-kicking-Place"
+  top : "value-kicking-VictimPart"
+  top : "value-kicking-Agent"
+  top : "value-kissing-CoAgent"
+  top : "value-kissing-AgentPart"
+  top : "value-kissing-CoAgentPart"
+  top : "value-kissing-Place"
+  top : "value-kissing-Agent"
+  top : "value-kneading-Place"
+  top : "value-kneading-Item"
+  top : "value-kneading-Agent"
+  top : "value-kneeling-Place"
+  top : "value-kneeling-Contact"
+  top : "value-kneeling-Agent"
+  top : "value-knocking-Place"
+  top : "value-knocking-Item"
+  top : "value-knocking-Agent"
+  top : "value-lacing-Place"
+  top : "value-lacing-Item"
+  top : "value-lacing-Agent"
+  top : "value-landing-Place"
+  top : "value-landing-Destination"
+  top : "value-landing-Agent"
+  top : "value-lapping-Place"
+  top : "value-lapping-Food"
+  top : "value-lapping-Agent"
+  top : "value-lapping-Container"
+  top : "value-lathering-Substance"
+  top : "value-lathering-Destination"
+  top : "value-lathering-Agent"
+  top : "value-lathering-Place"
+  top : "value-laughing-Agent"
+  top : "value-laughing-Place"
+  top : "value-launching-Destination"
+  top : "value-launching-Item"
+  top : "value-launching-Agent"
+  top : "value-launching-Place"
+  top : "value-launching-Source"
+  top : "value-leading-Place"
+  top : "value-leading-Follower"
+  top : "value-leading-Agent"
+  top : "value-leaking-Source"
+  top : "value-leaking-Destination"
+  top : "value-leaking-Place"
+  top : "value-leaking-Substance"
+  top : "value-leaning-Place"
+  top : "value-leaning-Item"
+  top : "value-leaning-Agent"
+  top : "value-leaning-Against"
+  top : "value-leaping-Source"
+  top : "value-leaping-Destination"
+  top : "value-leaping-Place"
+  top : "value-leaping-Obstacle"
+  top : "value-leaping-Agent"
+  top : "value-lecturing-Place"
+  top : "value-lecturing-Audience"
+  top : "value-lecturing-Agent"
+  top : "value-licking-Place"
+  top : "value-licking-Item"
+  top : "value-licking-Agent"
+  top : "value-lifting-Place"
+  top : "value-lifting-Item"
+  top : "value-lifting-Agent"
+  top : "value-lifting-End"
+  top : "value-lifting-Start"
+  top : "value-lighting-Tool"
+  top : "value-lighting-Item"
+  top : "value-lighting-Agent"
+  top : "value-lighting-Place"
+  top : "value-loading-Tool"
+  top : "value-loading-Item"
+  top : "value-loading-Place"
+  top : "value-loading-Destination"
+  top : "value-loading-Agent"
+  top : "value-locking-Tool"
+  top : "value-locking-Item"
+  top : "value-locking-Agent"
+  top : "value-locking-Place"
+  top : "value-making-Tool"
+  top : "value-making-Component"
+  top : "value-making-Place"
+  top : "value-making-GoalItem"
+  top : "value-making-Agent"
+  top : "value-manicuring-Tool"
+  top : "value-manicuring-Item"
+  top : "value-manicuring-Agent"
+  top : "value-manicuring-Place"
+  top : "value-marching-Agent"
+  top : "value-marching-Place"
+  top : "value-mashing-Tool"
+  top : "value-mashing-Item"
+  top : "value-mashing-Agent"
+  top : "value-mashing-Place"
+  top : "value-massaging-Place"
+  top : "value-massaging-CoAgent"
+  top : "value-massaging-Agent"
+  top : "value-massaging-CoAgentPart"
+  top : "value-measuring-Object"
+  top : "value-measuring-Tool"
+  top : "value-measuring-Agent"
+  top : "value-measuring-Place"
+  top : "value-measuring-Quantity"
+  top : "value-mending-Tool"
+  top : "value-mending-Item"
+  top : "value-mending-Agent"
+  top : "value-mending-Place"
+  top : "value-microwaving-Place"
+  top : "value-microwaving-Food"
+  top : "value-microwaving-Agent"
+  top : "value-microwaving-Container"
+  top : "value-milking-Tool"
+  top : "value-milking-Source"
+  top : "value-milking-Place"
+  top : "value-milking-Destination"
+  top : "value-milking-Agent"
+  top : "value-miming-Imitation"
+  top : "value-miming-Place"
+  top : "value-miming-Agent"
+  top : "value-mining-Tool"
+  top : "value-mining-Place"
+  top : "value-mining-Agent"
+  top : "value-mining-Resource"
+  top : "value-misbehaving-Agent"
+  top : "value-misbehaving-Place"
+  top : "value-moistening-Place"
+  top : "value-moistening-Item"
+  top : "value-moistening-Agent"
+  top : "value-moistening-Liquid"
+  top : "value-moisturizing-Tool"
+  top : "value-moisturizing-Place"
+  top : "value-moisturizing-Agent"
+  top : "value-moisturizing-Moisturized"
+  top : "value-molding-Substance"
+  top : "value-molding-Place"
+  top : "value-molding-Agent"
+  top : "value-molding-GoalItem"
+  top : "value-mopping-Surface"
+  top : "value-mopping-Place"
+  top : "value-mopping-Agent"
+  top : "value-mourning-Mourner"
+  top : "value-mourning-Place"
+  top : "value-mowing-Tool"
+  top : "value-mowing-Item"
+  top : "value-mowing-Agent"
+  top : "value-mowing-Place"
+  top : "value-nagging-NaggedPerson"
+  top : "value-nagging-Place"
+  top : "value-nagging-Agent"
+  top : "value-nailing-Tool"
+  top : "value-nailing-Item2"
+  top : "value-nailing-Place"
+  top : "value-nailing-Item1"
+  top : "value-nailing-Agent"
+  top : "value-nipping-Place"
+  top : "value-nipping-Item"
+  top : "value-nipping-Agent"
+  top : "value-nuzzling-Place"
+  top : "value-nuzzling-Item"
+  top : "value-nuzzling-Agent"
+  top : "value-offering-Item"
+  top : "value-offering-Beneficiary"
+  top : "value-offering-Agent"
+  top : "value-offering-Place"
+  top : "value-officiating-Event"
+  top : "value-officiating-Place"
+  top : "value-officiating-Agent"
+  top : "value-opening-Tool"
+  top : "value-opening-Item"
+  top : "value-opening-Agent"
+  top : "value-opening-Place"
+  top : "value-operating-Tool"
+  top : "value-operating-Item"
+  top : "value-operating-Agent"
+  top : "value-operating-Place"
+  top : "value-overflowing-Place"
+  top : "value-overflowing-Source"
+  top : "value-overflowing-Agent"
+  top : "value-packaging-Place"
+  top : "value-packaging-Item"
+  top : "value-packaging-Agent"
+  top : "value-packing-Place"
+  top : "value-packing-Item"
+  top : "value-packing-Agent"
+  top : "value-packing-Container"
+  top : "value-painting-Tool"
+  top : "value-painting-Item"
+  top : "value-painting-Agent"
+  top : "value-painting-Place"
+  top : "value-panhandling-Target"
+  top : "value-panhandling-Place"
+  top : "value-panhandling-Agent"
+  top : "value-parachuting-Destination"
+  top : "value-parachuting-Parachute"
+  top : "value-parachuting-Agent"
+  top : "value-parachuting-Place"
+  top : "value-parading-Agent"
+  top : "value-parading-Place"
+  top : "value-pasting-Item"
+  top : "value-pasting-Connector"
+  top : "value-pasting-Place"
+  top : "value-pasting-Object"
+  top : "value-pasting-Agent"
+  top : "value-patting-Tool"
+  top : "value-patting-Item"
+  top : "value-patting-Agent"
+  top : "value-patting-Place"
+  top : "value-pawing-PawedItem"
+  top : "value-pawing-AgentPart"
+  top : "value-pawing-Agent"
+  top : "value-pawing-Place"
+  top : "value-paying-Place"
+  top : "value-paying-Good"
+  top : "value-paying-Seller"
+  top : "value-paying-Agent"
+  top : "value-pedaling-Agent"
+  top : "value-pedaling-Place"
+  top : "value-pedaling-Vehicle"
+  top : "value-peeing-Target"
+  top : "value-peeing-Place"
+  top : "value-peeing-Agent"
+  top : "value-peeling-Tool"
+  top : "value-peeling-Item"
+  top : "value-peeling-Agent"
+  top : "value-peeling-Place"
+  top : "value-performing-Place"
+  top : "value-performing-Tool"
+  top : "value-performing-Agent"
+  top : "value-performing-Event"
+  top : "value-performing-Stage"
+  top : "value-perspiring-Agent"
+  top : "value-perspiring-Place"
+  top : "value-phoning-Place"
+  top : "value-phoning-Tool"
+  top : "value-phoning-Agent"
+  top : "value-photographing-Tool"
+  top : "value-photographing-Item"
+  top : "value-photographing-Agent"
+  top : "value-photographing-Place"
+  top : "value-picking-Place"
+  top : "value-picking-Source"
+  top : "value-picking-Agent"
+  top : "value-picking-Crop"
+  top : "value-piloting-Place"
+  top : "value-piloting-Start"
+  top : "value-piloting-Agent"
+  top : "value-piloting-End"
+  top : "value-piloting-Vehicle"
+  top : "value-pinching-Object"
+  top : "value-pinching-Place"
+  top : "value-pinching-Agent"
+  top : "value-pinching-ObjectPart"
+  top : "value-pinning-Destination"
+  top : "value-pinning-Pinned"
+  top : "value-pinning-Agent"
+  top : "value-pinning-Place"
+  top : "value-pitching-Place"
+  top : "value-pitching-Tool"
+  top : "value-pitching-Agent"
+  top : "value-pitching-Pitched"
+  top : "value-placing-Destination"
+  top : "value-placing-PlacedItem"
+  top : "value-placing-Agent"
+  top : "value-placing-Place"
+  top : "value-planting-Tool"
+  top : "value-planting-CoParticipant"
+  top : "value-planting-Place"
+  top : "value-planting-Planted"
+  top : "value-planting-Agent"
+  top : "value-plowing-Place"
+  top : "value-plowing-Instrument"
+  top : "value-plowing-Agent"
+  top : "value-plummeting-Destination"
+  top : "value-plummeting-Start"
+  top : "value-plummeting-Agent"
+  top : "value-plummeting-Place"
+  top : "value-plunging-Destination"
+  top : "value-plunging-Place"
+  top : "value-plunging-Agent"
+  top : "value-plunging-Plunged"
+  top : "value-poking-Tool"
+  top : "value-poking-Place"
+  top : "value-poking-ObjectPart"
+  top : "value-poking-Object"
+  top : "value-poking-Agent"
+  top : "value-pooing-Place"
+  top : "value-pooing-Destination"
+  top : "value-pooing-Agent"
+  top : "value-potting-Place"
+  top : "value-potting-Item"
+  top : "value-potting-Agent"
+  top : "value-potting-Container"
+  top : "value-pouncing-Place"
+  top : "value-pouncing-Destination"
+  top : "value-pouncing-Agent"
+  top : "value-pouring-Tool"
+  top : "value-pouring-Substance"
+  top : "value-pouring-Agent"
+  top : "value-pouring-Destination"
+  top : "value-pouring-Place"
+  top : "value-pouring-Source"
+  top : "value-pouting-Agent"
+  top : "value-pouting-Place"
+  top : "value-practicing-Place"
+  top : "value-practicing-Skill"
+  top : "value-practicing-Agent"
+  top : "value-practicing-Tool"
+  top : "value-praying-Agent"
+  top : "value-praying-Place"
+  top : "value-preaching-Place"
+  top : "value-preaching-Addressee"
+  top : "value-preaching-Agent"
+  top : "value-pressing-Place"
+  top : "value-pressing-Item"
+  top : "value-pressing-Agent"
+  top : "value-pricking-Tool"
+  top : "value-pricking-Pricked"
+  top : "value-pricking-Agent"
+  top : "value-pricking-Place"
+  top : "value-protesting-Agent"
+  top : "value-protesting-Place"
+  top : "value-providing-Place"
+  top : "value-providing-Item"
+  top : "value-providing-Agent"
+  top : "value-providing-Recipient"
+  top : "value-providing-Source"
+  top : "value-prowling-Target"
+  top : "value-prowling-Place"
+  top : "value-prowling-Agent"
+  top : "value-pruning-RemovedItem"
+  top : "value-pruning-Source"
+  top : "value-pruning-Tool"
+  top : "value-pruning-Place"
+  top : "value-pruning-Agent"
+  top : "value-prying-Tool"
+  top : "value-prying-Item"
+  top : "value-prying-Place"
+  top : "value-prying-From"
+  top : "value-prying-Agent"
+  top : "value-puckering-Place"
+  top : "value-puckering-AgentPart"
+  top : "value-puckering-Agent"
+  top : "value-pulling-Tool"
+  top : "value-pulling-Item"
+  top : "value-pulling-Agent"
+  top : "value-pulling-Place"
+  top : "value-pumping-Tool"
+  top : "value-pumping-Substance"
+  top : "value-pumping-Agent"
+  top : "value-pumping-Destination"
+  top : "value-pumping-Place"
+  top : "value-pumping-Source"
+  top : "value-punching-Place"
+  top : "value-punching-BodyPart"
+  top : "value-punching-Agent"
+  top : "value-punching-Victim"
+  top : "value-punting-Place"
+  top : "value-punting-Item"
+  top : "value-punting-Agent"
+  top : "value-pushing-Place"
+  top : "value-pushing-Item"
+  top : "value-pushing-AgentPart"
+  top : "value-pushing-Agent"
+  top : "value-putting-Destination"
+  top : "value-putting-Item"
+  top : "value-putting-Agent"
+  top : "value-putting-Place"
+  top : "value-queuing-Agent"
+  top : "value-queuing-Place"
+  top : "value-racing-Agent"
+  top : "value-racing-Place"
+  top : "value-rafting-Agent"
+  top : "value-rafting-Place"
+  top : "value-raining-Place"
+  top : "value-raking-Destination"
+  top : "value-raking-Item"
+  top : "value-raking-Agent"
+  top : "value-raking-Place"
+  top : "value-raking-Source"
+  top : "value-ramming-Victim"
+  top : "value-ramming-Place"
+  top : "value-ramming-RammingItem"
+  top : "value-ramming-Agent"
+  top : "value-reading-Place"
+  top : "value-reading-Item"
+  top : "value-reading-Agent"
+  top : "value-rearing-Agent"
+  top : "value-rearing-Place"
+  top : "value-reassuring-Place"
+  top : "value-reassuring-Reassured"
+  top : "value-reassuring-Agent"
+  top : "value-recording-Phenomenon"
+  top : "value-recording-Place"
+  top : "value-recording-Agent"
+  top : "value-recovering-Ailment"
+  top : "value-recovering-Place"
+  top : "value-recovering-Agent"
+  top : "value-recuperating-Agent"
+  top : "value-recuperating-Place"
+  top : "value-rehabilitating-Place"
+  top : "value-rehabilitating-Item"
+  top : "value-rehabilitating-Agent"
+  top : "value-releasing-Place"
+  top : "value-releasing-ReleasedItem"
+  top : "value-releasing-Agent"
+  top : "value-repairing-Problem"
+  top : "value-repairing-Item"
+  top : "value-repairing-Tool"
+  top : "value-repairing-Place"
+  top : "value-repairing-Agent"
+  top : "value-resting-Place"
+  top : "value-resting-Item"
+  top : "value-resting-Agent"
+  top : "value-resting-Goal"
+  top : "value-restraining-Restrained"
+  top : "value-restraining-Place"
+  top : "value-restraining-Agent"
+  top : "value-retrieving-Object"
+  top : "value-retrieving-Start"
+  top : "value-retrieving-Agent"
+  top : "value-retrieving-Place"
+  top : "value-riding-Agent"
+  top : "value-riding-Place"
+  top : "value-riding-Vehicle"
+  top : "value-rinsing-Object"
+  top : "value-rinsing-Tool"
+  top : "value-rinsing-Agent"
+  top : "value-rinsing-Place"
+  top : "value-rocking-Container"
+  top : "value-rocking-Place"
+  top : "value-rocking-Agent"
+  top : "value-rocking-Rocked"
+  top : "value-rotting-Container"
+  top : "value-rotting-Place"
+  top : "value-rotting-Agent"
+  top : "value-rowing-Agent"
+  top : "value-rowing-Place"
+  top : "value-rowing-Vehicle"
+  top : "value-rubbing-Place"
+  top : "value-rubbing-Item"
+  top : "value-rubbing-AgentPart"
+  top : "value-rubbing-Agent"
+  top : "value-running-Agent"
+  top : "value-running-Place"
+  top : "value-saluting-Target"
+  top : "value-saluting-Place"
+  top : "value-saluting-Agent"
+  top : "value-saying-Adressee"
+  top : "value-saying-Place"
+  top : "value-saying-Agent"
+  top : "value-scolding-Victim"
+  top : "value-scolding-Place"
+  top : "value-scolding-Agent"
+  top : "value-scooping-Tool"
+  top : "value-scooping-Item"
+  top : "value-scooping-Agent"
+  top : "value-scooping-Place"
+  top : "value-scooping-Source"
+  top : "value-scoring-Agent"
+  top : "value-scoring-Place"
+  top : "value-scraping-Place"
+  top : "value-scraping-ScrapedItem"
+  top : "value-scraping-Agent"
+  top : "value-scraping-Tool"
+  top : "value-scratching-Object"
+  top : "value-scratching-Tool"
+  top : "value-scratching-Agent"
+  top : "value-scratching-Place"
+  top : "value-scrubbing-Tool"
+  top : "value-scrubbing-Item"
+  top : "value-scrubbing-Agent"
+  top : "value-scrubbing-Place"
+  top : "value-sealing-Place"
+  top : "value-sealing-Item"
+  top : "value-sealing-Sealant"
+  top : "value-sealing-Agent"
+  top : "value-selling-Item"
+  top : "value-selling-Buyer"
+  top : "value-selling-Seller"
+  top : "value-selling-Place"
+  top : "value-serving-Place"
+  top : "value-serving-Item"
+  top : "value-serving-Served"
+  top : "value-serving-Agent"
+  top : "value-sewing-Tool"
+  top : "value-sewing-Item"
+  top : "value-sewing-Agent"
+  top : "value-sewing-Place"
+  top : "value-shaking-Tool"
+  top : "value-shaking-Item"
+  top : "value-shaking-Agent"
+  top : "value-shaking-Place"
+  top : "value-sharpening-Tool"
+  top : "value-sharpening-Item"
+  top : "value-sharpening-Agent"
+  top : "value-sharpening-Place"
+  top : "value-shaving-CoAgent"
+  top : "value-shaving-Substance"
+  top : "value-shaving-Place"
+  top : "value-shaving-Agent"
+  top : "value-shaving-Tool"
+  top : "value-shaving-BodyPart"
+  top : "value-shearing-Place"
+  top : "value-shearing-Item"
+  top : "value-shearing-Source"
+  top : "value-shearing-Agent"
+  top : "value-shelling-Place"
+  top : "value-shelling-Object"
+  top : "value-shelling-Agent"
+  top : "value-shelving-Destination"
+  top : "value-shelving-Item"
+  top : "value-shelving-Agent"
+  top : "value-shelving-Place"
+  top : "value-shivering-Agent"
+  top : "value-shivering-Place"
+  top : "value-shooting-Firearm"
+  top : "value-shooting-Target"
+  top : "value-shooting-Projectile"
+  top : "value-shooting-Agent"
+  top : "value-shopping-Place"
+  top : "value-shopping-Goods"
+  top : "value-shopping-Agent"
+  top : "value-shouting-Place"
+  top : "value-shouting-Addressee"
+  top : "value-shouting-Agent"
+  top : "value-shoveling-Place"
+  top : "value-shoveling-Item"
+  top : "value-shoveling-Source"
+  top : "value-shoveling-Agent"
+  top : "value-shredding-Tool"
+  top : "value-shredding-Item"
+  top : "value-shredding-Agent"
+  top : "value-shredding-Place"
+  top : "value-shrugging-Agent"
+  top : "value-shrugging-Place"
+  top : "value-shushing-Target"
+  top : "value-shushing-Place"
+  top : "value-shushing-Agent"
+  top : "value-signaling-Message"
+  top : "value-signaling-Place"
+  top : "value-signaling-Tool"
+  top : "value-signaling-Recipient"
+  top : "value-signaling-Agent"
+  top : "value-signing-Place"
+  top : "value-signing-Tool"
+  top : "value-signing-SignedItem"
+  top : "value-signing-Agent"
+  top : "value-singing-Agent"
+  top : "value-singing-Place"
+  top : "value-sitting-Place"
+  top : "value-sitting-Contact"
+  top : "value-sitting-Agent"
+  top : "value-skating-Agent"
+  top : "value-skating-Place"
+  top : "value-skating-Vehicle"
+  top : "value-sketching-Material"
+  top : "value-sketching-Image"
+  top : "value-sketching-Tool"
+  top : "value-sketching-Place"
+  top : "value-sketching-Agent"
+  top : "value-skidding-Agent"
+  top : "value-skidding-Place"
+  top : "value-skiing-Agent"
+  top : "value-skiing-Place"
+  top : "value-skipping-Place"
+  top : "value-skipping-Obstacle"
+  top : "value-skipping-Agent"
+  top : "value-slapping-Place"
+  top : "value-slapping-Tool"
+  top : "value-slapping-Agent"
+  top : "value-slapping-Victim"
+  top : "value-slapping-VictimPart"
+  top : "value-sleeping-Agent"
+  top : "value-sleeping-Place"
+  top : "value-slicing-Tool"
+  top : "value-slicing-SlicedItem"
+  top : "value-slicing-Agent"
+  top : "value-slicing-Place"
+  top : "value-sliding-Destination"
+  top : "value-sliding-Slider"
+  top : "value-sliding-Surface"
+  top : "value-sliding-Place"
+  top : "value-sliding-Agent"
+  top : "value-slipping-Place"
+  top : "value-slipping-Destination"
+  top : "value-slipping-Agent"
+  top : "value-slithering-Agent"
+  top : "value-slithering-Place"
+  top : "value-slouching-Place"
+  top : "value-slouching-Contact"
+  top : "value-slouching-Agent"
+  top : "value-smashing-Tool"
+  top : "value-smashing-Smashed"
+  top : "value-smashing-Against"
+  top : "value-smashing-Place"
+  top : "value-smashing-Agent"
+  top : "value-smearing-Tool"
+  top : "value-smearing-Item"
+  top : "value-smearing-Surface"
+  top : "value-smearing-Place"
+  top : "value-smearing-Agent"
+  top : "value-smelling-Place"
+  top : "value-smelling-Item"
+  top : "value-smelling-Agent"
+  top : "value-smiling-Agent"
+  top : "value-smiling-Place"
+  top : "value-sneezing-Agent"
+  top : "value-sneezing-Place"
+  top : "value-sniffing-Place"
+  top : "value-sniffing-Item"
+  top : "value-sniffing-Agent"
+  top : "value-snowing-Place"
+  top : "value-snuggling-Place"
+  top : "value-snuggling-CoAgent"
+  top : "value-snuggling-Agent"
+  top : "value-soaking-Place"
+  top : "value-soaking-Item"
+  top : "value-soaking-Container"
+  top : "value-soaking-Substance"
+  top : "value-soaking-Agent"
+  top : "value-soaring-Agent"
+  top : "value-soaring-Place"
+  top : "value-socializing-Place"
+  top : "value-socializing-CoAgent"
+  top : "value-socializing-Agent"
+  top : "value-sowing-Place"
+  top : "value-sowing-Tool"
+  top : "value-sowing-Agent"
+  top : "value-spanking-Place"
+  top : "value-spanking-Tool"
+  top : "value-spanking-Agent"
+  top : "value-spanking-Victim"
+  top : "value-speaking-Place"
+  top : "value-speaking-CoAgent"
+  top : "value-speaking-Agent"
+  top : "value-spearing-Victim"
+  top : "value-spearing-Place"
+  top : "value-spearing-Agent"
+  top : "value-spilling-Source"
+  top : "value-spilling-Destination"
+  top : "value-spilling-Place"
+  top : "value-spilling-Substance"
+  top : "value-spilling-Agent"
+  top : "value-spinning-Material"
+  top : "value-spinning-Tool"
+  top : "value-spinning-Agent"
+  top : "value-spinning-Place"
+  top : "value-spitting-Place"
+  top : "value-spitting-Item"
+  top : "value-spitting-Agent"
+  top : "value-spitting-Target"
+  top : "value-splashing-Tool"
+  top : "value-splashing-Place"
+  top : "value-splashing-Substance"
+  top : "value-splashing-Destination"
+  top : "value-splashing-Agent"
+  top : "value-spoiling-Agent"
+  top : "value-spoiling-Place"
+  top : "value-spraying-Source"
+  top : "value-spraying-Destination"
+  top : "value-spraying-Place"
+  top : "value-spraying-Substance"
+  top : "value-spraying-Agent"
+  top : "value-spreading-Substance"
+  top : "value-spreading-Tool"
+  top : "value-spreading-Surface"
+  top : "value-spreading-Place"
+  top : "value-spreading-Agent"
+  top : "value-sprinkling-Destination"
+  top : "value-sprinkling-Item"
+  top : "value-sprinkling-Agent"
+  top : "value-sprinkling-Place"
+  top : "value-sprinkling-Source"
+  top : "value-sprinting-Agent"
+  top : "value-sprinting-Place"
+  top : "value-sprouting-Place"
+  top : "value-sprouting-Sprouter"
+  top : "value-spying-Place"
+  top : "value-spying-Tool"
+  top : "value-spying-Agent"
+  top : "value-spying-Target"
+  top : "value-squeezing-Tool"
+  top : "value-squeezing-Item"
+  top : "value-squeezing-Agent"
+  top : "value-squeezing-Place"
+  top : "value-squinting-Place"
+  top : "value-squinting-Item"
+  top : "value-squinting-Agent"
+  top : "value-stacking-Place"
+  top : "value-stacking-Top"
+  top : "value-stacking-Bottom"
+  top : "value-stacking-Agent"
+  top : "value-stampeding-Agent"
+  top : "value-stampeding-Place"
+  top : "value-standing-Agent"
+  top : "value-standing-Place"
+  top : "value-stapling-Tool"
+  top : "value-stapling-Item"
+  top : "value-stapling-Surface"
+  top : "value-stapling-Place"
+  top : "value-stapling-Agent"
+  top : "value-staring-Place"
+  top : "value-staring-Item"
+  top : "value-staring-Agent"
+  top : "value-steering-Place"
+  top : "value-steering-Tool"
+  top : "value-steering-Vehicle"
+  top : "value-steering-Agent"
+  top : "value-stinging-Victim"
+  top : "value-stinging-Place"
+  top : "value-stinging-VictimPart"
+  top : "value-stinging-Agent"
+  top : "value-stirring-Tool"
+  top : "value-stirring-Item"
+  top : "value-stirring-Place"
+  top : "value-stirring-Container"
+  top : "value-stirring-Agent"
+  top : "value-stitching-Place"
+  top : "value-stitching-Tool"
+  top : "value-stitching-Agent"
+  top : "value-stitching-Fastener"
+  top : "value-stooping-Agent"
+  top : "value-stooping-Place"
+  top : "value-storming-Place"
+  top : "value-strapping-Destination"
+  top : "value-strapping-Strapped"
+  top : "value-strapping-Agent"
+  top : "value-strapping-Place"
+  top : "value-strapping-Strap"
+  top : "value-stretching-Place"
+  top : "value-stretching-Item"
+  top : "value-stretching-Agent"
+  top : "value-striking-CoAgent"
+  top : "value-striking-AgentPart"
+  top : "value-striking-Tool"
+  top : "value-striking-Place"
+  top : "value-striking-Agent"
+  top : "value-stripping-RemovedItem"
+  top : "value-stripping-Source"
+  top : "value-stripping-Tool"
+  top : "value-stripping-Place"
+  top : "value-stripping-Agent"
+  top : "value-stroking-Place"
+  top : "value-stroking-Object"
+  top : "value-stroking-Agent"
+  top : "value-stroking-Part"
+  top : "value-studying-Agent"
+  top : "value-studying-Place"
+  top : "value-stuffing-Destination"
+  top : "value-stuffing-Item"
+  top : "value-stuffing-Agent"
+  top : "value-stuffing-Place"
+  top : "value-stumbling-Place"
+  top : "value-stumbling-Destination"
+  top : "value-stumbling-Agent"
+  top : "value-subduing-Target"
+  top : "value-subduing-Place"
+  top : "value-subduing-Agent"
+  top : "value-submerging-Object"
+  top : "value-submerging-Place"
+  top : "value-submerging-Agent"
+  top : "value-submerging-Substance"
+  top : "value-sucking-Place"
+  top : "value-sucking-Item"
+  top : "value-sucking-Agent"
+  top : "value-surfing-Tool"
+  top : "value-surfing-Path"
+  top : "value-surfing-Agent"
+  top : "value-surfing-Place"
+  top : "value-swarming-Place"
+  top : "value-swarming-AgentType"
+  top : "value-sweeping-Surface"
+  top : "value-sweeping-Place"
+  top : "value-sweeping-Brush"
+  top : "value-sweeping-Agent"
+  top : "value-swimming-Agent"
+  top : "value-swimming-Place"
+  top : "value-swinging-Place"
+  top : "value-swinging-Carrier"
+  top : "value-swinging-Agent"
+  top : "value-swooping-Agent"
+  top : "value-swooping-Place"
+  top : "value-tackling-Victim"
+  top : "value-tackling-Place"
+  top : "value-tackling-Agent"
+  top : "value-talking-Place"
+  top : "value-talking-Listener"
+  top : "value-talking-Agent"
+  top : "value-taping-Destination"
+  top : "value-taping-Item"
+  top : "value-taping-Agent"
+  top : "value-taping-Place"
+  top : "value-tasting-Tool"
+  top : "value-tasting-Item"
+  top : "value-tasting-Agent"
+  top : "value-tasting-Place"
+  top : "value-tattooing-Place"
+  top : "value-tattooing-Tool"
+  top : "value-tattooing-Agent"
+  top : "value-tattooing-Target"
+  top : "value-taxiing-Agent"
+  top : "value-taxiing-Place"
+  top : "value-taxiing-Ground"
+  top : "value-teaching-Teacher"
+  top : "value-teaching-Place"
+  top : "value-teaching-Student"
+  top : "value-tearing-Tool"
+  top : "value-tearing-Item"
+  top : "value-tearing-Agent"
+  top : "value-tearing-Place"
+  top : "value-telephoning-Agent"
+  top : "value-telephoning-Place"
+  top : "value-throwing-Destination"
+  top : "value-throwing-Item"
+  top : "value-throwing-Agent"
+  top : "value-throwing-Place"
+  top : "value-tickling-Object"
+  top : "value-tickling-Tickled"
+  top : "value-tickling-Agent"
+  top : "value-tickling-Place"
+  top : "value-tilling-Place"
+  top : "value-tilling-Tool"
+  top : "value-tilling-Agent"
+  top : "value-tilting-Place"
+  top : "value-tilting-Item"
+  top : "value-tilting-AgentPart"
+  top : "value-tilting-Agent"
+  top : "value-tipping-Place"
+  top : "value-tipping-Item"
+  top : "value-tipping-AgentPart"
+  top : "value-tipping-Agent"
+  top : "value-towing-Place"
+  top : "value-towing-Item"
+  top : "value-towing-Agent"
+  top : "value-training-Student"
+  top : "value-training-Place"
+  top : "value-training-Agent"
+  top : "value-trimming-Tool"
+  top : "value-trimming-Item"
+  top : "value-trimming-ItemPart"
+  top : "value-trimming-Place"
+  top : "value-trimming-Agent"
+  top : "value-tripping-Place"
+  top : "value-tripping-Item"
+  top : "value-tripping-Agent"
+  top : "value-tugging-Place"
+  top : "value-tugging-Item"
+  top : "value-tugging-Agent"
+  top : "value-tuning-Object"
+  top : "value-tuning-Tool"
+  top : "value-tuning-Agent"
+  top : "value-tuning-Place"
+  top : "value-turning-TurnedItem"
+  top : "value-turning-Place"
+  top : "value-turning-Agent"
+  top : "value-twirling-Place"
+  top : "value-twirling-CoAgent"
+  top : "value-twirling-Agent"
+  top : "value-twisting-Place"
+  top : "value-twisting-AgentPart"
+  top : "value-twisting-Agent"
+  top : "value-tying-Item"
+  top : "value-tying-Connector"
+  top : "value-tying-Place"
+  top : "value-tying-Destination"
+  top : "value-tying-Agent"
+  top : "value-typing-Place"
+  top : "value-typing-Tool"
+  top : "value-typing-Agent"
+  top : "value-uncorking-Tool"
+  top : "value-uncorking-Place"
+  top : "value-uncorking-Agent"
+  top : "value-uncorking-Container"
+  top : "value-unloading-Tool"
+  top : "value-unloading-Item"
+  top : "value-unloading-Agent"
+  top : "value-unloading-Place"
+  top : "value-unloading-Source"
+  top : "value-unlocking-Tool"
+  top : "value-unlocking-Lock"
+  top : "value-unlocking-Place"
+  top : "value-unlocking-Container"
+  top : "value-unlocking-Agent"
+  top : "value-unpacking-Place"
+  top : "value-unpacking-Item"
+  top : "value-unpacking-Agent"
+  top : "value-unpacking-Container"
+  top : "value-unplugging-Unplugged"
+  top : "value-unplugging-Place"
+  top : "value-unplugging-Agent"
+  top : "value-unveiling-Place"
+  top : "value-unveiling-Object"
+  top : "value-unveiling-Agent"
+  top : "value-urinating-Target"
+  top : "value-urinating-Place"
+  top : "value-urinating-Agent"
+  top : "value-vacuuming-Place"
+  top : "value-vacuuming-Tool"
+  top : "value-vacuuming-Agent"
+  top : "value-vacuuming-Surface"
+  top : "value-vaulting-Tool"
+  top : "value-vaulting-End"
+  top : "value-vaulting-Start"
+  top : "value-vaulting-Agent"
+  top : "value-vaulting-Place"
+  top : "value-vaulting-Obstacle"
+  top : "value-videotaping-Place"
+  top : "value-videotaping-Depicted"
+  top : "value-videotaping-Agent"
+  top : "value-voting-Agent"
+  top : "value-voting-Place"
+  top : "value-waddling-Agent"
+  top : "value-waddling-Place"
+  top : "value-wading-Place"
+  top : "value-wading-Substance"
+  top : "value-wading-Agent"
+  top : "value-wagging-Addressee"
+  top : "value-wagging-AgentPart"
+  top : "value-wagging-Agent"
+  top : "value-wagging-Place"
+  top : "value-waiting-Agent"
+  top : "value-waiting-Place"
+  top : "value-walking-Agent"
+  top : "value-walking-Place"
+  top : "value-washing-Tool"
+  top : "value-washing-Item"
+  top : "value-washing-Agent"
+  top : "value-washing-Place"
+  top : "value-washing-Dirt"
+  top : "value-watering-Tool"
+  top : "value-watering-Place"
+  top : "value-watering-Agent"
+  top : "value-watering-Recipient"
+  top : "value-waving-Place"
+  top : "value-waving-Agentpart"
+  top : "value-waving-Agent"
+  top : "value-waxing-BodyPart"
+  top : "value-waxing-CoAgent"
+  top : "value-waxing-Agent"
+  top : "value-waxing-Place"
+  top : "value-weeding-Place"
+  top : "value-weeding-Tool"
+  top : "value-weeding-Agent"
+  top : "value-weeping-Agent"
+  top : "value-weeping-Place"
+  top : "value-weighing-Tool"
+  top : "value-weighing-Place"
+  top : "value-weighing-Agent"
+  top : "value-weighing-Mass"
+  top : "value-welding-Tool"
+  top : "value-welding-Item"
+  top : "value-welding-Surface"
+  top : "value-welding-Place"
+  top : "value-welding-Agent"
+  top : "value-wetting-Object"
+  top : "value-wetting-Tool"
+  top : "value-wetting-Liquid"
+  top : "value-wetting-Place"
+  top : "value-wetting-Agent"
+  top : "value-wheeling-Carrier"
+  top : "value-wheeling-Item"
+  top : "value-wheeling-Agent"
+  top : "value-wheeling-Place"
+  top : "value-whipping-Tool"
+  top : "value-whipping-Item"
+  top : "value-whipping-Agent"
+  top : "value-whipping-Place"
+  top : "value-whirling-Agent"
+  top : "value-whirling-Place"
+  top : "value-whisking-Place"
+  top : "value-whisking-Item"
+  top : "value-whisking-Agent"
+  top : "value-whisking-Container"
+  top : "value-whistling-Place"
+  top : "value-whistling-Tool"
+  top : "value-whistling-Agent"
+  top : "value-wilting-Agent"
+  top : "value-wilting-Place"
+  top : "value-winking-Place"
+  top : "value-winking-Addressee"
+  top : "value-winking-Agent"
+  top : "value-wiping-Tool"
+  top : "value-wiping-Source"
+  top : "value-wiping-Place"
+  top : "value-wiping-Substance"
+  top : "value-wiping-Agent"
+  top : "value-working-Focus"
+  top : "value-working-Place"
+  top : "value-working-Agent"
+  top : "value-wrapping-Place"
+  top : "value-wrapping-WrappedItem"
+  top : "value-wrapping-Agent"
+  top : "value-wrapping-WrappingItem"
+  top : "value-wringing-Place"
+  top : "value-wringing-Item"
+  top : "value-wringing-Agent"
+  top : "value-wrinkling-Place"
+  top : "value-wrinkling-AgentPart"
+  top : "value-wrinkling-Agent"
+  top : "value-writing-Place"
+  top : "value-writing-Tool"
+  top : "value-writing-Agent"
+  top : "value-writing-Target"
+  top : "value-yanking-Yanked"
+  top : "value-yanking-Place"
+  top : "value-yanking-YankedPart"
+  top : "value-yanking-Agent"
+  top : "value-yawning-Agent"
+  top : "value-yawning-Place"
+  slice_param {
+    axis: 1
+        slice_point: 92
+    slice_point: 385
+    slice_point: 595
+    slice_point: 678
+    slice_point: 727
+    slice_point: 891
+    slice_point: 1140
+    slice_point: 1203
+    slice_point: 1289
+    slice_point: 1358
+    slice_point: 1404
+    slice_point: 1459
+    slice_point: 1532
+    slice_point: 1587
+    slice_point: 1640
+    slice_point: 1687
+    slice_point: 1791
+    slice_point: 1865
+    slice_point: 1950
+    slice_point: 2032
+    slice_point: 2178
+    slice_point: 2237
+    slice_point: 2362
+    slice_point: 2398
+    slice_point: 2452
+    slice_point: 2522
+    slice_point: 2565
+    slice_point: 2630
+    slice_point: 2663
+    slice_point: 2698
+    slice_point: 2772
+    slice_point: 2938
+    slice_point: 2975
+    slice_point: 3079
+    slice_point: 3128
+    slice_point: 3172
+    slice_point: 3199
+    slice_point: 3243
+    slice_point: 3309
+    slice_point: 3394
+    slice_point: 3464
+    slice_point: 3534
+    slice_point: 3652
+    slice_point: 3876
+    slice_point: 3949
+    slice_point: 4182
+    slice_point: 4232
+    slice_point: 4509
+    slice_point: 4582
+    slice_point: 4874
+    slice_point: 4915
+    slice_point: 5029
+    slice_point: 5110
+    slice_point: 5206
+    slice_point: 5312
+    slice_point: 5417
+    slice_point: 5545
+    slice_point: 5623
+    slice_point: 5697
+    slice_point: 5725
+    slice_point: 5763
+    slice_point: 5795
+    slice_point: 5885
+    slice_point: 5923
+    slice_point: 5991
+    slice_point: 6013
+    slice_point: 6032
+    slice_point: 6071
+    slice_point: 6119
+    slice_point: 6191
+    slice_point: 6233
+    slice_point: 6264
+    slice_point: 6298
+    slice_point: 6327
+    slice_point: 6387
+    slice_point: 6435
+    slice_point: 6466
+    slice_point: 6491
+    slice_point: 6527
+    slice_point: 6580
+    slice_point: 6616
+    slice_point: 6653
+    slice_point: 6709
+    slice_point: 6749
+    slice_point: 6806
+    slice_point: 6836
+    slice_point: 6859
+    slice_point: 6919
+    slice_point: 6951
+    slice_point: 7017
+    slice_point: 7110
+    slice_point: 7300
+    slice_point: 7393
+    slice_point: 7468
+    slice_point: 7546
+    slice_point: 7630
+    slice_point: 7693
+    slice_point: 7724
+    slice_point: 7788
+    slice_point: 7830
+    slice_point: 7880
+    slice_point: 7927
+    slice_point: 7957
+    slice_point: 7972
+    slice_point: 8004
+    slice_point: 8068
+    slice_point: 8232
+    slice_point: 8313
+    slice_point: 8379
+    slice_point: 8444
+    slice_point: 8505
+    slice_point: 8597
+    slice_point: 8670
+    slice_point: 8785
+    slice_point: 8810
+    slice_point: 8838
+    slice_point: 8858
+    slice_point: 8952
+    slice_point: 9031
+    slice_point: 9081
+    slice_point: 9165
+    slice_point: 9237
+    slice_point: 9350
+    slice_point: 9411
+    slice_point: 9484
+    slice_point: 9515
+    slice_point: 9556
+    slice_point: 9588
+    slice_point: 9680
+    slice_point: 9737
+    slice_point: 9758
+    slice_point: 9801
+    slice_point: 9829
+    slice_point: 9993
+    slice_point: 10082
+    slice_point: 10132
+    slice_point: 10267
+    slice_point: 10358
+    slice_point: 10377
+    slice_point: 10427
+    slice_point: 10457
+    slice_point: 10506
+    slice_point: 10543
+    slice_point: 10658
+    slice_point: 10713
+    slice_point: 10822
+    slice_point: 10955
+    slice_point: 11000
+    slice_point: 11049
+    slice_point: 11100
+    slice_point: 11114
+    slice_point: 11280
+    slice_point: 11361
+    slice_point: 11411
+    slice_point: 11451
+    slice_point: 11545
+    slice_point: 11593
+    slice_point: 11627
+    slice_point: 11671
+    slice_point: 11713
+    slice_point: 11778
+    slice_point: 11800
+    slice_point: 11839
+    slice_point: 11920
+    slice_point: 11991
+    slice_point: 12060
+    slice_point: 12091
+    slice_point: 12138
+    slice_point: 12163
+    slice_point: 12229
+    slice_point: 12346
+    slice_point: 12381
+    slice_point: 12406
+    slice_point: 12435
+    slice_point: 12487
+    slice_point: 12498
+    slice_point: 12532
+    slice_point: 12557
+    slice_point: 12623
+    slice_point: 12666
+    slice_point: 12722
+    slice_point: 12772
+    slice_point: 12858
+    slice_point: 12912
+    slice_point: 12938
+    slice_point: 12975
+    slice_point: 13028
+    slice_point: 13107
+    slice_point: 13150
+    slice_point: 13214
+    slice_point: 13316
+    slice_point: 13530
+    slice_point: 13580
+    slice_point: 13636
+    slice_point: 13698
+    slice_point: 13860
+    slice_point: 13936
+    slice_point: 14020
+    slice_point: 14098
+    slice_point: 14155
+    slice_point: 14180
+    slice_point: 14228
+    slice_point: 14324
+    slice_point: 14391
+    slice_point: 14484
+    slice_point: 14575
+    slice_point: 14675
+    slice_point: 14793
+    slice_point: 14876
+    slice_point: 15032
+    slice_point: 15144
+    slice_point: 15262
+    slice_point: 15373
+    slice_point: 15457
+    slice_point: 15624
+    slice_point: 15779
+    slice_point: 15822
+    slice_point: 15860
+    slice_point: 15936
+    slice_point: 15986
+    slice_point: 16019
+    slice_point: 16033
+    slice_point: 16100
+    slice_point: 16279
+    slice_point: 16361
+    slice_point: 16406
+    slice_point: 16475
+    slice_point: 16499
+    slice_point: 16525
+    slice_point: 16612
+    slice_point: 16634
+    slice_point: 16676
+    slice_point: 16762
+    slice_point: 16823
+    slice_point: 16917
+    slice_point: 16996
+    slice_point: 17004
+    slice_point: 17076
+    slice_point: 17231
+    slice_point: 17311
+    slice_point: 17370
+    slice_point: 17501
+    slice_point: 17774
+    slice_point: 17855
+    slice_point: 18015
+    slice_point: 18105
+    slice_point: 18196
+    slice_point: 18241
+    slice_point: 18313
+    slice_point: 18421
+    slice_point: 18459
+    slice_point: 18494
+    slice_point: 18508
+    slice_point: 18548
+    slice_point: 18612
+    slice_point: 18666
+    slice_point: 18715
+    slice_point: 18762
+    slice_point: 18850
+    slice_point: 19005
+    slice_point: 19115
+    slice_point: 19148
+    slice_point: 19215
+    slice_point: 19241
+    slice_point: 19301
+    slice_point: 19390
+    slice_point: 19438
+    slice_point: 19511
+    slice_point: 19536
+    slice_point: 19582
+    slice_point: 19656
+    slice_point: 19755
+    slice_point: 19814
+    slice_point: 19845
+    slice_point: 19912
+    slice_point: 19936
+    slice_point: 19981
+    slice_point: 20015
+    slice_point: 20034
+    slice_point: 20051
+    slice_point: 20070
+    slice_point: 20131
+    slice_point: 20230
+    slice_point: 20280
+    slice_point: 20323
+    slice_point: 20342
+    slice_point: 20366
+    slice_point: 20496
+    slice_point: 20573
+    slice_point: 20662
+    slice_point: 20747
+    slice_point: 20821
+    slice_point: 20872
+    slice_point: 20945
+    slice_point: 21014
+    slice_point: 21076
+    slice_point: 21230
+    slice_point: 21329
+    slice_point: 21443
+    slice_point: 21509
+    slice_point: 21647
+    slice_point: 21750
+    slice_point: 21777
+    slice_point: 21881
+    slice_point: 21935
+    slice_point: 21979
+    slice_point: 22035
+    slice_point: 22073
+    slice_point: 22115
+    slice_point: 22136
+    slice_point: 22167
+    slice_point: 22353
+    slice_point: 22423
+    slice_point: 22466
+    slice_point: 22523
+    slice_point: 22658
+    slice_point: 22712
+    slice_point: 22849
+    slice_point: 22886
+    slice_point: 22994
+    slice_point: 23131
+    slice_point: 23159
+    slice_point: 23269
+    slice_point: 23342
+    slice_point: 23392
+    slice_point: 23474
+    slice_point: 23539
+    slice_point: 23569
+    slice_point: 23627
+    slice_point: 23722
+    slice_point: 23778
+    slice_point: 23878
+    slice_point: 23942
+    slice_point: 23989
+    slice_point: 24062
+    slice_point: 24218
+    slice_point: 24245
+    slice_point: 24278
+    slice_point: 24298
+    slice_point: 24325
+    slice_point: 24452
+    slice_point: 24526
+    slice_point: 24602
+    slice_point: 24778
+    slice_point: 24808
+    slice_point: 24883
+    slice_point: 24918
+    slice_point: 24957
+    slice_point: 24989
+    slice_point: 25016
+    slice_point: 25042
+    slice_point: 25094
+    slice_point: 25131
+    slice_point: 25196
+    slice_point: 25296
+    slice_point: 25362
+    slice_point: 25522
+    slice_point: 25657
+    slice_point: 25691
+    slice_point: 25747
+    slice_point: 25795
+    slice_point: 25861
+    slice_point: 25919
+    slice_point: 25985
+    slice_point: 26071
+    slice_point: 26173
+    slice_point: 26235
+    slice_point: 26309
+    slice_point: 26415
+    slice_point: 26592
+    slice_point: 26685
+    slice_point: 26782
+    slice_point: 26808
+    slice_point: 26856
+    slice_point: 26888
+    slice_point: 26924
+    slice_point: 26936
+    slice_point: 26960
+    slice_point: 27014
+    slice_point: 27103
+    slice_point: 27128
+    slice_point: 27250
+    slice_point: 27456
+    slice_point: 27481
+    slice_point: 27569
+    slice_point: 27610
+    slice_point: 27654
+    slice_point: 27680
+    slice_point: 27709
+    slice_point: 27780
+    slice_point: 27878
+    slice_point: 27915
+    slice_point: 27971
+    slice_point: 28001
+    slice_point: 28117
+    slice_point: 28356
+    slice_point: 28450
+    slice_point: 28504
+    slice_point: 28546
+    slice_point: 28666
+    slice_point: 28699
+    slice_point: 28734
+    slice_point: 28774
+    slice_point: 28826
+    slice_point: 28890
+    slice_point: 28927
+    slice_point: 28997
+    slice_point: 29060
+    slice_point: 29212
+    slice_point: 29271
+    slice_point: 29302
+    slice_point: 29337
+    slice_point: 29379
+    slice_point: 29427
+    slice_point: 29477
+    slice_point: 29512
+    slice_point: 29582
+    slice_point: 29671
+    slice_point: 29722
+    slice_point: 29744
+    slice_point: 29839
+    slice_point: 30038
+    slice_point: 30160
+    slice_point: 30311
+    slice_point: 30421
+    slice_point: 30478
+    slice_point: 30523
+    slice_point: 30557
+    slice_point: 30825
+    slice_point: 30925
+    slice_point: 31056
+    slice_point: 31097
+    slice_point: 31208
+    slice_point: 31320
+    slice_point: 31407
+    slice_point: 31522
+    slice_point: 31588
+    slice_point: 31645
+    slice_point: 31765
+    slice_point: 31976
+    slice_point: 32058
+    slice_point: 32125
+    slice_point: 32291
+    slice_point: 32342
+    slice_point: 32384
+    slice_point: 32415
+    slice_point: 32486
+    slice_point: 32537
+    slice_point: 32584
+    slice_point: 32662
+    slice_point: 32827
+    slice_point: 32906
+    slice_point: 33004
+    slice_point: 33089
+    slice_point: 33106
+    slice_point: 33134
+    slice_point: 33180
+    slice_point: 33245
+    slice_point: 33318
+    slice_point: 33420
+    slice_point: 33457
+    slice_point: 33518
+    slice_point: 33617
+    slice_point: 33736
+    slice_point: 33793
+    slice_point: 33850
+    slice_point: 34022
+    slice_point: 34055
+    slice_point: 34111
+    slice_point: 34176
+    slice_point: 34218
+    slice_point: 34252
+    slice_point: 34299
+    slice_point: 34373
+    slice_point: 34561
+    slice_point: 34641
+    slice_point: 34668
+    slice_point: 34742
+    slice_point: 34765
+    slice_point: 34803
+    slice_point: 34894
+    slice_point: 34927
+    slice_point: 34951
+    slice_point: 35011
+    slice_point: 35077
+    slice_point: 35112
+    slice_point: 35186
+    slice_point: 35263
+    slice_point: 35317
+    slice_point: 35360
+    slice_point: 35413
+    slice_point: 35482
+    slice_point: 35570
+    slice_point: 35634
+    slice_point: 35695
+    slice_point: 35821
+    slice_point: 35877
+    slice_point: 36005
+    slice_point: 36093
+    slice_point: 36252
+    slice_point: 36294
+    slice_point: 36380
+    slice_point: 36416
+    slice_point: 36448
+    slice_point: 36512
+    slice_point: 36535
+    slice_point: 36553
+    slice_point: 36576
+    slice_point: 36594
+    slice_point: 36613
+    slice_point: 36686
+    slice_point: 36833
+    slice_point: 36879
+    slice_point: 36921
+    slice_point: 36967
+    slice_point: 36991
+    slice_point: 37009
+    slice_point: 37098
+    slice_point: 37142
+    slice_point: 37151
+    slice_point: 37177
+    slice_point: 37286
+    slice_point: 37311
+    slice_point: 37351
+    slice_point: 37451
+    slice_point: 37578
+    slice_point: 37663
+    slice_point: 37737
+    slice_point: 37827
+    slice_point: 37915
+    slice_point: 37947
+    slice_point: 38008
+    slice_point: 38054
+    slice_point: 38230
+    slice_point: 38287
+    slice_point: 38388
+    slice_point: 38424
+    slice_point: 38491
+    slice_point: 38706
+    slice_point: 38800
+    slice_point: 38915
+    slice_point: 39029
+    slice_point: 39150
+    slice_point: 39225
+    slice_point: 39288
+    slice_point: 39371
+    slice_point: 39418
+    slice_point: 39478
+    slice_point: 39567
+    slice_point: 39715
+    slice_point: 39849
+    slice_point: 39894
+    slice_point: 39947
+    slice_point: 40055
+    slice_point: 40169
+    slice_point: 40184
+    slice_point: 40202
+    slice_point: 40300
+    slice_point: 40322
+    slice_point: 40350
+    slice_point: 40381
+    slice_point: 40432
+    slice_point: 40560
+    slice_point: 40642
+    slice_point: 40901
+    slice_point: 41138
+    slice_point: 41185
+    slice_point: 41352
+    slice_point: 41446
+    slice_point: 41538
+    slice_point: 41569
+    slice_point: 41639
+    slice_point: 41665
+    slice_point: 41690
+    slice_point: 41719
+    slice_point: 41772
+    slice_point: 41812
+    slice_point: 41824
+    slice_point: 41861
+    slice_point: 41931
+    slice_point: 41958
+    slice_point: 41980
+    slice_point: 42094
+    slice_point: 42187
+    slice_point: 42266
+    slice_point: 42331
+    slice_point: 42411
+    slice_point: 42468
+    slice_point: 42528
+    slice_point: 42597
+    slice_point: 42616
+    slice_point: 42696
+    slice_point: 42838
+    slice_point: 42888
+    slice_point: 42906
+    slice_point: 42917
+    slice_point: 42937
+    slice_point: 43019
+    slice_point: 43123
+    slice_point: 43149
+    slice_point: 43209
+    slice_point: 43299
+    slice_point: 43398
+    slice_point: 43524
+    slice_point: 43545
+    slice_point: 43603
+    slice_point: 43647
+    slice_point: 43681
+    slice_point: 43729
+    slice_point: 43762
+    slice_point: 43807
+    slice_point: 43875
+    slice_point: 43910
+    slice_point: 44013
+    slice_point: 44038
+    slice_point: 44066
+    slice_point: 44088
+    slice_point: 44125
+    slice_point: 44154
+    slice_point: 44190
+    slice_point: 44236
+    slice_point: 44251
+    slice_point: 44273
+    slice_point: 44319
+    slice_point: 44383
+    slice_point: 44416
+    slice_point: 44467
+    slice_point: 44553
+    slice_point: 44612
+    slice_point: 44732
+    slice_point: 44821
+    slice_point: 44915
+    slice_point: 44975
+    slice_point: 45082
+    slice_point: 45276
+    slice_point: 45345
+    slice_point: 45418
+    slice_point: 45471
+    slice_point: 45567
+    slice_point: 45632
+    slice_point: 45909
+    slice_point: 46051
+    slice_point: 46260
+    slice_point: 46289
+    slice_point: 46454
+    slice_point: 46506
+    slice_point: 46534
+    slice_point: 46630
+    slice_point: 46841
+    slice_point: 46933
+    slice_point: 46967
+    slice_point: 47019
+    slice_point: 47062
+    slice_point: 47118
+    slice_point: 47145
+    slice_point: 47364
+    slice_point: 47480
+    slice_point: 47557
+    slice_point: 47626
+    slice_point: 47786
+    slice_point: 47852
+    slice_point: 47918
+    slice_point: 47971
+    slice_point: 48033
+    slice_point: 48151
+    slice_point: 48200
+    slice_point: 48364
+    slice_point: 48400
+    slice_point: 48480
+    slice_point: 48510
+    slice_point: 48556
+    slice_point: 48571
+    slice_point: 48646
+    slice_point: 48772
+    slice_point: 48816
+    slice_point: 48872
+    slice_point: 48917
+    slice_point: 49003
+    slice_point: 49027
+    slice_point: 49047
+    slice_point: 49083
+    slice_point: 49142
+    slice_point: 49282
+    slice_point: 49336
+    slice_point: 49383
+    slice_point: 49413
+    slice_point: 49483
+    slice_point: 49510
+    slice_point: 49561
+    slice_point: 49681
+    slice_point: 49787
+    slice_point: 49860
+    slice_point: 49937
+    slice_point: 49963
+    slice_point: 50026
+    slice_point: 50047
+    slice_point: 50076
+    slice_point: 50164
+    slice_point: 50241
+    slice_point: 50314
+    slice_point: 50410
+    slice_point: 50469
+    slice_point: 50500
+    slice_point: 50538
+    slice_point: 50570
+    slice_point: 50638
+    slice_point: 50825
+    slice_point: 50896
+    slice_point: 51033
+    slice_point: 51133
+    slice_point: 51245
+    slice_point: 51267
+    slice_point: 51346
+    slice_point: 51459
+    slice_point: 51624
+    slice_point: 51730
+    slice_point: 51803
+    slice_point: 51863
+    slice_point: 51956
+    slice_point: 52023
+    slice_point: 52063
+    slice_point: 52091
+    slice_point: 52144
+    slice_point: 52199
+    slice_point: 52236
+    slice_point: 52306
+    slice_point: 52456
+    slice_point: 52490
+    slice_point: 52548
+    slice_point: 52595
+    slice_point: 52639
+    slice_point: 52670
+    slice_point: 52750
+    slice_point: 52818
+    slice_point: 52865
+    slice_point: 52920
+    slice_point: 53005
+    slice_point: 53063
+    slice_point: 53082
+    slice_point: 53128
+    slice_point: 53171
+    slice_point: 53197
+    slice_point: 53252
+    slice_point: 53273
+    slice_point: 53391
+    slice_point: 53431
+    slice_point: 53484
+    slice_point: 53526
+    slice_point: 53767
+    slice_point: 53837
+    slice_point: 53873
+    slice_point: 54109
+    slice_point: 54203
+    slice_point: 54245
+    slice_point: 54465
+    slice_point: 54593
+    slice_point: 54614
+    slice_point: 54676
+    slice_point: 54759
+    slice_point: 54815
+    slice_point: 54885
+    slice_point: 55049
+    slice_point: 55099
+    slice_point: 55166
+    slice_point: 55210
+    slice_point: 55253
+    slice_point: 55307
+    slice_point: 55384
+    slice_point: 55424
+    slice_point: 55450
+    slice_point: 55514
+    slice_point: 55582
+    slice_point: 55649
+    slice_point: 55680
+    slice_point: 55767
+    slice_point: 55846
+    slice_point: 55934
+    slice_point: 56009
+    slice_point: 56094
+    slice_point: 56197
+    slice_point: 56306
+    slice_point: 56387
+    slice_point: 56452
+    slice_point: 56515
+    slice_point: 56527
+    slice_point: 56587
+    slice_point: 56673
+    slice_point: 56715
+    slice_point: 56753
+    slice_point: 56794
+    slice_point: 56818
+    slice_point: 56922
+    slice_point: 56997
+    slice_point: 57055
+    slice_point: 57101
+    slice_point: 57153
+    slice_point: 57197
+    slice_point: 57260
+    slice_point: 57343
+    slice_point: 57378
+    slice_point: 57423
+    slice_point: 57475
+    slice_point: 57521
+    slice_point: 57580
+    slice_point: 57611
+    slice_point: 57684
+    slice_point: 57756
+    slice_point: 57782
+    slice_point: 57821
+    slice_point: 57840
+    slice_point: 57872
+    slice_point: 57943
+    slice_point: 58045
+    slice_point: 58067
+    slice_point: 58085
+    slice_point: 58120
+    slice_point: 58148
+    slice_point: 58183
+    slice_point: 58272
+    slice_point: 58374
+    slice_point: 58464
+    slice_point: 58560
+    slice_point: 58634
+    slice_point: 58689
+    slice_point: 58729
+    slice_point: 58830
+    slice_point: 58874
+    slice_point: 58919
+    slice_point: 59045
+    slice_point: 59133
+    slice_point: 59199
+    slice_point: 59272
+    slice_point: 59348
+    slice_point: 59458
+    slice_point: 59508
+    slice_point: 59545
+    slice_point: 59586
+    slice_point: 59667
+    slice_point: 59878
+    slice_point: 59966
+    slice_point: 60057
+    slice_point: 60219
+    slice_point: 60282
+    slice_point: 60351
+    slice_point: 60431
+    slice_point: 60481
+    slice_point: 60565
+    slice_point: 60600
+    slice_point: 60655
+    slice_point: 60749
+    slice_point: 60946
+    slice_point: 61034
+    slice_point: 61172
+    slice_point: 61235
+    slice_point: 61282
+    slice_point: 61335
+    slice_point: 61356
+    slice_point: 61402
+    slice_point: 61553
+    slice_point: 61799
+    slice_point: 61880
+    slice_point: 62093
+    slice_point: 62149
+    slice_point: 62209
+    slice_point: 62222
+    slice_point: 62236
+    slice_point: 62261
+    slice_point: 62304
+    slice_point: 62353
+    slice_point: 62421
+    slice_point: 62535
+    slice_point: 62567
+    slice_point: 62623
+    slice_point: 62655
+    slice_point: 62696
+    slice_point: 62719
+    slice_point: 62771
+    slice_point: 63049
+    slice_point: 63168
+    slice_point: 63220
+    slice_point: 63298
+    slice_point: 63420
+    slice_point: 63553
+    slice_point: 63750
+    slice_point: 63801
+    slice_point: 63885
+    slice_point: 63907
+    slice_point: 64002
+    slice_point: 64026
+    slice_point: 64071
+    slice_point: 64081
+    slice_point: 64100
+    slice_point: 64134
+    slice_point: 64168
+    slice_point: 64201
+    slice_point: 64479
+    slice_point: 64547
+    slice_point: 64590
+    slice_point: 64669
+    slice_point: 64731
+    slice_point: 64773
+    slice_point: 64819
+    slice_point: 64859
+    slice_point: 64932
+    slice_point: 64997
+    slice_point: 65137
+    slice_point: 65184
+    slice_point: 65246
+    slice_point: 65282
+    slice_point: 65302
+    slice_point: 65315
+    slice_point: 65349
+    slice_point: 65413
+    slice_point: 65444
+    slice_point: 65475
+    slice_point: 65589
+    slice_point: 65609
+    slice_point: 65677
+    slice_point: 65703
+    slice_point: 65744
+    slice_point: 65812
+    slice_point: 65831
+    slice_point: 65853
+    slice_point: 65877
+    slice_point: 65905
+    slice_point: 65933
+    slice_point: 65961
+    slice_point: 65990
+    slice_point: 66014
+    slice_point: 66098
+    slice_point: 66140
+    slice_point: 66229
+    slice_point: 66254
+    slice_point: 66327
+    slice_point: 66472
+    slice_point: 66537
+    slice_point: 66630
+    slice_point: 66776
+    slice_point: 66912
+    slice_point: 67078
+    slice_point: 67159
+    slice_point: 67220
+    slice_point: 67302
+    slice_point: 67353
+    slice_point: 67410
+    slice_point: 67454
+    slice_point: 67497
+    slice_point: 67613
+    slice_point: 67641
+    slice_point: 67705
+    slice_point: 67765
+    slice_point: 67969
+    slice_point: 68031
+    slice_point: 68144
+    slice_point: 68230
+    slice_point: 68378
+    slice_point: 68517
+    slice_point: 68578
+    slice_point: 68731
+    slice_point: 68769
+    slice_point: 68828
+    slice_point: 68973
+    slice_point: 69014
+    slice_point: 69068
+    slice_point: 69101
+    slice_point: 69201
+    slice_point: 69229
+    slice_point: 69272
+    slice_point: 69298
+    slice_point: 69330
+    slice_point: 69350
+    slice_point: 69376
+    slice_point: 69386
+    slice_point: 69412
+    slice_point: 69433
+    slice_point: 69490
+    slice_point: 69531
+    slice_point: 69635
+    slice_point: 69676
+    slice_point: 69720
+    slice_point: 69801
+    slice_point: 69828
+    slice_point: 69850
+    slice_point: 70014
+    slice_point: 70084
+    slice_point: 70191
+    slice_point: 70344
+    slice_point: 70361
+    slice_point: 70412
+    slice_point: 70487
+    slice_point: 70542
+    slice_point: 70626
+    slice_point: 70669
+    slice_point: 70698
+    slice_point: 70724
+    slice_point: 70789
+    slice_point: 70811
+    slice_point: 70941
+    slice_point: 71018
+    slice_point: 71082
+    slice_point: 71114
+    slice_point: 71223
+    slice_point: 71244
+    slice_point: 71274
+    slice_point: 71309
+    slice_point: 71354
+    slice_point: 71409
+    slice_point: 71458
+    slice_point: 71480
+    slice_point: 71512
+    slice_point: 71575
+    slice_point: 71640
+    slice_point: 71649
+    slice_point: 71677
+    slice_point: 71692
+    slice_point: 71850
+    slice_point: 71878
+    slice_point: 71968
+    slice_point: 72011
+    slice_point: 72083
+    slice_point: 72122
+    slice_point: 72222
+    slice_point: 72251
+    slice_point: 72274
+    slice_point: 72300
+    slice_point: 72319
+    slice_point: 72351
+    slice_point: 72451
+    slice_point: 72497
+    slice_point: 72530
+    slice_point: 72621
+    slice_point: 72715
+    slice_point: 72807
+    slice_point: 72846
+    slice_point: 72911
+    slice_point: 72928
+    slice_point: 72936
+    slice_point: 72955
+    slice_point: 72964
+    slice_point: 73215
+    slice_point: 73530
+    slice_point: 73588
+    slice_point: 73691
+    slice_point: 73713
+    slice_point: 73729
+    slice_point: 73768
+    slice_point: 73816
+    slice_point: 73837
+    slice_point: 73874
+    slice_point: 73912
+    slice_point: 73934
+    slice_point: 73965
+    slice_point: 74023
+    slice_point: 74077
+    slice_point: 74130
+    slice_point: 74183
+    slice_point: 74256
+    slice_point: 74319
+    slice_point: 74367
+    slice_point: 74439
+    slice_point: 74522
+    slice_point: 74633
+    slice_point: 74802
+    slice_point: 74847
+    slice_point: 74907
+    slice_point: 74978
+    slice_point: 75046
+    slice_point: 75088
+    slice_point: 75134
+    slice_point: 75159
+    slice_point: 75193
+    slice_point: 75266
+    slice_point: 75387
+    slice_point: 75462
+    slice_point: 75500
+    slice_point: 75640
+    slice_point: 75684
+    slice_point: 75848
+    slice_point: 75936
+    slice_point: 76046
+    slice_point: 76081
+    slice_point: 76141
+    slice_point: 76241
+    slice_point: 76434
+    slice_point: 76498
+    slice_point: 76716
+    slice_point: 76760
+    slice_point: 76821
+    slice_point: 76865
+    slice_point: 76896
+    slice_point: 76935
+    slice_point: 77031
+    slice_point: 77251
+    slice_point: 77294
+    slice_point: 77362
+    slice_point: 77433
+    slice_point: 77469
+    slice_point: 77513
+    slice_point: 77532
+    slice_point: 77577
+    slice_point: 77676
+    slice_point: 77863
+    slice_point: 77947
+    slice_point: 78019
+    slice_point: 78216
+    slice_point: 78231
+    slice_point: 78297
+    slice_point: 78351
+    slice_point: 78388
+    slice_point: 78428
+    slice_point: 78458
+    slice_point: 78487
+    slice_point: 78508
+    slice_point: 78589
+    slice_point: 78790
+    slice_point: 78854
+    slice_point: 79035
+    slice_point: 79061
+    slice_point: 79110
+    slice_point: 79121
+    slice_point: 79156
+    slice_point: 79248
+    slice_point: 79451
+    slice_point: 79551
+    slice_point: 79701
+    slice_point: 79731
+    slice_point: 79766
+    slice_point: 79798
+    slice_point: 79860
+    slice_point: 79904
+    slice_point: 79963
+    slice_point: 80008
+    slice_point: 80036
+    slice_point: 80069
+    slice_point: 80121
+    slice_point: 80140
+    slice_point: 80151
+    slice_point: 80169
+    slice_point: 80326
+    slice_point: 80498
+    slice_point: 80550
+    slice_point: 80625
+    slice_point: 80860
+    slice_point: 81202
+    slice_point: 81275
+    slice_point: 81384
+    slice_point: 81425
+    slice_point: 81535
+    slice_point: 81612
+    slice_point: 81672
+    slice_point: 81690
+    slice_point: 81705
+    slice_point: 81805
+    slice_point: 81851
+    slice_point: 81909
+    slice_point: 81940
+    slice_point: 81996
+    slice_point: 82033
+    slice_point: 82137
+    slice_point: 82206
+    slice_point: 82284
+    slice_point: 82357
+    slice_point: 82440
+    slice_point: 82508
+    slice_point: 82573
+    slice_point: 82590
+    slice_point: 82654
+    slice_point: 82720
+    slice_point: 82770
+    slice_point: 82824
+    slice_point: 82922
+    slice_point: 82974
+    slice_point: 83039
+    slice_point: 83098
+    slice_point: 83138
+    slice_point: 83179
+    slice_point: 83215
+    slice_point: 83283
+    slice_point: 83341
+    slice_point: 83411
+    slice_point: 83461
+    slice_point: 83538
+    slice_point: 83610
+    slice_point: 83651
+    slice_point: 83869
+    slice_point: 84088
+    slice_point: 84246
+    slice_point: 84324
+    slice_point: 84366
+    slice_point: 84464
+    slice_point: 84516
+    slice_point: 84608
+    slice_point: 84767
+    slice_point: 84828
+    slice_point: 84911
+    slice_point: 84976
+    slice_point: 85059
+    slice_point: 85131
+    slice_point: 85157
+    slice_point: 85210
+    slice_point: 85290
+    slice_point: 85446
+    slice_point: 85548
+    slice_point: 85721
+    slice_point: 85773
+    slice_point: 85803
+    slice_point: 85838
+    slice_point: 85869
+    slice_point: 85915
+    slice_point: 85947
+    slice_point: 85972
+    slice_point: 86112
+    slice_point: 86202
+    slice_point: 86372
+    slice_point: 86392
+    slice_point: 86415
+    slice_point: 86436
+    slice_point: 86495
+    slice_point: 86625
+    slice_point: 86682
+    slice_point: 86735
+    slice_point: 86773
+    slice_point: 86851
+    slice_point: 86894
+    slice_point: 86948
+    slice_point: 87022
+    slice_point: 87097
+    slice_point: 87194
+    slice_point: 87289
+    slice_point: 87319
+    slice_point: 87357
+    slice_point: 87392
+    slice_point: 87467
+    slice_point: 87653
+    slice_point: 87688
+    slice_point: 87785
+    slice_point: 87945
+    slice_point: 87970
+    slice_point: 88003
+    slice_point: 88080
+    slice_point: 88254
+    slice_point: 88290
+    slice_point: 88378
+    slice_point: 88458
+    slice_point: 88501
+    slice_point: 88566
+    slice_point: 88612
+    slice_point: 88690
+    slice_point: 88856
+    slice_point: 88899
+    slice_point: 88990
+    slice_point: 89041
+    slice_point: 89204
+    slice_point: 89302
+    slice_point: 89334
+    slice_point: 89553
+    slice_point: 89588
+    slice_point: 89646
+    slice_point: 89724
+    slice_point: 89802
+    slice_point: 89896
+    slice_point: 89971
+    slice_point: 90022
+    slice_point: 90042
+    slice_point: 90112
+    slice_point: 90141
+    slice_point: 90182
+    slice_point: 90198
+    slice_point: 90240
+    slice_point: 90292
+    slice_point: 90348
+    slice_point: 90396
+    slice_point: 90459
+    slice_point: 90484
+    slice_point: 90522
+    slice_point: 90548
+    slice_point: 90559
+    slice_point: 90585
+    slice_point: 90611
+    slice_point: 90632
+    slice_point: 90658
+    slice_point: 90708
+    slice_point: 90720
+    slice_point: 90736
+    slice_point: 90764
+    slice_point: 90823
+    slice_point: 90898
+    slice_point: 90928
+    slice_point: 90963
+    slice_point: 91079
+    slice_point: 91113
+    slice_point: 91158
+    slice_point: 91197
+    slice_point: 91259
+    slice_point: 91290
+    slice_point: 91325
+    slice_point: 91344
+    slice_point: 91383
+    slice_point: 91428
+    slice_point: 91596
+    slice_point: 91628
+    slice_point: 91704
+    slice_point: 91775
+    slice_point: 91845
+    slice_point: 91927
+    slice_point: 91974
+    slice_point: 92042
+    slice_point: 92083
+    slice_point: 92131
+    slice_point: 92225
+    slice_point: 92254
+    slice_point: 92302
+    slice_point: 92327
+    slice_point: 92358
+    slice_point: 92391
+    slice_point: 92459
+    slice_point: 92510
+    slice_point: 92648
+    slice_point: 92743
+    slice_point: 92792
+    slice_point: 92860
+    slice_point: 92925
+    slice_point: 92967
+    slice_point: 92983
+    slice_point: 93050
+    slice_point: 93092
+    slice_point: 93132
+    slice_point: 93183
+    slice_point: 93288
+    slice_point: 93402
+    slice_point: 93464
+    slice_point: 93500
+    slice_point: 93561
+    slice_point: 93579
+    slice_point: 93626
+    slice_point: 93846
+    slice_point: 93880
+    slice_point: 93936
+    slice_point: 93966
+    slice_point: 94011
+    slice_point: 94075
+    slice_point: 94093
+    slice_point: 94132
+    slice_point: 94198
+    slice_point: 94227
+    slice_point: 94269
+    slice_point: 94332
+    slice_point: 94342
+    slice_point: 94395
+    slice_point: 94438
+    slice_point: 94460
+    slice_point: 94526
+    slice_point: 94651
+    slice_point: 94674
+    slice_point: 94783
+    slice_point: 94799
+    slice_point: 94828
+    slice_point: 94887
+    slice_point: 94951
+    slice_point: 95021
+    slice_point: 95081
+    slice_point: 95127
+    slice_point: 95188
+    slice_point: 95234
+    slice_point: 95270
+    slice_point: 95293
+    slice_point: 95381
+    slice_point: 95432
+    slice_point: 95490
+    slice_point: 95525
+    slice_point: 95610
+    slice_point: 95753
+    slice_point: 95847
+    slice_point: 95932
+    slice_point: 95990
+    slice_point: 96046
+    slice_point: 96146
+    slice_point: 96263
+    slice_point: 96327
+    slice_point: 96358
+    slice_point: 96427
+    slice_point: 96603
+    slice_point: 96646
+    slice_point: 96717
+    slice_point: 96780
+    slice_point: 96798
+    slice_point: 96831
+    slice_point: 96926
+    slice_point: 97160
+    slice_point: 97243
+    slice_point: 97329
+    slice_point: 97386
+    slice_point: 97462
+    slice_point: 97521
+    slice_point: 97567
+    slice_point: 97633
+    slice_point: 97681
+    slice_point: 97715
+    slice_point: 97746
+    slice_point: 97791
+    slice_point: 97812
+    slice_point: 97929
+    slice_point: 97980
+    slice_point: 98030
+    slice_point: 98052
+    slice_point: 98083
+    slice_point: 98103
+    slice_point: 98158
+    slice_point: 98191
+    slice_point: 98235
+    slice_point: 98278
+    slice_point: 98348
+    slice_point: 98402
+    slice_point: 98447
+    slice_point: 98511
+    slice_point: 98575
+    slice_point: 98617
+    slice_point: 98713
+    slice_point: 98811
+    slice_point: 98857
+    slice_point: 98982
+    slice_point: 99038
+    slice_point: 99067
+    slice_point: 99094
+    slice_point: 99126
+    slice_point: 99164
+    slice_point: 99225
+    slice_point: 99266
+    slice_point: 99308
+    slice_point: 99367
+    slice_point: 99453
+    slice_point: 99507
+    slice_point: 99528
+    slice_point: 99607
+    slice_point: 99672
+    slice_point: 99743
+    slice_point: 99808
+    slice_point: 99867
+    slice_point: 100044
+    slice_point: 100133
+    slice_point: 100214
+    slice_point: 100281
+    slice_point: 100365
+    slice_point: 100408
+    slice_point: 100491
+    slice_point: 100535
+    slice_point: 100571
+    slice_point: 100709
+    slice_point: 100784
+    slice_point: 100825
+    slice_point: 100882
+    slice_point: 100958
+    slice_point: 100983
+    slice_point: 101034
+    slice_point: 101107
+    slice_point: 101149
+    slice_point: 101213
+    slice_point: 101261
+    slice_point: 101289
+    slice_point: 101323
+    slice_point: 101340
+    slice_point: 101445
+    slice_point: 101467
+    slice_point: 101519
+    slice_point: 101595
+    slice_point: 101653
+    slice_point: 101705
+    slice_point: 101793
+    slice_point: 101912
+    slice_point: 102055
+    slice_point: 102106
+    slice_point: 102149
+    slice_point: 102209
+    slice_point: 102278
+    slice_point: 102418
+    slice_point: 102425
+    slice_point: 102510
+    slice_point: 102603
+    slice_point: 102640
+    slice_point: 102655
+    slice_point: 102795
+    slice_point: 102965
+    slice_point: 103050
+    slice_point: 103099
+    slice_point: 103128
+    slice_point: 103168
+    slice_point: 103202
+    slice_point: 103237
+    slice_point: 103260
+    slice_point: 103299
+    slice_point: 103327
+    slice_point: 103372
+    slice_point: 103467
+    slice_point: 103512
+    slice_point: 103561
+    slice_point: 103592
+    slice_point: 103619
+    slice_point: 103654
+    slice_point: 103678
+    slice_point: 103703
+    slice_point: 103779
+    slice_point: 103936
+    slice_point: 104014
+    slice_point: 104121
+    slice_point: 104232
+    slice_point: 104291
+    slice_point: 104364
+    slice_point: 104423
+    slice_point: 104483
+    slice_point: 104544
+    slice_point: 104603
+    slice_point: 104677
+    slice_point: 104752
+    slice_point: 104799
+    slice_point: 104853
+    slice_point: 104894
+    slice_point: 105018
+    slice_point: 105150
+    slice_point: 105245
+    slice_point: 105320
+    slice_point: 105367
+    slice_point: 105447
+    slice_point: 105531
+    slice_point: 105565
+    slice_point: 105629
+    slice_point: 105661
+    slice_point: 105722
+    slice_point: 105839
+    slice_point: 106017
+    slice_point: 106068
+    slice_point: 106172
+    slice_point: 106267
+    slice_point: 106337
+    slice_point: 106397
+    slice_point: 106458
+    slice_point: 106540
+    slice_point: 106582
+    slice_point: 106668
+    slice_point: 106713
+    slice_point: 106791
+    slice_point: 106798
+    slice_point: 106862
+    slice_point: 106929
+    slice_point: 106981
+    slice_point: 106998
+    slice_point: 107016
+    slice_point: 107031
+    slice_point: 107050
+    slice_point: 107158
+    slice_point: 107200
+    slice_point: 107259
+    slice_point: 107333
+    slice_point: 107354
+    slice_point: 107397
+    slice_point: 107458
+    slice_point: 107479
+    slice_point: 107542
+    slice_point: 107599
+    slice_point: 107646
+    slice_point: 107686
+    slice_point: 107763
+    slice_point: 107798
+    slice_point: 107833
+    slice_point: 107859
+    slice_point: 107947
+    slice_point: 108040
+    slice_point: 108117
+    slice_point: 108230
+    slice_point: 108366
+    slice_point: 108399
+    slice_point: 108444
+    slice_point: 108494
+    slice_point: 108609
+    slice_point: 108638
+    slice_point: 108692
+    slice_point: 108717
+    slice_point: 108736
+    slice_point: 108757
+    slice_point: 108803
+    slice_point: 108820
+    slice_point: 108836
+    slice_point: 108851
+    slice_point: 108901
+    slice_point: 108964
+    slice_point: 109012
+    slice_point: 109052
+    slice_point: 109167
+    slice_point: 109212
+    slice_point: 109260
+    slice_point: 109297
+    slice_point: 109360
+    slice_point: 109485
+    slice_point: 109638
+    slice_point: 109730
+    slice_point: 109879
+    slice_point: 109905
+    slice_point: 109964
+    slice_point: 110019
+    slice_point: 110099
+    slice_point: 110135
+    slice_point: 110177
+    slice_point: 110205
+    slice_point: 110315
+    slice_point: 110421
+    slice_point: 110476
+    slice_point: 110575
+    slice_point: 110662
+    slice_point: 110766
+    slice_point: 110863
+    slice_point: 110945
+    slice_point: 110987
+    slice_point: 111046
+    slice_point: 111079
+    slice_point: 111158
+    slice_point: 111239
+    slice_point: 111311
+    slice_point: 111364
+    slice_point: 111491
+    slice_point: 111585
+    slice_point: 111639
+    slice_point: 111681
+    slice_point: 111780
+    slice_point: 111896
+    slice_point: 111958
+    slice_point: 112071
+    slice_point: 112203
+    slice_point: 112280
+    slice_point: 112339
+    slice_point: 112391
+    slice_point: 112421
+    slice_point: 112454
+    slice_point: 112524
+    slice_point: 112616
+    slice_point: 112678
+    slice_point: 112758
+    slice_point: 112862
+    slice_point: 112901
+    slice_point: 112962
+    slice_point: 113019
+    slice_point: 113042
+    slice_point: 113157
+    slice_point: 113210
+    slice_point: 113282
+    slice_point: 113373
+    slice_point: 113411
+    slice_point: 113447
+    slice_point: 113469
+    slice_point: 113504
+    slice_point: 113537
+    slice_point: 113568
+    slice_point: 113589
+    slice_point: 113600
+    slice_point: 113692
+    slice_point: 113879
+    slice_point: 113950
+    slice_point: 114039
+    slice_point: 114146
+    slice_point: 114185
+    slice_point: 114216
+    slice_point: 114259
+    slice_point: 114302
+    slice_point: 114328
+    slice_point: 114376
+    slice_point: 114485
+    slice_point: 114516
+    slice_point: 114555
+    slice_point: 114611
+    slice_point: 114651
+    slice_point: 114662
+    slice_point: 114717
+    slice_point: 114803
+    slice_point: 114826
+    slice_point: 114937
+    slice_point: 115009
+    slice_point: 115064
+    slice_point: 115124
+    slice_point: 115133
+    slice_point: 115167
+    slice_point: 115263
+    slice_point: 115284
+    slice_point: 115313
+    slice_point: 115343
+    slice_point: 115375
+    slice_point: 115420
+    slice_point: 115474
+    slice_point: 115574
+    slice_point: 115709
+    slice_point: 115743
+    slice_point: 115769
+    slice_point: 115804
+    slice_point: 115840
+    slice_point: 115912
+    slice_point: 115972
+    slice_point: 115994
+    slice_point: 116061
+    slice_point: 116101
+    slice_point: 116112
+    slice_point: 116145
+    slice_point: 116204
+    slice_point: 116240
+    slice_point: 116350
+    slice_point: 116402
+    slice_point: 116491
+    slice_point: 116570
+    slice_point: 116712
+    slice_point: 116766
+    slice_point: 116840
+    slice_point: 116876
+    slice_point: 116907
+    slice_point: 116952
+    slice_point: 116985
+    slice_point: 117050
+    slice_point: 117184
+    slice_point: 117209
+    slice_point: 117293
+    slice_point: 117318
+    slice_point: 117338
+    slice_point: 117351
+    slice_point: 117373
+    slice_point: 117419
+    slice_point: 117459
+    slice_point: 117486
+    slice_point: 117531
+    slice_point: 117607
+    slice_point: 117622
+    slice_point: 117682
+    slice_point: 117720
+    slice_point: 117835
+    slice_point: 117851
+    slice_point: 117880
+    slice_point: 117934
+    slice_point: 117965
+    slice_point: 117987
+    slice_point: 118145
+    slice_point: 118248
+    slice_point: 118277
+    slice_point: 118362
+    slice_point: 118418
+    slice_point: 118489
+    slice_point: 118616
+    slice_point: 118673
+    slice_point: 118761
+    slice_point: 118786
+    slice_point: 118835
+    slice_point: 118872
+    slice_point: 118931
+    slice_point: 118985
+    slice_point: 119051
+    slice_point: 119075
+    slice_point: 119129
+    slice_point: 119163
+    slice_point: 119187
+    slice_point: 119233
+    slice_point: 119253
+    slice_point: 119291
+    slice_point: 119341
+    slice_point: 119386
+    slice_point: 119436
+    slice_point: 119459
+    slice_point: 119504
+    slice_point: 119549
+    slice_point: 119638
+    slice_point: 119687
+    slice_point: 119759
+    slice_point: 119805
+    slice_point: 120012
+    slice_point: 120094
+    slice_point: 120153
+    slice_point: 120201
+    slice_point: 120334
+    slice_point: 120366
+    slice_point: 120466
+    slice_point: 120526
+    slice_point: 120592
+    slice_point: 120618
+    slice_point: 120650
+    slice_point: 120666
+    slice_point: 120698
+    slice_point: 120728
+    slice_point: 120750
+    slice_point: 120773
+    slice_point: 120828
+    slice_point: 120946
+    slice_point: 121026
+    slice_point: 121140
+    slice_point: 121202
+    slice_point: 121290
+
+  }
+}
+
+
+layer{
+
+  bottom: "value-adjusting-Item"
+  bottom: "value-adjusting-Tool"
+  bottom: "value-adjusting-Place"
+  bottom: "value-adjusting-Feature"
+  bottom: "value-adjusting-Agent"
+  bottom: "value-admiring-Admired"
+  bottom: "value-admiring-Place"
+  bottom: "value-admiring-Agent"
+  bottom: "value-ailing-Place"
+  bottom: "value-ailing-Cause"
+  bottom: "value-ailing-VictimPart"
+  bottom: "value-ailing-Victim"
+  bottom: "value-aiming-Item"
+  bottom: "value-aiming-Place"
+  bottom: "value-aiming-Target"
+  bottom: "value-aiming-Agent"
+  bottom: "value-applauding-Addressee"
+  bottom: "value-applauding-Place"
+  bottom: "value-applauding-Agent"
+  bottom: "value-applying-Destination"
+  bottom: "value-applying-Tool"
+  bottom: "value-applying-Substance"
+  bottom: "value-applying-Place"
+  bottom: "value-applying-Agent"
+  bottom: "value-apprehending-Place"
+  bottom: "value-apprehending-Victim"
+  bottom: "value-apprehending-Agent"
+  bottom: "value-arching-BODYPART"
+  bottom: "value-arching-Place"
+  bottom: "value-arching-Agent"
+  bottom: "value-arranging-Item"
+  bottom: "value-arranging-Tool"
+  bottom: "value-arranging-Place"
+  bottom: "value-arranging-Agent"
+  bottom: "value-arresting-Place"
+  bottom: "value-arresting-Suspect"
+  bottom: "value-arresting-Agent"
+  bottom: "value-ascending-Place"
+  bottom: "value-ascending-Agent"
+  bottom: "value-asking-Addressee"
+  bottom: "value-asking-Place"
+  bottom: "value-asking-Agent"
+  bottom: "value-assembling-Component"
+  bottom: "value-assembling-Tool"
+  bottom: "value-assembling-GoalItem"
+  bottom: "value-assembling-Place"
+  bottom: "value-assembling-Agent"
+  bottom: "value-attaching-Tool"
+  bottom: "value-attaching-Destination"
+  bottom: "value-attaching-Agent"
+  bottom: "value-attaching-Item"
+  bottom: "value-attaching-Place"
+  bottom: "value-attaching-Glue"
+  bottom: "value-attacking-Weapon"
+  bottom: "value-attacking-Place"
+  bottom: "value-attacking-Victim"
+  bottom: "value-attacking-Agent"
+  bottom: "value-autographing-Item"
+  bottom: "value-autographing-Place"
+  bottom: "value-autographing-Agent"
+  bottom: "value-autographing-Receiver"
+  bottom: "value-baking-Food"
+  bottom: "value-baking-Place"
+  bottom: "value-baking-FoodContainer"
+  bottom: "value-baking-Agent"
+  bottom: "value-baking-HeatSource"
+  bottom: "value-ballooning-Place"
+  bottom: "value-ballooning-Agent"
+  bottom: "value-bandaging-Place"
+  bottom: "value-bandaging-VICTIM"
+  bottom: "value-bandaging-Agent"
+  bottom: "value-baptizing-Place"
+  bottom: "value-baptizing-BAPTIZED"
+  bottom: "value-baptizing-Agent"
+  bottom: "value-barbecuing-Food"
+  bottom: "value-barbecuing-Place"
+  bottom: "value-barbecuing-Agent"
+  bottom: "value-bathing-CoAgent"
+  bottom: "value-bathing-Substance"
+  bottom: "value-bathing-Place"
+  bottom: "value-bathing-Tool"
+  bottom: "value-bathing-Agent"
+  bottom: "value-begging-ITEM"
+  bottom: "value-begging-Place"
+  bottom: "value-begging-GIVER"
+  bottom: "value-begging-Agent"
+  bottom: "value-betting-Place"
+  bottom: "value-betting-Agent"
+  bottom: "value-biking-Place"
+  bottom: "value-biking-Agent"
+  bottom: "value-biting-Item"
+  bottom: "value-biting-Place"
+  bottom: "value-biting-Agent"
+  bottom: "value-blocking-Blocker"
+  bottom: "value-blocking-Tool"
+  bottom: "value-blocking-Place"
+  bottom: "value-blocking-Blocked"
+  bottom: "value-blossoming-Place"
+  bottom: "value-blossoming-Agent"
+  bottom: "value-boarding-Place"
+  bottom: "value-boarding-Agent"
+  bottom: "value-boarding-Vehicle"
+  bottom: "value-boating-Place"
+  bottom: "value-boating-Boaters"
+  bottom: "value-boating-Vehicle"
+  bottom: "value-bothering-Action"
+  bottom: "value-bothering-Victim"
+  bottom: "value-bothering-Agent"
+  bottom: "value-bouncing-Item"
+  bottom: "value-bouncing-Place"
+  bottom: "value-bouncing-Surface"
+  bottom: "value-bouncing-Agent"
+  bottom: "value-bowing-Place"
+  bottom: "value-bowing-Agent"
+  bottom: "value-braiding-Item"
+  bottom: "value-braiding-Place"
+  bottom: "value-braiding-Agent"
+  bottom: "value-branching-Place"
+  bottom: "value-branching-Brancher"
+  bottom: "value-brawling-Place"
+  bottom: "value-brawling-Agent"
+  bottom: "value-breaking-Item"
+  bottom: "value-breaking-Tool"
+  bottom: "value-breaking-Against"
+  bottom: "value-breaking-Agent"
+  bottom: "value-brewing-Place"
+  bottom: "value-brewing-Target"
+  bottom: "value-brewing-Agent"
+  bottom: "value-browsing-Place"
+  bottom: "value-browsing-GoalItem"
+  bottom: "value-browsing-Agent"
+  bottom: "value-brushing-TOOL"
+  bottom: "value-brushing-Substance"
+  bottom: "value-brushing-Place"
+  bottom: "value-brushing-Target"
+  bottom: "value-brushing-Agent"
+  bottom: "value-bubbling-Place"
+  bottom: "value-bubbling-Agent"
+  bottom: "value-buckling-Item"
+  bottom: "value-buckling-Fastener"
+  bottom: "value-buckling-Container"
+  bottom: "value-buckling-Place"
+  bottom: "value-buckling-Agent"
+  bottom: "value-building-Place"
+  bottom: "value-building-Tool"
+  bottom: "value-building-GoalItem"
+  bottom: "value-building-Components"
+  bottom: "value-building-Agent"
+  bottom: "value-bulldozing-Object"
+  bottom: "value-bulldozing-Place"
+  bottom: "value-bulldozing-Agent"
+  bottom: "value-burning-Place"
+  bottom: "value-burning-Target"
+  bottom: "value-burning-Agent"
+  bottom: "value-burying-Item"
+  bottom: "value-burying-Tool"
+  bottom: "value-burying-Destination"
+  bottom: "value-burying-Place"
+  bottom: "value-burying-Agent"
+  bottom: "value-buttering-Item"
+  bottom: "value-buttering-Tool"
+  bottom: "value-buttering-Place"
+  bottom: "value-buttering-Agent"
+  bottom: "value-butting-Place"
+  bottom: "value-butting-Target"
+  bottom: "value-butting-Agent"
+  bottom: "value-buttoning-Item"
+  bottom: "value-buttoning-Place"
+  bottom: "value-buttoning-Agent"
+  bottom: "value-buying-Goods"
+  bottom: "value-buying-Place"
+  bottom: "value-buying-Payment"
+  bottom: "value-buying-Agent"
+  bottom: "value-buying-Seller"
+  bottom: "value-calling-Tool"
+  bottom: "value-calling-Place"
+  bottom: "value-calling-Agent"
+  bottom: "value-calming-Place"
+  bottom: "value-calming-Experiencer"
+  bottom: "value-calming-Agent"
+  bottom: "value-camouflaging-Place"
+  bottom: "value-camouflaging-HidingItem"
+  bottom: "value-camouflaging-Agent"
+  bottom: "value-camping-Shelter"
+  bottom: "value-camping-Place"
+  bottom: "value-camping-Agent"
+  bottom: "value-caressing-Place"
+  bottom: "value-caressing-RecipientPart"
+  bottom: "value-caressing-Recipient"
+  bottom: "value-caressing-Agent"
+  bottom: "value-carrying-Item"
+  bottom: "value-carrying-Place"
+  bottom: "value-carrying-Agent"
+  bottom: "value-carrying-AgentPart"
+  bottom: "value-carting-Item"
+  bottom: "value-carting-Tool"
+  bottom: "value-carting-Place"
+  bottom: "value-carting-Agent"
+  bottom: "value-carving-Tool"
+  bottom: "value-carving-SUBSTANCE"
+  bottom: "value-carving-Place"
+  bottom: "value-carving-Agent"
+  bottom: "value-catching-Tool"
+  bottom: "value-catching-CaughtItem"
+  bottom: "value-catching-Place"
+  bottom: "value-catching-Agent"
+  bottom: "value-celebrating-Occasion"
+  bottom: "value-celebrating-Place"
+  bottom: "value-celebrating-Agent"
+  bottom: "value-chasing-Place"
+  bottom: "value-chasing-Chasee"
+  bottom: "value-chasing-Agent"
+  bottom: "value-checking-Place"
+  bottom: "value-checking-Tool"
+  bottom: "value-checking-Patient"
+  bottom: "value-checking-Aspect"
+  bottom: "value-checking-Agent"
+  bottom: "value-cheering-Place"
+  bottom: "value-cheering-Agent"
+  bottom: "value-cheerleading-Supported"
+  bottom: "value-cheerleading-Place"
+  bottom: "value-cheerleading-Agent"
+  bottom: "value-chewing-Item"
+  bottom: "value-chewing-Place"
+  bottom: "value-chewing-Agent"
+  bottom: "value-chiseling-Item"
+  bottom: "value-chiseling-Place"
+  bottom: "value-chiseling-Agent"
+  bottom: "value-chopping-Item"
+  bottom: "value-chopping-Tool"
+  bottom: "value-chopping-Place"
+  bottom: "value-chopping-Agent"
+  bottom: "value-circling-Place"
+  bottom: "value-circling-Center"
+  bottom: "value-circling-Agent"
+  bottom: "value-clapping-AgentPart"
+  bottom: "value-clapping-Place"
+  bottom: "value-clapping-Agent"
+  bottom: "value-clawing-Place"
+  bottom: "value-clawing-Victim"
+  bottom: "value-clawing-Agent"
+  bottom: "value-cleaning-Source"
+  bottom: "value-cleaning-Tool"
+  bottom: "value-cleaning-Place"
+  bottom: "value-cleaning-Agent"
+  bottom: "value-clearing-Item"
+  bottom: "value-clearing-Tool"
+  bottom: "value-clearing-Place"
+  bottom: "value-clearing-Agent"
+  bottom: "value-clearing-Source"
+  bottom: "value-clenching-Item"
+  bottom: "value-clenching-Place"
+  bottom: "value-clenching-Agent"
+  bottom: "value-clenching-AgentPart"
+  bottom: "value-climbing-Tool"
+  bottom: "value-climbing-Obstacle"
+  bottom: "value-climbing-Place"
+  bottom: "value-climbing-Agent"
+  bottom: "value-clinging-ClungTo"
+  bottom: "value-clinging-Place"
+  bottom: "value-clinging-Agent"
+  bottom: "value-clipping-Item"
+  bottom: "value-clipping-Tool"
+  bottom: "value-clipping-Place"
+  bottom: "value-clipping-Agent"
+  bottom: "value-clipping-Source"
+  bottom: "value-coaching-Skill"
+  bottom: "value-coaching-Place"
+  bottom: "value-coaching-Student"
+  bottom: "value-coaching-Agent"
+  bottom: "value-colliding-Item"
+  bottom: "value-colliding-Place"
+  bottom: "value-colliding-Agent"
+  bottom: "value-coloring-Item"
+  bottom: "value-coloring-Tool"
+  bottom: "value-coloring-Place"
+  bottom: "value-coloring-Agent"
+  bottom: "value-combing-Tool"
+  bottom: "value-combing-Place"
+  bottom: "value-combing-Target"
+  bottom: "value-combing-Agent"
+  bottom: "value-communicating-Place"
+  bottom: "value-communicating-Adressee"
+  bottom: "value-communicating-Agent"
+  bottom: "value-commuting-Traveler"
+  bottom: "value-commuting-Place"
+  bottom: "value-commuting-Vehicle"
+  bottom: "value-competing-Place"
+  bottom: "value-competing-Competition"
+  bottom: "value-competing-Agent"
+  bottom: "value-complaining-Listener"
+  bottom: "value-complaining-Place"
+  bottom: "value-complaining-Agent"
+  bottom: "value-confronting-Place"
+  bottom: "value-confronting-Confronted"
+  bottom: "value-confronting-Agent"
+  bottom: "value-congregating-Individuals"
+  bottom: "value-congregating-Place"
+  bottom: "value-constructing-Place"
+  bottom: "value-constructing-Tool"
+  bottom: "value-constructing-Components"
+  bottom: "value-constructing-CreatedItem"
+  bottom: "value-constructing-Agent"
+  bottom: "value-cooking-Container"
+  bottom: "value-cooking-Food"
+  bottom: "value-cooking-Tool"
+  bottom: "value-cooking-Agent"
+  bottom: "value-cooking-Place"
+  bottom: "value-cooking-HeatSource"
+  bottom: "value-coughing-Place"
+  bottom: "value-coughing-Agent"
+  bottom: "value-counting-Place"
+  bottom: "value-counting-ItemType"
+  bottom: "value-counting-Agent"
+  bottom: "value-covering-Item"
+  bottom: "value-covering-Place"
+  bottom: "value-covering-Cover"
+  bottom: "value-covering-Agent"
+  bottom: "value-crafting-Instrument"
+  bottom: "value-crafting-Place"
+  bottom: "value-crafting-Agent"
+  bottom: "value-crafting-Created"
+  bottom: "value-cramming-Place"
+  bottom: "value-cramming-Theme"
+  bottom: "value-cramming-Container"
+  bottom: "value-cramming-Agent"
+  bottom: "value-crashing-Item"
+  bottom: "value-crashing-Place"
+  bottom: "value-crashing-Against"
+  bottom: "value-crashing-Agent"
+  bottom: "value-crawling-Place"
+  bottom: "value-crawling-Agent"
+  bottom: "value-cresting-Place"
+  bottom: "value-cresting-Agent"
+  bottom: "value-crouching-Place"
+  bottom: "value-crouching-Agent"
+  bottom: "value-crowning-Place"
+  bottom: "value-crowning-Crown"
+  bottom: "value-crowning-CrownedEntity"
+  bottom: "value-crowning-Agent"
+  bottom: "value-crushing-Place"
+  bottom: "value-crushing-Tool"
+  bottom: "value-crushing-CrushedItem"
+  bottom: "value-crushing-Agent"
+  bottom: "value-crying-Place"
+  bottom: "value-crying-Agent"
+  bottom: "value-curling-Tool"
+  bottom: "value-curling-Place"
+  bottom: "value-curling-Target"
+  bottom: "value-curling-Agent"
+  bottom: "value-curtsying-Place"
+  bottom: "value-curtsying-Agent"
+  bottom: "value-dancing-Place"
+  bottom: "value-dancing-Agent"
+  bottom: "value-decomposing-Place"
+  bottom: "value-decomposing-Decomposer"
+  bottom: "value-decorating-Item"
+  bottom: "value-decorating-Decorated"
+  bottom: "value-decorating-Place"
+  bottom: "value-decorating-Agent"
+  bottom: "value-deflecting-Destination"
+  bottom: "value-deflecting-Place"
+  bottom: "value-deflecting-DeflectedItem"
+  bottom: "value-deflecting-Agent"
+  bottom: "value-descending-source"
+  bottom: "value-descending-tool"
+  bottom: "value-descending-Place"
+  bottom: "value-descending-Agent"
+  bottom: "value-destroying-DestroyedItem"
+  bottom: "value-destroying-Tool"
+  bottom: "value-destroying-Place"
+  bottom: "value-destroying-Agent"
+  bottom: "value-detaining-Place"
+  bottom: "value-detaining-Victim"
+  bottom: "value-detaining-Agent"
+  bottom: "value-dialing-Item"
+  bottom: "value-dialing-Place"
+  bottom: "value-dialing-Agent"
+  bottom: "value-dining-Food"
+  bottom: "value-dining-Place"
+  bottom: "value-dining-Agent"
+  bottom: "value-dipping-Item"
+  bottom: "value-dipping-Substance"
+  bottom: "value-dipping-Place"
+  bottom: "value-dipping-Agent"
+  bottom: "value-disciplining-Tool"
+  bottom: "value-disciplining-Place"
+  bottom: "value-disciplining-Victim"
+  bottom: "value-disciplining-Agent"
+  bottom: "value-discussing-Place"
+  bottom: "value-discussing-Agents"
+  bottom: "value-disembarking-Place"
+  bottom: "value-disembarking-Agent"
+  bottom: "value-disembarking-Vehicle"
+  bottom: "value-displaying-Item"
+  bottom: "value-displaying-Place"
+  bottom: "value-displaying-Target"
+  bottom: "value-displaying-Agent"
+  bottom: "value-dissecting-Item"
+  bottom: "value-dissecting-Tool"
+  bottom: "value-dissecting-Place"
+  bottom: "value-dissecting-Agent"
+  bottom: "value-distracting-Place"
+  bottom: "value-distracting-Victim"
+  bottom: "value-distracting-Agent"
+  bottom: "value-distributing-Place"
+  bottom: "value-distributing-Tool"
+  bottom: "value-distributing-Distributed"
+  bottom: "value-distributing-Recipients"
+  bottom: "value-distributing-Agent"
+  bottom: "value-diving-Place"
+  bottom: "value-diving-Agent"
+  bottom: "value-docking-Connector"
+  bottom: "value-docking-Place"
+  bottom: "value-docking-Agent"
+  bottom: "value-docking-Vehicle"
+  bottom: "value-dousing-Undergoer"
+  bottom: "value-dousing-Place"
+  bottom: "value-dousing-Liquid"
+  bottom: "value-dousing-Agent"
+  bottom: "value-dragging-Item"
+  bottom: "value-dragging-Tool"
+  bottom: "value-dragging-Contact"
+  bottom: "value-dragging-Place"
+  bottom: "value-dragging-Agent"
+  bottom: "value-drawing-Tool"
+  bottom: "value-drawing-Place"
+  bottom: "value-drawing-Reference"
+  bottom: "value-drawing-Agent"
+  bottom: "value-drenching-DrenchedItem"
+  bottom: "value-drenching-Tool"
+  bottom: "value-drenching-Place"
+  bottom: "value-drenching-Liquid"
+  bottom: "value-drenching-Agent"
+  bottom: "value-drinking-Place"
+  bottom: "value-drinking-Container"
+  bottom: "value-drinking-Liquid"
+  bottom: "value-drinking-Agent"
+  bottom: "value-dripping-Source"
+  bottom: "value-dripping-Destination"
+  bottom: "value-dripping-Place"
+  bottom: "value-dripping-Fluid"
+  bottom: "value-dripping-Agent"
+  bottom: "value-driving-Item"
+  bottom: "value-driving-Place"
+  bottom: "value-driving-Agent"
+  bottom: "value-drooling-Place"
+  bottom: "value-drooling-End"
+  bottom: "value-drooling-Agent"
+  bottom: "value-dropping-Item"
+  bottom: "value-dropping-Place"
+  bottom: "value-dropping-End"
+  bottom: "value-dropping-Agent"
+  bottom: "value-dropping-Start"
+  bottom: "value-drumming-ITEM"
+  bottom: "value-drumming-Tool"
+  bottom: "value-drumming-Place"
+  bottom: "value-drumming-Agent"
+  bottom: "value-drying-Item"
+  bottom: "value-drying-Tool"
+  bottom: "value-drying-Place"
+  bottom: "value-drying-Agent"
+  bottom: "value-ducking-Blow"
+  bottom: "value-ducking-Place"
+  bottom: "value-ducking-Agent"
+  bottom: "value-dusting-Source"
+  bottom: "value-dusting-Tool"
+  bottom: "value-dusting-Place"
+  bottom: "value-dusting-Agent"
+  bottom: "value-dyeing-Dye"
+  bottom: "value-dyeing-Material"
+  bottom: "value-dyeing-Place"
+  bottom: "value-dyeing-Agent"
+  bottom: "value-eating-Food"
+  bottom: "value-eating-Place"
+  bottom: "value-eating-Tool"
+  bottom: "value-eating-Container"
+  bottom: "value-eating-Agent"
+  bottom: "value-educating-Place"
+  bottom: "value-educating-Teacher"
+  bottom: "value-educating-Student"
+  bottom: "value-educating-Subject"
+  bottom: "value-ejecting-Item"
+  bottom: "value-ejecting-Destination"
+  bottom: "value-ejecting-Place"
+  bottom: "value-ejecting-Agent"
+  bottom: "value-ejecting-Source"
+  bottom: "value-embracing-Coagent"
+  bottom: "value-embracing-Place"
+  bottom: "value-embracing-Agent"
+  bottom: "value-emerging-Source"
+  bottom: "value-emerging-Destination"
+  bottom: "value-emerging-Place"
+  bottom: "value-emerging-Agent"
+  bottom: "value-emptying-Container"
+  bottom: "value-emptying-Tool"
+  bottom: "value-emptying-Destination"
+  bottom: "value-emptying-Agent"
+  bottom: "value-emptying-Item"
+  bottom: "value-emptying-Place"
+  bottom: "value-encouraging-Place"
+  bottom: "value-encouraging-Agent"
+  bottom: "value-encouraging-Reciever"
+  bottom: "value-erasing-Erased"
+  bottom: "value-erasing-Source"
+  bottom: "value-erasing-Place"
+  bottom: "value-erasing-Agent"
+  bottom: "value-erupting-Substance"
+  bottom: "value-erupting-Place"
+  bottom: "value-erupting-Agent"
+  bottom: "value-examining-Item"
+  bottom: "value-examining-Tool"
+  bottom: "value-examining-Place"
+  bottom: "value-examining-Agent"
+  bottom: "value-exercising-AgentPart"
+  bottom: "value-exercising-Place"
+  bottom: "value-exercising-Agent"
+  bottom: "value-exterminating-Instrument"
+  bottom: "value-exterminating-Place"
+  bottom: "value-exterminating-Agent"
+  bottom: "value-extinguishing-Item"
+  bottom: "value-extinguishing-Tool"
+  bottom: "value-extinguishing-Place"
+  bottom: "value-extinguishing-Agent"
+  bottom: "value-falling-Source"
+  bottom: "value-falling-Place"
+  bottom: "value-falling-Goal"
+  bottom: "value-falling-Agent"
+  bottom: "value-farming-Item"
+  bottom: "value-farming-Tool"
+  bottom: "value-farming-Ground"
+  bottom: "value-farming-Place"
+  bottom: "value-farming-Farmer"
+  bottom: "value-fastening-Tool"
+  bottom: "value-fastening-Destination"
+  bottom: "value-fastening-Agent"
+  bottom: "value-fastening-Connector"
+  bottom: "value-fastening-Item"
+  bottom: "value-fastening-Place"
+  bottom: "value-feeding-Food"
+  bottom: "value-feeding-Source"
+  bottom: "value-feeding-Eater"
+  bottom: "value-feeding-Place"
+  bottom: "value-feeding-Agent"
+  bottom: "value-fetching-Item"
+  bottom: "value-fetching-Destination"
+  bottom: "value-fetching-Place"
+  bottom: "value-fetching-Agent"
+  bottom: "value-fetching-Source"
+  bottom: "value-filling-Item"
+  bottom: "value-filling-Destination"
+  bottom: "value-filling-Place"
+  bottom: "value-filling-Agent"
+  bottom: "value-filling-Source"
+  bottom: "value-filming-Tool"
+  bottom: "value-filming-Performer"
+  bottom: "value-filming-Place"
+  bottom: "value-filming-Agent"
+  bottom: "value-fishing-SOURCE"
+  bottom: "value-fishing-Tool"
+  bottom: "value-fishing-Place"
+  bottom: "value-fishing-Agent"
+  bottom: "value-fixing-Place"
+  bottom: "value-fixing-Tool"
+  bottom: "value-fixing-Object"
+  bottom: "value-fixing-ObjectPart"
+  bottom: "value-fixing-Agent"
+  bottom: "value-flaming-Place"
+  bottom: "value-flaming-Agent"
+  bottom: "value-flapping-BodyPart"
+  bottom: "value-flapping-Place"
+  bottom: "value-flapping-Agent"
+  bottom: "value-flexing-AgentPart"
+  bottom: "value-flexing-Addressee"
+  bottom: "value-flexing-Place"
+  bottom: "value-flexing-Agent"
+  bottom: "value-flicking-AgentPart"
+  bottom: "value-flicking-Place"
+  bottom: "value-flicking-Object"
+  bottom: "value-flicking-ObjectPart"
+  bottom: "value-flicking-Agent"
+  bottom: "value-flinging-Item"
+  bottom: "value-flinging-Tool"
+  bottom: "value-flinging-Place"
+  bottom: "value-flinging-Goal"
+  bottom: "value-flinging-Agent"
+  bottom: "value-flipping-Tool"
+  bottom: "value-flipping-Place"
+  bottom: "value-flipping-Agent"
+  bottom: "value-flipping-Flipped"
+  bottom: "value-floating-Tool"
+  bottom: "value-floating-Medium"
+  bottom: "value-floating-Place"
+  bottom: "value-floating-Agent"
+  bottom: "value-flossing-CoAgent"
+  bottom: "value-flossing-Place"
+  bottom: "value-flossing-Agent"
+  bottom: "value-folding-Cloth"
+  bottom: "value-folding-Shape"
+  bottom: "value-folding-Place"
+  bottom: "value-folding-Agent"
+  bottom: "value-foraging-Item"
+  bottom: "value-foraging-Place"
+  bottom: "value-foraging-Agent"
+  bottom: "value-fording-Tool"
+  bottom: "value-fording-Place"
+  bottom: "value-fording-Agent"
+  bottom: "value-frisking-Place"
+  bottom: "value-frisking-Victim"
+  bottom: "value-frisking-Agent"
+  bottom: "value-frowning-Place"
+  bottom: "value-frowning-Agent"
+  bottom: "value-frying-Food"
+  bottom: "value-frying-Place"
+  bottom: "value-frying-Container"
+  bottom: "value-frying-Agent"
+  bottom: "value-fueling-Place"
+  bottom: "value-fueling-Tool"
+  bottom: "value-fueling-Recipient"
+  bottom: "value-fueling-Agent"
+  bottom: "value-gambling-Stake"
+  bottom: "value-gambling-Place"
+  bottom: "value-gambling-Agent"
+  bottom: "value-gardening-Tool"
+  bottom: "value-gardening-Place"
+  bottom: "value-gardening-Agent"
+  bottom: "value-gasping-Place"
+  bottom: "value-gasping-Agent"
+  bottom: "value-gathering-Place"
+  bottom: "value-gathering-Gatherers"
+  bottom: "value-giggling-Place"
+  bottom: "value-giggling-Target"
+  bottom: "value-giggling-Agent"
+  bottom: "value-giving-Item"
+  bottom: "value-giving-Place"
+  bottom: "value-giving-Recipient"
+  bottom: "value-giving-Agent"
+  bottom: "value-glaring-Place"
+  bottom: "value-glaring-Perceiver"
+  bottom: "value-glaring-Agent"
+  bottom: "value-glowing-Place"
+  bottom: "value-glowing-Agent"
+  bottom: "value-gluing-Connector"
+  bottom: "value-gluing-Item"
+  bottom: "value-gluing-Place"
+  bottom: "value-gluing-Goal"
+  bottom: "value-gluing-Agent"
+  bottom: "value-gnawing-Item"
+  bottom: "value-gnawing-Place"
+  bottom: "value-gnawing-Agent"
+  bottom: "value-grieving-Place"
+  bottom: "value-grieving-Agent"
+  bottom: "value-grilling-Food"
+  bottom: "value-grilling-Place"
+  bottom: "value-grilling-Agent"
+  bottom: "value-grimacing-Place"
+  bottom: "value-grimacing-Cause"
+  bottom: "value-grimacing-Agent"
+  bottom: "value-grinding-Item"
+  bottom: "value-grinding-Tool"
+  bottom: "value-grinding-Place"
+  bottom: "value-grinding-Surface"
+  bottom: "value-grinding-Agent"
+  bottom: "value-grinning-Place"
+  bottom: "value-grinning-Agent"
+  bottom: "value-guarding-Item"
+  bottom: "value-guarding-Weapon"
+  bottom: "value-guarding-Place"
+  bottom: "value-guarding-Agent"
+  bottom: "value-handcuffing-Place"
+  bottom: "value-handcuffing-Victim"
+  bottom: "value-handcuffing-Agent"
+  bottom: "value-hanging-Item"
+  bottom: "value-hanging-Scaffold"
+  bottom: "value-hanging-Place"
+  bottom: "value-hanging-Agent"
+  bottom: "value-harvesting-HarvestedItem"
+  bottom: "value-harvesting-Tool"
+  bottom: "value-harvesting-Place"
+  bottom: "value-harvesting-Agent"
+  bottom: "value-harvesting-Ground"
+  bottom: "value-hauling-Item"
+  bottom: "value-hauling-Tool"
+  bottom: "value-hauling-Carrier"
+  bottom: "value-hauling-Place"
+  bottom: "value-heaving-HeavedItem"
+  bottom: "value-heaving-Tool"
+  bottom: "value-heaving-Place"
+  bottom: "value-heaving-Agent"
+  bottom: "value-helping-Tool"
+  bottom: "value-helping-Place"
+  bottom: "value-helping-Agent"
+  bottom: "value-helping-EntityHelped"
+  bottom: "value-hiking-Place"
+  bottom: "value-hiking-Agent"
+  bottom: "value-hitchhiking-Place"
+  bottom: "value-hitchhiking-Agent"
+  bottom: "value-hitting-Tool"
+  bottom: "value-hitting-Place"
+  bottom: "value-hitting-Victim"
+  bottom: "value-hitting-Agent"
+  bottom: "value-hitting-VictimPart"
+  bottom: "value-hoeing-Place"
+  bottom: "value-hoeing-Agent"
+  bottom: "value-hoeing-Ground"
+  bottom: "value-hoisting-Item"
+  bottom: "value-hoisting-Tool"
+  bottom: "value-hoisting-Place"
+  bottom: "value-hoisting-Agent"
+  bottom: "value-hoisting-Source"
+  bottom: "value-hugging-AgentPart"
+  bottom: "value-hugging-Hugged"
+  bottom: "value-hugging-Place"
+  bottom: "value-hugging-Agent"
+  bottom: "value-hunching-Place"
+  bottom: "value-hunching-Surface"
+  bottom: "value-hunching-Agent"
+  bottom: "value-hunting-Hunted"
+  bottom: "value-hunting-Place"
+  bottom: "value-hunting-Agent"
+  bottom: "value-hurling-Start"
+  bottom: "value-hurling-Place"
+  bottom: "value-hurling-Object"
+  bottom: "value-hurling-End"
+  bottom: "value-hurling-Agent"
+  bottom: "value-igniting-Item"
+  bottom: "value-igniting-Tool"
+  bottom: "value-igniting-Place"
+  bottom: "value-igniting-Agent"
+  bottom: "value-ignoring-Place"
+  bottom: "value-ignoring-BoringThing"
+  bottom: "value-ignoring-Agent"
+  bottom: "value-imitating-Model"
+  bottom: "value-imitating-Place"
+  bottom: "value-imitating-Agent"
+  bottom: "value-immersing-Item"
+  bottom: "value-immersing-Place"
+  bottom: "value-immersing-Liquid"
+  bottom: "value-immersing-Agent"
+  bottom: "value-inflating-Tool"
+  bottom: "value-inflating-Object"
+  bottom: "value-inflating-Place"
+  bottom: "value-inflating-Agent"
+  bottom: "value-injecting-Destination"
+  bottom: "value-injecting-Source"
+  bottom: "value-injecting-Substance"
+  bottom: "value-injecting-Place"
+  bottom: "value-injecting-Agent"
+  bottom: "value-inserting-Place"
+  bottom: "value-inserting-Object"
+  bottom: "value-inserting-Container"
+  bottom: "value-inserting-Agent"
+  bottom: "value-installing-Place"
+  bottom: "value-installing-Tool"
+  bottom: "value-installing-Destination"
+  bottom: "value-installing-Component"
+  bottom: "value-installing-Agent"
+  bottom: "value-instructing-Place"
+  bottom: "value-instructing-Student"
+  bottom: "value-instructing-Agent"
+  bottom: "value-intermingling-Place"
+  bottom: "value-intermingling-Agents"
+  bottom: "value-interrogating-Tool"
+  bottom: "value-interrogating-Addressee"
+  bottom: "value-interrogating-Place"
+  bottom: "value-interrogating-Agent"
+  bottom: "value-interviewing-Place"
+  bottom: "value-interviewing-Interviewee"
+  bottom: "value-interviewing-Agent"
+  bottom: "value-jogging-Place"
+  bottom: "value-jogging-Agent"
+  bottom: "value-juggling-Items"
+  bottom: "value-juggling-Place"
+  bottom: "value-juggling-Agent"
+  bottom: "value-jumping-Destination"
+  bottom: "value-jumping-Source"
+  bottom: "value-jumping-Obstacle"
+  bottom: "value-jumping-Place"
+  bottom: "value-jumping-Agent"
+  bottom: "value-kicking-Place"
+  bottom: "value-kicking-Victim"
+  bottom: "value-kicking-Agent"
+  bottom: "value-kicking-VictimPart"
+  bottom: "value-kissing-AgentPart"
+  bottom: "value-kissing-CoAgent"
+  bottom: "value-kissing-Place"
+  bottom: "value-kissing-CoAgentPart"
+  bottom: "value-kissing-Agent"
+  bottom: "value-kneading-Item"
+  bottom: "value-kneading-Place"
+  bottom: "value-kneading-Agent"
+  bottom: "value-kneeling-Contact"
+  bottom: "value-kneeling-Place"
+  bottom: "value-kneeling-Agent"
+  bottom: "value-knocking-Item"
+  bottom: "value-knocking-Place"
+  bottom: "value-knocking-Agent"
+  bottom: "value-lacing-Item"
+  bottom: "value-lacing-Place"
+  bottom: "value-lacing-Agent"
+  bottom: "value-landing-Destination"
+  bottom: "value-landing-Place"
+  bottom: "value-landing-Agent"
+  bottom: "value-lapping-Food"
+  bottom: "value-lapping-Place"
+  bottom: "value-lapping-Container"
+  bottom: "value-lapping-Agent"
+  bottom: "value-lathering-Destination"
+  bottom: "value-lathering-Substance"
+  bottom: "value-lathering-Place"
+  bottom: "value-lathering-Agent"
+  bottom: "value-laughing-Place"
+  bottom: "value-laughing-Agent"
+  bottom: "value-launching-Item"
+  bottom: "value-launching-Destination"
+  bottom: "value-launching-Place"
+  bottom: "value-launching-Agent"
+  bottom: "value-launching-Source"
+  bottom: "value-leading-Follower"
+  bottom: "value-leading-Place"
+  bottom: "value-leading-Agent"
+  bottom: "value-leaking-Destination"
+  bottom: "value-leaking-Source"
+  bottom: "value-leaking-Substance"
+  bottom: "value-leaking-Place"
+  bottom: "value-leaning-Item"
+  bottom: "value-leaning-Place"
+  bottom: "value-leaning-Against"
+  bottom: "value-leaning-Agent"
+  bottom: "value-leaping-Destination"
+  bottom: "value-leaping-Source"
+  bottom: "value-leaping-Obstacle"
+  bottom: "value-leaping-Place"
+  bottom: "value-leaping-Agent"
+  bottom: "value-lecturing-Audience"
+  bottom: "value-lecturing-Place"
+  bottom: "value-lecturing-Agent"
+  bottom: "value-licking-Item"
+  bottom: "value-licking-Place"
+  bottom: "value-licking-Agent"
+  bottom: "value-lifting-Item"
+  bottom: "value-lifting-Place"
+  bottom: "value-lifting-End"
+  bottom: "value-lifting-Agent"
+  bottom: "value-lifting-Start"
+  bottom: "value-lighting-Item"
+  bottom: "value-lighting-Tool"
+  bottom: "value-lighting-Place"
+  bottom: "value-lighting-Agent"
+  bottom: "value-loading-Item"
+  bottom: "value-loading-Tool"
+  bottom: "value-loading-Destination"
+  bottom: "value-loading-Place"
+  bottom: "value-loading-Agent"
+  bottom: "value-locking-Item"
+  bottom: "value-locking-Tool"
+  bottom: "value-locking-Place"
+  bottom: "value-locking-Agent"
+  bottom: "value-making-Component"
+  bottom: "value-making-Tool"
+  bottom: "value-making-GoalItem"
+  bottom: "value-making-Place"
+  bottom: "value-making-Agent"
+  bottom: "value-manicuring-Item"
+  bottom: "value-manicuring-Tool"
+  bottom: "value-manicuring-Place"
+  bottom: "value-manicuring-Agent"
+  bottom: "value-marching-Place"
+  bottom: "value-marching-Agent"
+  bottom: "value-mashing-Item"
+  bottom: "value-mashing-Tool"
+  bottom: "value-mashing-Place"
+  bottom: "value-mashing-Agent"
+  bottom: "value-massaging-CoAgent"
+  bottom: "value-massaging-Place"
+  bottom: "value-massaging-CoAgentPart"
+  bottom: "value-massaging-Agent"
+  bottom: "value-measuring-Tool"
+  bottom: "value-measuring-Object"
+  bottom: "value-measuring-Place"
+  bottom: "value-measuring-Agent"
+  bottom: "value-measuring-Quantity"
+  bottom: "value-mending-Item"
+  bottom: "value-mending-Tool"
+  bottom: "value-mending-Place"
+  bottom: "value-mending-Agent"
+  bottom: "value-microwaving-Food"
+  bottom: "value-microwaving-Place"
+  bottom: "value-microwaving-Container"
+  bottom: "value-microwaving-Agent"
+  bottom: "value-milking-Source"
+  bottom: "value-milking-Tool"
+  bottom: "value-milking-Destination"
+  bottom: "value-milking-Place"
+  bottom: "value-milking-Agent"
+  bottom: "value-miming-Place"
+  bottom: "value-miming-Imitation"
+  bottom: "value-miming-Agent"
+  bottom: "value-mining-Place"
+  bottom: "value-mining-Tool"
+  bottom: "value-mining-Resource"
+  bottom: "value-mining-Agent"
+  bottom: "value-misbehaving-Place"
+  bottom: "value-misbehaving-Agent"
+  bottom: "value-moistening-Item"
+  bottom: "value-moistening-Place"
+  bottom: "value-moistening-Liquid"
+  bottom: "value-moistening-Agent"
+  bottom: "value-moisturizing-Place"
+  bottom: "value-moisturizing-Tool"
+  bottom: "value-moisturizing-Moisturized"
+  bottom: "value-moisturizing-Agent"
+  bottom: "value-molding-Place"
+  bottom: "value-molding-Substance"
+  bottom: "value-molding-GoalItem"
+  bottom: "value-molding-Agent"
+  bottom: "value-mopping-Place"
+  bottom: "value-mopping-Surface"
+  bottom: "value-mopping-Agent"
+  bottom: "value-mourning-Place"
+  bottom: "value-mourning-Mourner"
+  bottom: "value-mowing-Item"
+  bottom: "value-mowing-Tool"
+  bottom: "value-mowing-Place"
+  bottom: "value-mowing-Agent"
+  bottom: "value-nagging-Place"
+  bottom: "value-nagging-NaggedPerson"
+  bottom: "value-nagging-Agent"
+  bottom: "value-nailing-Item2"
+  bottom: "value-nailing-Tool"
+  bottom: "value-nailing-Item1"
+  bottom: "value-nailing-Place"
+  bottom: "value-nailing-Agent"
+  bottom: "value-nipping-Item"
+  bottom: "value-nipping-Place"
+  bottom: "value-nipping-Agent"
+  bottom: "value-nuzzling-Item"
+  bottom: "value-nuzzling-Place"
+  bottom: "value-nuzzling-Agent"
+  bottom: "value-offering-Beneficiary"
+  bottom: "value-offering-Item"
+  bottom: "value-offering-Place"
+  bottom: "value-offering-Agent"
+  bottom: "value-officiating-Place"
+  bottom: "value-officiating-Event"
+  bottom: "value-officiating-Agent"
+  bottom: "value-opening-Item"
+  bottom: "value-opening-Tool"
+  bottom: "value-opening-Place"
+  bottom: "value-opening-Agent"
+  bottom: "value-operating-Item"
+  bottom: "value-operating-Tool"
+  bottom: "value-operating-Place"
+  bottom: "value-operating-Agent"
+  bottom: "value-overflowing-Source"
+  bottom: "value-overflowing-Place"
+  bottom: "value-overflowing-Agent"
+  bottom: "value-packaging-Item"
+  bottom: "value-packaging-Place"
+  bottom: "value-packaging-Agent"
+  bottom: "value-packing-Item"
+  bottom: "value-packing-Place"
+  bottom: "value-packing-Container"
+  bottom: "value-packing-Agent"
+  bottom: "value-painting-Item"
+  bottom: "value-painting-Tool"
+  bottom: "value-painting-Place"
+  bottom: "value-painting-Agent"
+  bottom: "value-panhandling-Place"
+  bottom: "value-panhandling-Target"
+  bottom: "value-panhandling-Agent"
+  bottom: "value-parachuting-Parachute"
+  bottom: "value-parachuting-Destination"
+  bottom: "value-parachuting-Place"
+  bottom: "value-parachuting-Agent"
+  bottom: "value-parading-Place"
+  bottom: "value-parading-Agent"
+  bottom: "value-pasting-Connector"
+  bottom: "value-pasting-Item"
+  bottom: "value-pasting-Object"
+  bottom: "value-pasting-Place"
+  bottom: "value-pasting-Agent"
+  bottom: "value-patting-Item"
+  bottom: "value-patting-Tool"
+  bottom: "value-patting-Place"
+  bottom: "value-patting-Agent"
+  bottom: "value-pawing-AgentPart"
+  bottom: "value-pawing-PawedItem"
+  bottom: "value-pawing-Place"
+  bottom: "value-pawing-Agent"
+  bottom: "value-paying-Good"
+  bottom: "value-paying-Place"
+  bottom: "value-paying-Agent"
+  bottom: "value-paying-Seller"
+  bottom: "value-pedaling-Place"
+  bottom: "value-pedaling-Agent"
+  bottom: "value-pedaling-Vehicle"
+  bottom: "value-peeing-Place"
+  bottom: "value-peeing-Target"
+  bottom: "value-peeing-Agent"
+  bottom: "value-peeling-Item"
+  bottom: "value-peeling-Tool"
+  bottom: "value-peeling-Place"
+  bottom: "value-peeling-Agent"
+  bottom: "value-performing-Tool"
+  bottom: "value-performing-Place"
+  bottom: "value-performing-Event"
+  bottom: "value-performing-Agent"
+  bottom: "value-performing-Stage"
+  bottom: "value-perspiring-Place"
+  bottom: "value-perspiring-Agent"
+  bottom: "value-phoning-Tool"
+  bottom: "value-phoning-Place"
+  bottom: "value-phoning-Agent"
+  bottom: "value-photographing-Item"
+  bottom: "value-photographing-Tool"
+  bottom: "value-photographing-Place"
+  bottom: "value-photographing-Agent"
+  bottom: "value-picking-Source"
+  bottom: "value-picking-Place"
+  bottom: "value-picking-Crop"
+  bottom: "value-picking-Agent"
+  bottom: "value-piloting-Start"
+  bottom: "value-piloting-Place"
+  bottom: "value-piloting-End"
+  bottom: "value-piloting-Agent"
+  bottom: "value-piloting-Vehicle"
+  bottom: "value-pinching-Place"
+  bottom: "value-pinching-Object"
+  bottom: "value-pinching-ObjectPart"
+  bottom: "value-pinching-Agent"
+  bottom: "value-pinning-Pinned"
+  bottom: "value-pinning-Destination"
+  bottom: "value-pinning-Place"
+  bottom: "value-pinning-Agent"
+  bottom: "value-pitching-Tool"
+  bottom: "value-pitching-Place"
+  bottom: "value-pitching-Pitched"
+  bottom: "value-pitching-Agent"
+  bottom: "value-placing-PlacedItem"
+  bottom: "value-placing-Destination"
+  bottom: "value-placing-Place"
+  bottom: "value-placing-Agent"
+  bottom: "value-planting-CoParticipant"
+  bottom: "value-planting-Tool"
+  bottom: "value-planting-Planted"
+  bottom: "value-planting-Place"
+  bottom: "value-planting-Agent"
+  bottom: "value-plowing-Instrument"
+  bottom: "value-plowing-Place"
+  bottom: "value-plowing-Agent"
+  bottom: "value-plummeting-Start"
+  bottom: "value-plummeting-Destination"
+  bottom: "value-plummeting-Place"
+  bottom: "value-plummeting-Agent"
+  bottom: "value-plunging-Place"
+  bottom: "value-plunging-Destination"
+  bottom: "value-plunging-Plunged"
+  bottom: "value-plunging-Agent"
+  bottom: "value-poking-Place"
+  bottom: "value-poking-Tool"
+  bottom: "value-poking-Object"
+  bottom: "value-poking-ObjectPart"
+  bottom: "value-poking-Agent"
+  bottom: "value-pooing-Destination"
+  bottom: "value-pooing-Place"
+  bottom: "value-pooing-Agent"
+  bottom: "value-potting-Item"
+  bottom: "value-potting-Place"
+  bottom: "value-potting-Container"
+  bottom: "value-potting-Agent"
+  bottom: "value-pouncing-Destination"
+  bottom: "value-pouncing-Place"
+  bottom: "value-pouncing-Agent"
+  bottom: "value-pouring-Substance"
+  bottom: "value-pouring-Tool"
+  bottom: "value-pouring-Destination"
+  bottom: "value-pouring-Agent"
+  bottom: "value-pouring-Source"
+  bottom: "value-pouring-Place"
+  bottom: "value-pouting-Place"
+  bottom: "value-pouting-Agent"
+  bottom: "value-practicing-Skill"
+  bottom: "value-practicing-Place"
+  bottom: "value-practicing-Tool"
+  bottom: "value-practicing-Agent"
+  bottom: "value-praying-Place"
+  bottom: "value-praying-Agent"
+  bottom: "value-preaching-Addressee"
+  bottom: "value-preaching-Place"
+  bottom: "value-preaching-Agent"
+  bottom: "value-pressing-Item"
+  bottom: "value-pressing-Place"
+  bottom: "value-pressing-Agent"
+  bottom: "value-pricking-Pricked"
+  bottom: "value-pricking-Tool"
+  bottom: "value-pricking-Place"
+  bottom: "value-pricking-Agent"
+  bottom: "value-protesting-Place"
+  bottom: "value-protesting-Agent"
+  bottom: "value-providing-Item"
+  bottom: "value-providing-Place"
+  bottom: "value-providing-Recipient"
+  bottom: "value-providing-Agent"
+  bottom: "value-providing-Source"
+  bottom: "value-prowling-Place"
+  bottom: "value-prowling-Target"
+  bottom: "value-prowling-Agent"
+  bottom: "value-pruning-Source"
+  bottom: "value-pruning-RemovedItem"
+  bottom: "value-pruning-Place"
+  bottom: "value-pruning-Tool"
+  bottom: "value-pruning-Agent"
+  bottom: "value-prying-Item"
+  bottom: "value-prying-Tool"
+  bottom: "value-prying-From"
+  bottom: "value-prying-Place"
+  bottom: "value-prying-Agent"
+  bottom: "value-puckering-AgentPart"
+  bottom: "value-puckering-Place"
+  bottom: "value-puckering-Agent"
+  bottom: "value-pulling-Item"
+  bottom: "value-pulling-Tool"
+  bottom: "value-pulling-Place"
+  bottom: "value-pulling-Agent"
+  bottom: "value-pumping-Substance"
+  bottom: "value-pumping-Tool"
+  bottom: "value-pumping-Destination"
+  bottom: "value-pumping-Agent"
+  bottom: "value-pumping-Source"
+  bottom: "value-pumping-Place"
+  bottom: "value-punching-BodyPart"
+  bottom: "value-punching-Place"
+  bottom: "value-punching-Victim"
+  bottom: "value-punching-Agent"
+  bottom: "value-punting-Item"
+  bottom: "value-punting-Place"
+  bottom: "value-punting-Agent"
+  bottom: "value-pushing-Item"
+  bottom: "value-pushing-Place"
+  bottom: "value-pushing-Agent"
+  bottom: "value-pushing-AgentPart"
+  bottom: "value-putting-Item"
+  bottom: "value-putting-Destination"
+  bottom: "value-putting-Place"
+  bottom: "value-putting-Agent"
+  bottom: "value-queuing-Place"
+  bottom: "value-queuing-Agent"
+  bottom: "value-racing-Place"
+  bottom: "value-racing-Agent"
+  bottom: "value-rafting-Place"
+  bottom: "value-rafting-Agent"
+  bottom: "value-raining-Place"
+  bottom: "value-raking-Item"
+  bottom: "value-raking-Destination"
+  bottom: "value-raking-Place"
+  bottom: "value-raking-Agent"
+  bottom: "value-raking-Source"
+  bottom: "value-ramming-Place"
+  bottom: "value-ramming-Victim"
+  bottom: "value-ramming-Agent"
+  bottom: "value-ramming-RammingItem"
+  bottom: "value-reading-Item"
+  bottom: "value-reading-Place"
+  bottom: "value-reading-Agent"
+  bottom: "value-rearing-Place"
+  bottom: "value-rearing-Agent"
+  bottom: "value-reassuring-Reassured"
+  bottom: "value-reassuring-Place"
+  bottom: "value-reassuring-Agent"
+  bottom: "value-recording-Place"
+  bottom: "value-recording-Phenomenon"
+  bottom: "value-recording-Agent"
+  bottom: "value-recovering-Place"
+  bottom: "value-recovering-Ailment"
+  bottom: "value-recovering-Agent"
+  bottom: "value-recuperating-Place"
+  bottom: "value-recuperating-Agent"
+  bottom: "value-rehabilitating-Item"
+  bottom: "value-rehabilitating-Place"
+  bottom: "value-rehabilitating-Agent"
+  bottom: "value-releasing-ReleasedItem"
+  bottom: "value-releasing-Place"
+  bottom: "value-releasing-Agent"
+  bottom: "value-repairing-Item"
+  bottom: "value-repairing-Problem"
+  bottom: "value-repairing-Place"
+  bottom: "value-repairing-Tool"
+  bottom: "value-repairing-Agent"
+  bottom: "value-resting-Item"
+  bottom: "value-resting-Place"
+  bottom: "value-resting-Goal"
+  bottom: "value-resting-Agent"
+  bottom: "value-restraining-Place"
+  bottom: "value-restraining-Restrained"
+  bottom: "value-restraining-Agent"
+  bottom: "value-retrieving-Start"
+  bottom: "value-retrieving-Object"
+  bottom: "value-retrieving-Place"
+  bottom: "value-retrieving-Agent"
+  bottom: "value-riding-Place"
+  bottom: "value-riding-Agent"
+  bottom: "value-riding-Vehicle"
+  bottom: "value-rinsing-Tool"
+  bottom: "value-rinsing-Object"
+  bottom: "value-rinsing-Place"
+  bottom: "value-rinsing-Agent"
+  bottom: "value-rocking-Place"
+  bottom: "value-rocking-Container"
+  bottom: "value-rocking-Rocked"
+  bottom: "value-rocking-Agent"
+  bottom: "value-rotting-Place"
+  bottom: "value-rotting-Container"
+  bottom: "value-rotting-Agent"
+  bottom: "value-rowing-Place"
+  bottom: "value-rowing-Agent"
+  bottom: "value-rowing-Vehicle"
+  bottom: "value-rubbing-Item"
+  bottom: "value-rubbing-Place"
+  bottom: "value-rubbing-Agent"
+  bottom: "value-rubbing-AgentPart"
+  bottom: "value-running-Place"
+  bottom: "value-running-Agent"
+  bottom: "value-saluting-Place"
+  bottom: "value-saluting-Target"
+  bottom: "value-saluting-Agent"
+  bottom: "value-saying-Place"
+  bottom: "value-saying-Adressee"
+  bottom: "value-saying-Agent"
+  bottom: "value-scolding-Place"
+  bottom: "value-scolding-Victim"
+  bottom: "value-scolding-Agent"
+  bottom: "value-scooping-Item"
+  bottom: "value-scooping-Tool"
+  bottom: "value-scooping-Place"
+  bottom: "value-scooping-Agent"
+  bottom: "value-scooping-Source"
+  bottom: "value-scoring-Place"
+  bottom: "value-scoring-Agent"
+  bottom: "value-scraping-ScrapedItem"
+  bottom: "value-scraping-Place"
+  bottom: "value-scraping-Tool"
+  bottom: "value-scraping-Agent"
+  bottom: "value-scratching-Tool"
+  bottom: "value-scratching-Object"
+  bottom: "value-scratching-Place"
+  bottom: "value-scratching-Agent"
+  bottom: "value-scrubbing-Item"
+  bottom: "value-scrubbing-Tool"
+  bottom: "value-scrubbing-Place"
+  bottom: "value-scrubbing-Agent"
+  bottom: "value-sealing-Item"
+  bottom: "value-sealing-Place"
+  bottom: "value-sealing-Agent"
+  bottom: "value-sealing-Sealant"
+  bottom: "value-selling-Buyer"
+  bottom: "value-selling-Item"
+  bottom: "value-selling-Place"
+  bottom: "value-selling-Seller"
+  bottom: "value-serving-Item"
+  bottom: "value-serving-Place"
+  bottom: "value-serving-Agent"
+  bottom: "value-serving-Served"
+  bottom: "value-sewing-Item"
+  bottom: "value-sewing-Tool"
+  bottom: "value-sewing-Place"
+  bottom: "value-sewing-Agent"
+  bottom: "value-shaking-Item"
+  bottom: "value-shaking-Tool"
+  bottom: "value-shaking-Place"
+  bottom: "value-shaking-Agent"
+  bottom: "value-sharpening-Item"
+  bottom: "value-sharpening-Tool"
+  bottom: "value-sharpening-Place"
+  bottom: "value-sharpening-Agent"
+  bottom: "value-shaving-Substance"
+  bottom: "value-shaving-CoAgent"
+  bottom: "value-shaving-Agent"
+  bottom: "value-shaving-Place"
+  bottom: "value-shaving-BodyPart"
+  bottom: "value-shaving-Tool"
+  bottom: "value-shearing-Item"
+  bottom: "value-shearing-Place"
+  bottom: "value-shearing-Agent"
+  bottom: "value-shearing-Source"
+  bottom: "value-shelling-Object"
+  bottom: "value-shelling-Place"
+  bottom: "value-shelling-Agent"
+  bottom: "value-shelving-Item"
+  bottom: "value-shelving-Destination"
+  bottom: "value-shelving-Place"
+  bottom: "value-shelving-Agent"
+  bottom: "value-shivering-Place"
+  bottom: "value-shivering-Agent"
+  bottom: "value-shooting-Target"
+  bottom: "value-shooting-Firearm"
+  bottom: "value-shooting-Agent"
+  bottom: "value-shooting-Projectile"
+  bottom: "value-shopping-Goods"
+  bottom: "value-shopping-Place"
+  bottom: "value-shopping-Agent"
+  bottom: "value-shouting-Addressee"
+  bottom: "value-shouting-Place"
+  bottom: "value-shouting-Agent"
+  bottom: "value-shoveling-Item"
+  bottom: "value-shoveling-Place"
+  bottom: "value-shoveling-Agent"
+  bottom: "value-shoveling-Source"
+  bottom: "value-shredding-Item"
+  bottom: "value-shredding-Tool"
+  bottom: "value-shredding-Place"
+  bottom: "value-shredding-Agent"
+  bottom: "value-shrugging-Place"
+  bottom: "value-shrugging-Agent"
+  bottom: "value-shushing-Place"
+  bottom: "value-shushing-Target"
+  bottom: "value-shushing-Agent"
+  bottom: "value-signaling-Place"
+  bottom: "value-signaling-Message"
+  bottom: "value-signaling-Recipient"
+  bottom: "value-signaling-Tool"
+  bottom: "value-signaling-Agent"
+  bottom: "value-signing-Tool"
+  bottom: "value-signing-Place"
+  bottom: "value-signing-Agent"
+  bottom: "value-signing-SignedItem"
+  bottom: "value-singing-Place"
+  bottom: "value-singing-Agent"
+  bottom: "value-sitting-Contact"
+  bottom: "value-sitting-Place"
+  bottom: "value-sitting-Agent"
+  bottom: "value-skating-Place"
+  bottom: "value-skating-Agent"
+  bottom: "value-skating-Vehicle"
+  bottom: "value-sketching-Image"
+  bottom: "value-sketching-Material"
+  bottom: "value-sketching-Place"
+  bottom: "value-sketching-Tool"
+  bottom: "value-sketching-Agent"
+  bottom: "value-skidding-Place"
+  bottom: "value-skidding-Agent"
+  bottom: "value-skiing-Place"
+  bottom: "value-skiing-Agent"
+  bottom: "value-skipping-Obstacle"
+  bottom: "value-skipping-Place"
+  bottom: "value-skipping-Agent"
+  bottom: "value-slapping-Tool"
+  bottom: "value-slapping-Place"
+  bottom: "value-slapping-Victim"
+  bottom: "value-slapping-Agent"
+  bottom: "value-slapping-VictimPart"
+  bottom: "value-sleeping-Place"
+  bottom: "value-sleeping-Agent"
+  bottom: "value-slicing-SlicedItem"
+  bottom: "value-slicing-Tool"
+  bottom: "value-slicing-Place"
+  bottom: "value-slicing-Agent"
+  bottom: "value-sliding-Slider"
+  bottom: "value-sliding-Destination"
+  bottom: "value-sliding-Place"
+  bottom: "value-sliding-Surface"
+  bottom: "value-sliding-Agent"
+  bottom: "value-slipping-Destination"
+  bottom: "value-slipping-Place"
+  bottom: "value-slipping-Agent"
+  bottom: "value-slithering-Place"
+  bottom: "value-slithering-Agent"
+  bottom: "value-slouching-Contact"
+  bottom: "value-slouching-Place"
+  bottom: "value-slouching-Agent"
+  bottom: "value-smashing-Smashed"
+  bottom: "value-smashing-Tool"
+  bottom: "value-smashing-Place"
+  bottom: "value-smashing-Against"
+  bottom: "value-smashing-Agent"
+  bottom: "value-smearing-Item"
+  bottom: "value-smearing-Tool"
+  bottom: "value-smearing-Place"
+  bottom: "value-smearing-Surface"
+  bottom: "value-smearing-Agent"
+  bottom: "value-smelling-Item"
+  bottom: "value-smelling-Place"
+  bottom: "value-smelling-Agent"
+  bottom: "value-smiling-Place"
+  bottom: "value-smiling-Agent"
+  bottom: "value-sneezing-Place"
+  bottom: "value-sneezing-Agent"
+  bottom: "value-sniffing-Item"
+  bottom: "value-sniffing-Place"
+  bottom: "value-sniffing-Agent"
+  bottom: "value-snowing-Place"
+  bottom: "value-snuggling-CoAgent"
+  bottom: "value-snuggling-Place"
+  bottom: "value-snuggling-Agent"
+  bottom: "value-soaking-Item"
+  bottom: "value-soaking-Place"
+  bottom: "value-soaking-Substance"
+  bottom: "value-soaking-Container"
+  bottom: "value-soaking-Agent"
+  bottom: "value-soaring-Place"
+  bottom: "value-soaring-Agent"
+  bottom: "value-socializing-CoAgent"
+  bottom: "value-socializing-Place"
+  bottom: "value-socializing-Agent"
+  bottom: "value-sowing-Tool"
+  bottom: "value-sowing-Place"
+  bottom: "value-sowing-Agent"
+  bottom: "value-spanking-Tool"
+  bottom: "value-spanking-Place"
+  bottom: "value-spanking-Victim"
+  bottom: "value-spanking-Agent"
+  bottom: "value-speaking-CoAgent"
+  bottom: "value-speaking-Place"
+  bottom: "value-speaking-Agent"
+  bottom: "value-spearing-Place"
+  bottom: "value-spearing-Victim"
+  bottom: "value-spearing-Agent"
+  bottom: "value-spilling-Destination"
+  bottom: "value-spilling-Source"
+  bottom: "value-spilling-Substance"
+  bottom: "value-spilling-Place"
+  bottom: "value-spilling-Agent"
+  bottom: "value-spinning-Tool"
+  bottom: "value-spinning-Material"
+  bottom: "value-spinning-Place"
+  bottom: "value-spinning-Agent"
+  bottom: "value-spitting-Item"
+  bottom: "value-spitting-Place"
+  bottom: "value-spitting-Target"
+  bottom: "value-spitting-Agent"
+  bottom: "value-splashing-Place"
+  bottom: "value-splashing-Tool"
+  bottom: "value-splashing-Destination"
+  bottom: "value-splashing-Substance"
+  bottom: "value-splashing-Agent"
+  bottom: "value-spoiling-Place"
+  bottom: "value-spoiling-Agent"
+  bottom: "value-spraying-Destination"
+  bottom: "value-spraying-Source"
+  bottom: "value-spraying-Substance"
+  bottom: "value-spraying-Place"
+  bottom: "value-spraying-Agent"
+  bottom: "value-spreading-Tool"
+  bottom: "value-spreading-Substance"
+  bottom: "value-spreading-Place"
+  bottom: "value-spreading-Surface"
+  bottom: "value-spreading-Agent"
+  bottom: "value-sprinkling-Item"
+  bottom: "value-sprinkling-Destination"
+  bottom: "value-sprinkling-Place"
+  bottom: "value-sprinkling-Agent"
+  bottom: "value-sprinkling-Source"
+  bottom: "value-sprinting-Place"
+  bottom: "value-sprinting-Agent"
+  bottom: "value-sprouting-Sprouter"
+  bottom: "value-sprouting-Place"
+  bottom: "value-spying-Tool"
+  bottom: "value-spying-Place"
+  bottom: "value-spying-Target"
+  bottom: "value-spying-Agent"
+  bottom: "value-squeezing-Item"
+  bottom: "value-squeezing-Tool"
+  bottom: "value-squeezing-Place"
+  bottom: "value-squeezing-Agent"
+  bottom: "value-squinting-Item"
+  bottom: "value-squinting-Place"
+  bottom: "value-squinting-Agent"
+  bottom: "value-stacking-Top"
+  bottom: "value-stacking-Place"
+  bottom: "value-stacking-Agent"
+  bottom: "value-stacking-Bottom"
+  bottom: "value-stampeding-Place"
+  bottom: "value-stampeding-Agent"
+  bottom: "value-standing-Place"
+  bottom: "value-standing-Agent"
+  bottom: "value-stapling-Item"
+  bottom: "value-stapling-Tool"
+  bottom: "value-stapling-Place"
+  bottom: "value-stapling-Surface"
+  bottom: "value-stapling-Agent"
+  bottom: "value-staring-Item"
+  bottom: "value-staring-Place"
+  bottom: "value-staring-Agent"
+  bottom: "value-steering-Tool"
+  bottom: "value-steering-Place"
+  bottom: "value-steering-Agent"
+  bottom: "value-steering-Vehicle"
+  bottom: "value-stinging-Place"
+  bottom: "value-stinging-Victim"
+  bottom: "value-stinging-Agent"
+  bottom: "value-stinging-VictimPart"
+  bottom: "value-stirring-Item"
+  bottom: "value-stirring-Tool"
+  bottom: "value-stirring-Container"
+  bottom: "value-stirring-Place"
+  bottom: "value-stirring-Agent"
+  bottom: "value-stitching-Tool"
+  bottom: "value-stitching-Place"
+  bottom: "value-stitching-Fastener"
+  bottom: "value-stitching-Agent"
+  bottom: "value-stooping-Place"
+  bottom: "value-stooping-Agent"
+  bottom: "value-storming-Place"
+  bottom: "value-strapping-Strapped"
+  bottom: "value-strapping-Destination"
+  bottom: "value-strapping-Place"
+  bottom: "value-strapping-Agent"
+  bottom: "value-strapping-Strap"
+  bottom: "value-stretching-Item"
+  bottom: "value-stretching-Place"
+  bottom: "value-stretching-Agent"
+  bottom: "value-striking-AgentPart"
+  bottom: "value-striking-CoAgent"
+  bottom: "value-striking-Place"
+  bottom: "value-striking-Tool"
+  bottom: "value-striking-Agent"
+  bottom: "value-stripping-Source"
+  bottom: "value-stripping-RemovedItem"
+  bottom: "value-stripping-Place"
+  bottom: "value-stripping-Tool"
+  bottom: "value-stripping-Agent"
+  bottom: "value-stroking-Object"
+  bottom: "value-stroking-Place"
+  bottom: "value-stroking-Part"
+  bottom: "value-stroking-Agent"
+  bottom: "value-studying-Place"
+  bottom: "value-studying-Agent"
+  bottom: "value-stuffing-Item"
+  bottom: "value-stuffing-Destination"
+  bottom: "value-stuffing-Place"
+  bottom: "value-stuffing-Agent"
+  bottom: "value-stumbling-Destination"
+  bottom: "value-stumbling-Place"
+  bottom: "value-stumbling-Agent"
+  bottom: "value-subduing-Place"
+  bottom: "value-subduing-Target"
+  bottom: "value-subduing-Agent"
+  bottom: "value-submerging-Place"
+  bottom: "value-submerging-Object"
+  bottom: "value-submerging-Substance"
+  bottom: "value-submerging-Agent"
+  bottom: "value-sucking-Item"
+  bottom: "value-sucking-Place"
+  bottom: "value-sucking-Agent"
+  bottom: "value-surfing-Path"
+  bottom: "value-surfing-Tool"
+  bottom: "value-surfing-Place"
+  bottom: "value-surfing-Agent"
+  bottom: "value-swarming-AgentType"
+  bottom: "value-swarming-Place"
+  bottom: "value-sweeping-Place"
+  bottom: "value-sweeping-Surface"
+  bottom: "value-sweeping-Agent"
+  bottom: "value-sweeping-Brush"
+  bottom: "value-swimming-Place"
+  bottom: "value-swimming-Agent"
+  bottom: "value-swinging-Carrier"
+  bottom: "value-swinging-Place"
+  bottom: "value-swinging-Agent"
+  bottom: "value-swooping-Place"
+  bottom: "value-swooping-Agent"
+  bottom: "value-tackling-Place"
+  bottom: "value-tackling-Victim"
+  bottom: "value-tackling-Agent"
+  bottom: "value-talking-Listener"
+  bottom: "value-talking-Place"
+  bottom: "value-talking-Agent"
+  bottom: "value-taping-Item"
+  bottom: "value-taping-Destination"
+  bottom: "value-taping-Place"
+  bottom: "value-taping-Agent"
+  bottom: "value-tasting-Item"
+  bottom: "value-tasting-Tool"
+  bottom: "value-tasting-Place"
+  bottom: "value-tasting-Agent"
+  bottom: "value-tattooing-Tool"
+  bottom: "value-tattooing-Place"
+  bottom: "value-tattooing-Target"
+  bottom: "value-tattooing-Agent"
+  bottom: "value-taxiing-Place"
+  bottom: "value-taxiing-Agent"
+  bottom: "value-taxiing-Ground"
+  bottom: "value-teaching-Place"
+  bottom: "value-teaching-Teacher"
+  bottom: "value-teaching-Student"
+  bottom: "value-tearing-Item"
+  bottom: "value-tearing-Tool"
+  bottom: "value-tearing-Place"
+  bottom: "value-tearing-Agent"
+  bottom: "value-telephoning-Place"
+  bottom: "value-telephoning-Agent"
+  bottom: "value-throwing-Item"
+  bottom: "value-throwing-Destination"
+  bottom: "value-throwing-Place"
+  bottom: "value-throwing-Agent"
+  bottom: "value-tickling-Tickled"
+  bottom: "value-tickling-Object"
+  bottom: "value-tickling-Place"
+  bottom: "value-tickling-Agent"
+  bottom: "value-tilling-Tool"
+  bottom: "value-tilling-Place"
+  bottom: "value-tilling-Agent"
+  bottom: "value-tilting-Item"
+  bottom: "value-tilting-Place"
+  bottom: "value-tilting-Agent"
+  bottom: "value-tilting-AgentPart"
+  bottom: "value-tipping-Item"
+  bottom: "value-tipping-Place"
+  bottom: "value-tipping-Agent"
+  bottom: "value-tipping-AgentPart"
+  bottom: "value-towing-Item"
+  bottom: "value-towing-Place"
+  bottom: "value-towing-Agent"
+  bottom: "value-training-Place"
+  bottom: "value-training-Student"
+  bottom: "value-training-Agent"
+  bottom: "value-trimming-Item"
+  bottom: "value-trimming-Tool"
+  bottom: "value-trimming-Place"
+  bottom: "value-trimming-ItemPart"
+  bottom: "value-trimming-Agent"
+  bottom: "value-tripping-Item"
+  bottom: "value-tripping-Place"
+  bottom: "value-tripping-Agent"
+  bottom: "value-tugging-Item"
+  bottom: "value-tugging-Place"
+  bottom: "value-tugging-Agent"
+  bottom: "value-tuning-Tool"
+  bottom: "value-tuning-Object"
+  bottom: "value-tuning-Place"
+  bottom: "value-tuning-Agent"
+  bottom: "value-turning-Place"
+  bottom: "value-turning-TurnedItem"
+  bottom: "value-turning-Agent"
+  bottom: "value-twirling-CoAgent"
+  bottom: "value-twirling-Place"
+  bottom: "value-twirling-Agent"
+  bottom: "value-twisting-AgentPart"
+  bottom: "value-twisting-Place"
+  bottom: "value-twisting-Agent"
+  bottom: "value-tying-Connector"
+  bottom: "value-tying-Item"
+  bottom: "value-tying-Destination"
+  bottom: "value-tying-Place"
+  bottom: "value-tying-Agent"
+  bottom: "value-typing-Tool"
+  bottom: "value-typing-Place"
+  bottom: "value-typing-Agent"
+  bottom: "value-uncorking-Place"
+  bottom: "value-uncorking-Tool"
+  bottom: "value-uncorking-Container"
+  bottom: "value-uncorking-Agent"
+  bottom: "value-unloading-Item"
+  bottom: "value-unloading-Tool"
+  bottom: "value-unloading-Place"
+  bottom: "value-unloading-Agent"
+  bottom: "value-unloading-Source"
+  bottom: "value-unlocking-Lock"
+  bottom: "value-unlocking-Tool"
+  bottom: "value-unlocking-Container"
+  bottom: "value-unlocking-Place"
+  bottom: "value-unlocking-Agent"
+  bottom: "value-unpacking-Item"
+  bottom: "value-unpacking-Place"
+  bottom: "value-unpacking-Container"
+  bottom: "value-unpacking-Agent"
+  bottom: "value-unplugging-Place"
+  bottom: "value-unplugging-Unplugged"
+  bottom: "value-unplugging-Agent"
+  bottom: "value-unveiling-Object"
+  bottom: "value-unveiling-Place"
+  bottom: "value-unveiling-Agent"
+  bottom: "value-urinating-Place"
+  bottom: "value-urinating-Target"
+  bottom: "value-urinating-Agent"
+  bottom: "value-vacuuming-Tool"
+  bottom: "value-vacuuming-Place"
+  bottom: "value-vacuuming-Surface"
+  bottom: "value-vacuuming-Agent"
+  bottom: "value-vaulting-End"
+  bottom: "value-vaulting-Tool"
+  bottom: "value-vaulting-Agent"
+  bottom: "value-vaulting-Start"
+  bottom: "value-vaulting-Obstacle"
+  bottom: "value-vaulting-Place"
+  bottom: "value-videotaping-Depicted"
+  bottom: "value-videotaping-Place"
+  bottom: "value-videotaping-Agent"
+  bottom: "value-voting-Place"
+  bottom: "value-voting-Agent"
+  bottom: "value-waddling-Place"
+  bottom: "value-waddling-Agent"
+  bottom: "value-wading-Substance"
+  bottom: "value-wading-Place"
+  bottom: "value-wading-Agent"
+  bottom: "value-wagging-AgentPart"
+  bottom: "value-wagging-Addressee"
+  bottom: "value-wagging-Place"
+  bottom: "value-wagging-Agent"
+  bottom: "value-waiting-Place"
+  bottom: "value-waiting-Agent"
+  bottom: "value-walking-Place"
+  bottom: "value-walking-Agent"
+  bottom: "value-washing-Item"
+  bottom: "value-washing-Tool"
+  bottom: "value-washing-Place"
+  bottom: "value-washing-Agent"
+  bottom: "value-washing-Dirt"
+  bottom: "value-watering-Place"
+  bottom: "value-watering-Tool"
+  bottom: "value-watering-Recipient"
+  bottom: "value-watering-Agent"
+  bottom: "value-waving-Agentpart"
+  bottom: "value-waving-Place"
+  bottom: "value-waving-Agent"
+  bottom: "value-waxing-CoAgent"
+  bottom: "value-waxing-BodyPart"
+  bottom: "value-waxing-Place"
+  bottom: "value-waxing-Agent"
+  bottom: "value-weeding-Tool"
+  bottom: "value-weeding-Place"
+  bottom: "value-weeding-Agent"
+  bottom: "value-weeping-Place"
+  bottom: "value-weeping-Agent"
+  bottom: "value-weighing-Place"
+  bottom: "value-weighing-Tool"
+  bottom: "value-weighing-Mass"
+  bottom: "value-weighing-Agent"
+  bottom: "value-welding-Item"
+  bottom: "value-welding-Tool"
+  bottom: "value-welding-Place"
+  bottom: "value-welding-Surface"
+  bottom: "value-welding-Agent"
+  bottom: "value-wetting-Tool"
+  bottom: "value-wetting-Object"
+  bottom: "value-wetting-Place"
+  bottom: "value-wetting-Liquid"
+  bottom: "value-wetting-Agent"
+  bottom: "value-wheeling-Item"
+  bottom: "value-wheeling-Carrier"
+  bottom: "value-wheeling-Place"
+  bottom: "value-wheeling-Agent"
+  bottom: "value-whipping-Item"
+  bottom: "value-whipping-Tool"
+  bottom: "value-whipping-Place"
+  bottom: "value-whipping-Agent"
+  bottom: "value-whirling-Place"
+  bottom: "value-whirling-Agent"
+  bottom: "value-whisking-Item"
+  bottom: "value-whisking-Place"
+  bottom: "value-whisking-Container"
+  bottom: "value-whisking-Agent"
+  bottom: "value-whistling-Tool"
+  bottom: "value-whistling-Place"
+  bottom: "value-whistling-Agent"
+  bottom: "value-wilting-Place"
+  bottom: "value-wilting-Agent"
+  bottom: "value-winking-Addressee"
+  bottom: "value-winking-Place"
+  bottom: "value-winking-Agent"
+  bottom: "value-wiping-Source"
+  bottom: "value-wiping-Tool"
+  bottom: "value-wiping-Substance"
+  bottom: "value-wiping-Place"
+  bottom: "value-wiping-Agent"
+  bottom: "value-working-Place"
+  bottom: "value-working-Focus"
+  bottom: "value-working-Agent"
+  bottom: "value-wrapping-WrappedItem"
+  bottom: "value-wrapping-Place"
+  bottom: "value-wrapping-WrappingItem"
+  bottom: "value-wrapping-Agent"
+  bottom: "value-wringing-Item"
+  bottom: "value-wringing-Place"
+  bottom: "value-wringing-Agent"
+  bottom: "value-wrinkling-AgentPart"
+  bottom: "value-wrinkling-Place"
+  bottom: "value-wrinkling-Agent"
+  bottom: "value-writing-Tool"
+  bottom: "value-writing-Place"
+  bottom: "value-writing-Target"
+  bottom: "value-writing-Agent"
+  bottom: "value-yanking-Place"
+  bottom: "value-yanking-Yanked"
+  bottom: "value-yanking-Agent"
+  bottom: "value-yanking-YankedPart"
+  bottom: "value-yawning-Place"
+  bottom: "value-yawning-Agent"
+  bottom: "value-frame"
+  bottom: "label"
+  name: "crf-log-loss"
+  top: "crf-log-loss"
+  top: "frame-structure"
+  top: "frame-score"
+  type: "MILFrameLoss"
+  frame_loss_param{
+    lambda : 0
+    references : 3
+    maxlabels : 7
+    structure : "../of500/of500_structure.tab"
+    mode: 0
+    syns: "../of500/object/object_value.tabs"
+    total_syns : 11789
+    bounding_boxes: 1
+  }
+}
+layer {
+  bottom: "label"
+  bottom: "frame-structure"
+  bottom: "frame-score"
+  top: "top1-verb-acc"
+  top: "top1-arg-acc"
+  top: "top1-any-acc"
+  top: "top1-full-acc"
+  top: "top1-*arg-acc"
+  top: "top1-*any-acc"
+  top: "top1-*full-acc"
+  name: "top1-evaluation"
+  type: "StructureFrameAccuracy"
+  structure_frame_accuracy_param{
+    references: 3
+    maxlabels: 7
+    topk: 1
+    total_verbs: 504
+  }
+}
+layer {
+  bottom: "label"
+  bottom: "frame-structure"
+  bottom: "frame-score"
+  top: "top5-verb-acc"
+  top: "top5-arg-acc"
+  top: "top5-any-acc"
+  top: "top5-full-acc"
+  top: "top5-*arg-acc"
+  top: "top5-*any-acc"
+  top: "top5-*full-acc"
+  name: "top5-evaluation"
+  type: "StructureFrameAccuracy"
+  structure_frame_accuracy_param{
+    references: 3
+    maxlabels: 7
+    topk: 5
+    total_verbs: 504
+  }
+}
+
