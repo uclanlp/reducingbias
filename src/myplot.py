@@ -112,7 +112,6 @@ def coco_plot_mean_ratio_dis_trax(res, margin, is_dev = 1):
     res['ori_diff_lo_margin'][res['bef_ratio'] < res['train_ratio'] - margin] = res['bef_ratio'] - (res['train_ratio'] - margin)
     res['after_diff_up_margin'][res['aft_ratio'] > res['train_ratio'] + margin] = res['aft_ratio'] - (res['train_ratio'] + margin)
     res['after_diff_lo_margin'][res['aft_ratio'] < res['train_ratio'] - margin] = res['aft_ratio'] - (res['train_ratio'] - margin)
-
     if is_dev == 1:
         fn = "dev"
     else:
@@ -138,7 +137,7 @@ def coco_plot_mean_ratio_dis_trax(res, margin, is_dev = 1):
 
 
 #############for vSRL example #########
-def plot_bias(res, margin, is_dev):
+def plot_bias(res, vSRL, is_dev):
     if is_dev == 1:
         fn = "dev"
     else:
@@ -147,5 +146,20 @@ def plot_bias(res, margin, is_dev):
     plt.ylabel("predicted gender ratio  ")
     plt.plot(res['training_ratio'], res['bef_ratio'], 'r.')
     plt.plot(res['training_ratio'], res['training_ratio'], 'b-')
+    if vSRL == 1:
+        inter_words = ['washing','shopping', 'driving', 'coaching']
+        for word in inter_words:
+            plt.plot(res[res['verb'] == word]['training_ratio'].values[0], res[res['verb'] == word]['bef_ratio'].values[0], 'k*')
+            plt.annotate(word , 
+                         xy=(res[res['verb'] == word]['training_ratio'].values[0], res[res['verb'] == word]['bef_ratio'].values[0]), 
+                         xytext=(res[res['verb'] == word]['training_ratio'].values[0] + 0.04, res[res['verb'] == word]['bef_ratio'].values[0]), color = 'k')
+    else:
+        inter_words = ['knife', 'fork', 'snowboard', 'boat']
+        for word in inter_words:
+            plt.plot(res[res['object'] == word]['training_ratio'].values[0], res[res['object'] == word]['bef_ratio'].values[0], 'k*')
+            plt.annotate(word , 
+                         xy=(res[res['object'] == word]['training_ratio'].values[0], res[res['object'] == word]['bef_ratio'].values[0]), 
+                         xytext=(res[res['object'] == word]['training_ratio'].values[0] + 0.02, res[res['object'] == word]['bef_ratio'].values[0]), color = 'k')
+
     plt.show()
     plt.close()

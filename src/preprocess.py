@@ -8,9 +8,8 @@ import pickle
 from matplotlib.legend_handler import HandlerLine2D
 import myplot as myplt
 import mystat as mystat
-import inference_debias_tobeModified as cocoutils
-import fairCRF_utils_tobeModified as myutils
-myutils.set_GPU(0)
+import inference_debias as cocoutils
+import fairCRF_utils as myutils
 
 def preprocess(margin, vSRL, is_dev = 1):
     if vSRL == 1:
@@ -93,12 +92,10 @@ def show_results(margin, imSitu, *args):
         myplt.plot_tr_ax_gender(res, margin, 1)
         myplt.plot_mean_ratio_dis_trax_gender(res, margin, 1)
         mystat.get_violated_verbs(res, margin)
-        mystat.get_dis_gound_all(res,margin)
         mystat.get_bias_score(res, margin)
     else:
         res = myutils.coco_get_res(*args)
         myplt.coco_plot_train_x(res, margin)
         myplt.coco_plot_mean_ratio_dis_trax(res, margin, 1)
         mystat.coco_get_violated_objs(res, margin)
-        mystat.coco_get_dis_ground(res, margin)
         mystat.coco_get_bias_score(res, margin)
