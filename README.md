@@ -19,7 +19,7 @@ In our work, we study data and models associated with multilabel object classifi
 
 - ### Codes
 
-We provide our calibration function in file "fairCRF_gender_ratio.ipynb". It is based on the Lagrangian Relaxation algorithm. You need to provide your own inference algorithm and also the algorithm you used to get the accuracy performance. The function also needs you to provide your own constraints. We give detailed description about the parameters in the jupyter notebook and we also provide the running example for both vSRL and MLC tasks.
+We provide our calibration function in file "fairCRF_gender_ratio.ipynb". It is based on the Lagrangian Relaxation algorithm. You need to provide your own inference algorithm and also the algorithm you used to get the accuracy performance. The function also needs you to provide your own constraints. We give detailed description about the parameters in the [jupyter notebook](https://github.com/uclanlp/reducingbias/blob/master/src/fairCRF_gender_ratio.ipynb) and we also provide the running example for both vSRL and MLC tasks. 
 
 - ### Data
 
