@@ -40,7 +40,7 @@ Please cite
 ```
 
 - ### Note
-We improve the method about the performance in MLC tasks. The new performance should be:
+The accuracy performance on the MLC tasks is improved. The updated results are:
 
 <table>
     <tr>
