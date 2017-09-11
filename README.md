@@ -28,16 +28,16 @@ We provide all the potential scores for MS-COCO dataset in data/COCO folder.  Al
 - ### Refernece
 Please cite
 
- 
-> @InProceedings{zhao-EtAl:2017:EMNLP20173,
->  author    = {Zhao, Jieyu  and  Wang, Tianlu  and  Yatskar, Mark  and  Ordonez, Vicente  and  Chang, Kai-Wei},
->  title     = {Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints},
->  booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
->  year      = {2017},
->  pages     = {2941--2951},
->  url       = {https://www.aclweb.org/anthology/D17-1319}
-> }
-
+ ```
+ @InProceedings{zhao-EtAl:2017:EMNLP20173,
+  author    = {Zhao, Jieyu  and  Wang, Tianlu  and  Yatskar, Mark  and  Ordonez, Vicente  and  Chang, Kai-Wei},
+  title     = {Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints},
+  booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2017},
+  pages     = {2941--2951},
+  url       = {https://www.aclweb.org/anthology/D17-1319}
+ }
+```
 
 - ### Note
 We improve the method about the performance in MLC tasks. The new performance should be:
