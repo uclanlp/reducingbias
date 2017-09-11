@@ -3,7 +3,8 @@
 [Jieyu Zhao](http://jyzhao.net/), [Tianlu Wang](http://www.cs.virginia.edu/~tw8cb/), [Mark Yatskar](https://homes.cs.washington.edu/~my89/), [Vicente Ordonez](http://www.cs.virginia.edu/~vicente/), [Kai-Wei Chang](http://www.cs.virginia.edu/~kc2wc/). EMNLP 2017
 
 **Please nevigate the code through [this jupyter notebook](https://github.com/uclanlp/reducingbias/blob/master/src/fairCRF_gender_ratio.ipynb)**
-**For details, please refer to [this paper](http://aclweb.org/anthology/D/D17/D17-1319.pdf)
+
+**For details, please refer to [this paper](http://aclweb.org/anthology/D/D17/D17-1319.pdf)**
 
 
 - ### Abstract
