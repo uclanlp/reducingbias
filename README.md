@@ -1,9 +1,9 @@
 
 ## [Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints](https://arxiv.org/abs/1707.09457) ##
-[Jieyu Zhao](http://jyzhao.net/), [Tianlu Wang](http://www.cs.virginia.edu/~tw8cb/), [Mark Yatskar](https://homes.cs.washington.edu/~my89/), [Vicente Ordonez](http://www.cs.virginia.edu/~vicente/), [Kai-Wei Chang](http://www.cs.virginia.edu/~kc2wc/)
+[Jieyu Zhao](http://jyzhao.net/), [Tianlu Wang](http://www.cs.virginia.edu/~tw8cb/), [Mark Yatskar](https://homes.cs.washington.edu/~my89/), [Vicente Ordonez](http://www.cs.virginia.edu/~vicente/), [Kai-Wei Chang](http://www.cs.virginia.edu/~kc2wc/). EMNLP 2017
 
 **Please nevigate the code through [this jupyter notebook](https://github.com/uclanlp/reducingbias/blob/master/src/fairCRF_gender_ratio.ipynb)**
-
+**For details, please refer to [this paper](http://aclweb.org/anthology/D/D17/D17-1319.pdf)
 
 
 - ### Abstract
@@ -25,6 +25,18 @@ We provide our calibration function in file "fairCRF_gender_ratio.ipynb". It is 
 
 We provide all the potential scores for MS-COCO dataset in data/COCO folder.  Also there is sampled potentials for imSitu dataset in data/imSitu folder. For complete imSitu potentials, download at [here](https://s3.amazonaws.com/MY89_Transfer/webly_crf_output.tar).
 
+- ### Refernece
+Please cite
+
+ 
+> @InProceedings{zhao-EtAl:2017:EMNLP20173,
+>  author    = {Zhao, Jieyu  and  Wang, Tianlu  and  Yatskar, Mark  and  Ordonez, Vicente  and  Chang, Kai-Wei},
+>  title     = {Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints},
+>  booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+>  year      = {2017},
+>  pages     = {2941--2951},
+>  url       = {https://www.aclweb.org/anthology/D17-1319}
+> }
 
 
 - ### Note
