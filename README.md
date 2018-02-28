@@ -4,7 +4,7 @@
 
 **Please nevigate the code through [this jupyter notebook](https://github.com/uclanlp/reducingbias/blob/master/src/fairCRF_gender_ratio.ipynb)**
 
-**For details, please refer to [this paper](http://aclweb.org/anthology/D/D17/D17-1319.pdf)**
+**For details, please refer to [this paper](http://aclweb.org/anthology/D17-1323.pdf)**
 
 
 - ### Abstract
