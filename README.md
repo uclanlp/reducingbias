@@ -25,7 +25,7 @@ We provide our calibration function in file "fairCRF_gender_ratio.ipynb". It is 
 > To run the vSRL task, you need to have [caffe](http://caffe.berkeleyvision.org/installation.html) installed in your machine.  If you just want to run with the sampled data, be sure to download the .prototxt files from the data/imSitu/ folder and put them to the folder ("crf\_path" in our case) in the same level where caffe is installed. All the other files are also provided under data/imSitu/. Remember to modify all the path in the config.ini file with absolute path.
 
 - ### Data
-**Update 11/12/2018**
+(**Update 11/12/2018**) 
 For the sampled potentials for imSitu can be found here: [dev](https://drive.google.com/file/d/198zs08SlKh4t_sDmyD_qInp5x4RySPSt/view?usp=sharing) and [test](https://drive.google.com/file/d/1TKDza1PUsAOiOxlO5XQuC5YeCj7mwirV/view?usp=sharing). 
 
 We provide all the potential scores for MS-COCO dataset in data/COCO folder.  For complete imSitu potentials, download at [here](https://s3.amazonaws.com/MY89_Transfer/crf_only.tar).
