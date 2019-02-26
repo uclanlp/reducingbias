@@ -168,6 +168,7 @@ def accuracy(output, target):
     pred_with_gender = np.concatenate((pred_idx_unknown, pred_gender), axis=1)
     targ_with_gender = np.concatenate((target_idx, targ_gender), axis=1)
     f1_with_gender = f1_score(targ_with_gender, pred_with_gender, average='macro' )
+    f1_with_gender = f1_score(target_idx, pred_idx_unknown, average='macro' )
     return f1_with_gender
 
 if __name__=='__main__':
