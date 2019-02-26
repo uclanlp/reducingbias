@@ -57,15 +57,15 @@ We provide all the potential scores for MS-COCO dataset in data/COCO folder.  Fo
     </tr>
     <tr>
         <td>CRF:</td>
-        <td>45.32</td>
+        <td>45.31</td>
         <td>CRF:</td>
-        <td>45.53</td>
+        <td>45.46</td>
     </tr>
     <tr>
         <td>CRF+RBA</td>
         <td>45.24</td>
         <td>CRF+RBA</td>
-        <td>45.43</td>
+        <td>45.41</td>
     </tr>
 </table>
 
